@@ -7,5 +7,7 @@
   "organisms": 243,
   "papers": 40861,
   "human_papers": 643,
-  "trials": 54
+  "trials": 54,
+  "batches": 1044,
+  "batches_parsed": 175
 }

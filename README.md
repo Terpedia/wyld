@@ -47,6 +47,22 @@ Builds three things from the catalog and the molecule records:
 
 The LLM-written consumer summaries the MONDAYS catalog carries (`consumer_summary` fields) are a separate pipeline not yet ported here; the pages render fine without them and every count on screen is computed from the fetched records.
 
+## Batch certificates and terpenes
+
+Every Wyld box prints a batch number that resolves on the [COA lookup](https://www.wyldcanna.com/us/coa-lookup/) to a lab certificate (Smithers). Wyld publishes a sitemap of all of them (`coa-result-sitemap*.xml`) — 1,044 batches at the snapshot.
+
+```bash
+node scripts/fetch-coas.mjs               # index every batch page → data/coa-index.json
+node scripts/fetch-coas.mjs --pdfs ny     # download + parse PDFs for a state
+node scripts/fetch-coas.mjs --reparse     # re-extract PDFs already on disk
+node scripts/ocr-coas.mjs                 # OCR the summary box of scanned certificates
+node scripts/build-terpenes.mjs           # per-flavor stats + descriptions
+```
+
+The newer NY certificates carry a text layer and parse exactly (cannabinoids with mg/serving, a 39-analyte terpene panel); the 2024 AZ/NJ ones are page scans with no text layer — `ocr-coas.mjs` reads their summary box with tesseract, and they stay `scanned` in the index. PDFs are cached in `/tmp/wyld-coas`, not committed.
+
+What the record says about terpenes: the extract is refined distillate. NY batches run the full panel and almost everything is below quantification — a few hundredths of a percent at most (Limonene 0.026%, caryophyllene oxide 0.039% in the highest batches); the AZ certificates mark terpenes Not Tested outright. The botanical terpene blends Kiwi and Prickly Pear declare on the pack are never quantified by a lab panel. The per-flavor description on each product page is generated from these counts by `build-terpenes.mjs`; full per-batch data lives in `data/coa-index.json` and `data/terpene-profiles.json`.
+
 ## Deployment
 
 - GitHub Pages: enable Pages for the repository and select **GitHub Actions**; the CNAME is `wyld.terpedia.com`.

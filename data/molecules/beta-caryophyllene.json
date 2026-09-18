@@ -2,7 +2,7 @@
   "name": "β-Caryophyllene",
   "formula": "C15H24",
   "summary": "A peppery sesquiterpene profile declared in WYLD pack language.",
-  "evidence": "Declared in the botanical terpene blend of the WYLD flavors that list terpenes on the pack (Kiwi and Prickly Pear).",
+  "evidence": "Declared in the botanical terpene blend of 2 flavors (Kiwi, Prickly Pear). No published Wyld batch certificate quantifies it: the NY terpene panels return traces of other terpenes only, and the Arizona certificates mark terpenes Not Tested.",
   "id": "beta-caryophyllene",
   "pubchem": {
     "cid": 5281515,

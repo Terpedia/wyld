@@ -2,7 +2,7 @@
   "name": "β-Pinene",
   "formula": "C10H16",
   "summary": "A pine-and-herbal monoterpene profile declared in WYLD pack language.",
-  "evidence": "Declared in the botanical terpene blend of the WYLD flavors that list terpenes on the pack (Kiwi and Prickly Pear).",
+  "evidence": "Declared in the botanical terpene blend of 2 flavors (Kiwi, Prickly Pear). No published Wyld batch certificate quantifies it: the NY terpene panels return traces of other terpenes only, and the Arizona certificates mark terpenes Not Tested.",
   "id": "beta-pinene",
   "pubchem": {
     "cid": 14896,

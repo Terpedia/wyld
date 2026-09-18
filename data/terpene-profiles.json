@@ -1,0 +1,1475 @@
+{
+  "generated": "2026-09-18",
+  "source": "Wyld COA lookup certificates (Smithers), wyldcanna.com/us/coa-lookup/",
+  "basis": "Parsed PDF text for certificates with a text layer; OCR of the summary box for a sample of page scans. Terpene percentages are % w/w.",
+  "flavors": {
+    "blood-orange": {
+      "description": "Lab-measured across 11 batch certificates: THC 9.03–11.06mg per gummy across 11 batches (pack says 10mg); CBC 8.83–10.86mg per gummy across 10 batches (pack says 10mg). Terpenes barely register: 8 of 11 tested batches quantify anything at all — Limonene at up to 0.03% (8 of 11 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 16 additional batches are on file as page scans without text layers.",
+      "batches_total": 48,
+      "batches_parsed": 11,
+      "batches_scanned": 16,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.03,
+          "mg_max": 11.06,
+          "batches": 11
+        },
+        "thcv": {
+          "mg_min": 0.02339,
+          "mg_max": 0.3548,
+          "batches": 11
+        },
+        "cbg": {
+          "mg_min": 0.0868,
+          "mg_max": 0.4605,
+          "batches": 11
+        },
+        "cbn": {
+          "mg_min": 0.0653,
+          "mg_max": 0.286,
+          "batches": 11
+        },
+        "cbc": {
+          "mg_min": 8.832,
+          "mg_max": 10.86,
+          "batches": 10
+        },
+        "cbd": {
+          "mg_min": 0.02263,
+          "mg_max": 0.2762,
+          "batches": 7
+        }
+      },
+      "terpenes_tested": 11,
+      "terpenes_detected": [
+        {
+          "name": "Limonene",
+          "max_percent": 0.0285,
+          "batches": 8,
+          "loq_percent": 0.00074
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-bo-b104",
+          "batch": "AZ BO B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BO_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bo-b105",
+          "batch": "AZ BO B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BO_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bo-b106",
+          "batch": "AZ BO B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BO_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bo-b107",
+          "batch": "AZ BO B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BO_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bo-b108",
+          "batch": "AZ BO B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BO_B108.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bo-b109",
+          "batch": "AZ BO B109",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BO_B109.pdf",
+          "date": null
+        }
+      ]
+    },
+    "boysenberry": {
+      "description": "Lab-measured across 21 batch certificates: THC 9.21–10.90mg per gummy across 21 batches (pack says 10mg); CBD 8.58–11.10mg per gummy across 21 batches (pack says 10mg); CBN 8.59–11.10mg per gummy across 21 batches (pack says 10mg). Terpenes barely register: 2 of 21 tested batches quantify anything at all — Cedrol at up to 0.02% (1 of 21 batches), cis-Nerolidol at up to 0.0071% (1 of 21 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 23 additional batches are on file as page scans without text layers.",
+      "batches_total": 95,
+      "batches_parsed": 21,
+      "batches_scanned": 23,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.21,
+          "mg_max": 10.9,
+          "batches": 21
+        },
+        "cbd": {
+          "mg_min": 8.58,
+          "mg_max": 11.1,
+          "batches": 21
+        },
+        "thcv": {
+          "mg_min": 0.02204,
+          "mg_max": 0.369,
+          "batches": 18
+        },
+        "cbg": {
+          "mg_min": 0.1527,
+          "mg_max": 0.4986,
+          "batches": 21
+        },
+        "cbn": {
+          "mg_min": 8.592,
+          "mg_max": 11.1,
+          "batches": 21
+        },
+        "cbc": {
+          "mg_min": 0.0464,
+          "mg_max": 0.217,
+          "batches": 15
+        }
+      },
+      "terpenes_tested": 21,
+      "terpenes_detected": [
+        {
+          "name": "Cedrol",
+          "max_percent": 0.0168,
+          "batches": 1,
+          "loq_percent": 0.00056
+        },
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0071,
+          "batches": 1,
+          "loq_percent": 0.00068
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-bsn-b108",
+          "batch": "AZ BSN B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BSN_B108.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bsn-b109",
+          "batch": "AZ BSN B109",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BSN_B109.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bsn-b110",
+          "batch": "AZ BSN B110",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BSN_B110.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bsn-b111",
+          "batch": "AZ BSN B111",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BSN_B111.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bsn-b112",
+          "batch": "AZ BSN B112",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BSN_B112.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-bsn-b113",
+          "batch": "AZ BSN B113",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_BSN_B113.pdf",
+          "date": null
+        }
+      ]
+    },
+    "elderberry": {
+      "description": "Lab-measured across 12 batch certificates: THC 8.78–10.83mg per gummy across 12 batches (pack says 10mg); CBN 4.39–5.29mg per gummy across 12 batches (pack says 5mg). Terpenes barely register: 3 of 12 tested batches quantify anything at all — Caryophyllene oxide at up to 0.01% (1 of 12 batches), cis-Nerolidol at up to 0.0082% (1 of 12 batches), Geranyl acetate at up to 0.0029% (1 of 12 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 16 additional batches are on file as page scans without text layers.",
+      "batches_total": 97,
+      "batches_parsed": 12,
+      "batches_scanned": 16,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 8.78,
+          "mg_max": 10.83,
+          "batches": 12
+        },
+        "thcv": {
+          "mg_min": 0.02292,
+          "mg_max": 0.3506,
+          "batches": 12
+        },
+        "cbg": {
+          "mg_min": 0.1519,
+          "mg_max": 0.4544,
+          "batches": 12
+        },
+        "cbn": {
+          "mg_min": 4.39,
+          "mg_max": 5.291,
+          "batches": 12
+        },
+        "cbc": {
+          "mg_min": 0.0434,
+          "mg_max": 0.2281,
+          "batches": 8
+        },
+        "cbd": {
+          "mg_min": 0.03353,
+          "mg_max": 0.07463,
+          "batches": 5
+        }
+      },
+      "terpenes_tested": 12,
+      "terpenes_detected": [
+        {
+          "name": "Caryophyllene oxide",
+          "max_percent": 0.0119,
+          "batches": 1,
+          "loq_percent": 0.00058
+        },
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0082,
+          "batches": 1,
+          "loq_percent": 0.00068
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0029,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-eb-b112",
+          "batch": "AZ EB B112",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_EB_B112.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-eb-b113",
+          "batch": "AZ EB B113",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_EB_B113.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-eb-b114",
+          "batch": "AZ EB B114",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_EB_B114.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-eb-b115",
+          "batch": "AZ EB B115",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_EB_B115.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-eb-b116",
+          "batch": "AZ EB B116",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_EB_B116.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-eb-b117",
+          "batch": "AZ EB B117",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_EB_B117.pdf",
+          "date": null
+        }
+      ]
+    },
+    "grapefruit": {
+      "description": "Lab-measured across 12 batch certificates: THC 9.47–10.71mg per gummy across 12 batches (pack says 10mg); CBG 9.72–10.80mg per gummy across 12 batches (pack says 10mg); CBC 8.84–10.80mg per gummy across 12 batches (pack says 10mg). Terpenes barely register: 10 of 12 tested batches quantify anything at all — Limonene at up to 0.04% (10 of 12 batches), Cedrol at up to 0.0067% (1 of 12 batches), Geranyl acetate at up to 0.0015% (1 of 12 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 14 additional batches are on file as page scans without text layers.",
+      "batches_total": 43,
+      "batches_parsed": 12,
+      "batches_scanned": 14,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.472,
+          "mg_max": 10.71,
+          "batches": 12
+        },
+        "thcv": {
+          "mg_min": 0.0234,
+          "mg_max": 0.3387,
+          "batches": 10
+        },
+        "cbg": {
+          "mg_min": 9.724,
+          "mg_max": 10.8,
+          "batches": 12
+        },
+        "cbn": {
+          "mg_min": 0.05256,
+          "mg_max": 0.29,
+          "batches": 12
+        },
+        "cbc": {
+          "mg_min": 8.84,
+          "mg_max": 10.8,
+          "batches": 12
+        }
+      },
+      "terpenes_tested": 12,
+      "terpenes_detected": [
+        {
+          "name": "Limonene",
+          "max_percent": 0.0434,
+          "batches": 10,
+          "loq_percent": 0.00074
+        },
+        {
+          "name": "Cedrol",
+          "max_percent": 0.0067,
+          "batches": 1,
+          "loq_percent": 0.00056
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0015,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-gf-b100",
+          "batch": "AZ GF B100",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_GF_B100.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-gf-b101",
+          "batch": "AZ GF B101",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_GF_B101.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-gf-b102",
+          "batch": "AZ GF B102",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_GF_B102.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-gf-b103",
+          "batch": "AZ GF B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/12/AZ-GF-B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-gf-b104",
+          "batch": "AZ GF B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/01/AZ-GF-B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-gf-b105",
+          "batch": "AZ GF B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/04/AZ-GF-B105-1.pdf",
+          "date": null
+        }
+      ]
+    },
+    "huckleberry": {
+      "description": "Lab-measured across 13 batch certificates: THC 9.26–10.96mg per gummy across 13 batches (pack says 10mg). Terpenes barely register: 2 of 13 tested batches quantify anything at all — Eucalyptol at up to 0.0022% (1 of 13 batches), Geranyl acetate at up to 0.0022% (1 of 13 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 14 additional batches are on file as page scans without text layers.",
+      "batches_total": 63,
+      "batches_parsed": 13,
+      "batches_scanned": 14,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.262,
+          "mg_max": 10.96,
+          "batches": 13
+        },
+        "cbd": {
+          "mg_min": 0.0208,
+          "mg_max": 0.2602,
+          "batches": 9
+        },
+        "thcv": {
+          "mg_min": 0.02286,
+          "mg_max": 0.3559,
+          "batches": 13
+        },
+        "cbg": {
+          "mg_min": 0.1601,
+          "mg_max": 0.444,
+          "batches": 13
+        },
+        "cbn": {
+          "mg_min": 0.04836,
+          "mg_max": 0.252,
+          "batches": 13
+        },
+        "cbc": {
+          "mg_min": 0.0438,
+          "mg_max": 0.2214,
+          "batches": 8
+        }
+      },
+      "terpenes_tested": 13,
+      "terpenes_detected": [
+        {
+          "name": "Eucalyptol",
+          "max_percent": 0.0022,
+          "batches": 1,
+          "loq_percent": 0.00072
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0022,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-hb-b103",
+          "batch": "AZ HB B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_HB_B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-hb-b104",
+          "batch": "AZ HB B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_HB_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-hb-b105",
+          "batch": "AZ HB B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_HB_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-hb-b106",
+          "batch": "AZ HB B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_HB_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-hb-b107",
+          "batch": "AZ HB B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_HB_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-hb-b108",
+          "batch": "AZ HB B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_HB_B108.pdf",
+          "date": null
+        }
+      ]
+    },
+    "kiwi": {
+      "description": "Lab-measured across 10 batch certificates: THC 8.68–10.80mg per gummy across 10 batches (pack says 10mg); THCv 8.84–10.50mg per gummy across 10 batches (pack says 10mg). Terpenes barely register: 3 of 10 tested batches quantify anything at all — Geranyl acetate at up to 0.0038% (3 of 10 batches), all two-to-four hundredths of a percent or less of the gummy's weight. 5 further scanned batch certificates (Arizona) show their terpene panel as Not Tested. The pack declares a botanical terpene blend (limonene, valencene, alpha pinene, beta caryophyllene, beta pinene), but the lab panels never quantify it — the COA record can neither confirm nor deny it. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 6 additional batches are on file as page scans without text layers.",
+      "batches_total": 26,
+      "batches_parsed": 10,
+      "batches_scanned": 6,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 8.68,
+          "mg_max": 10.8,
+          "batches": 10
+        },
+        "thcv": {
+          "mg_min": 8.844,
+          "mg_max": 10.5,
+          "batches": 10
+        },
+        "cbg": {
+          "mg_min": 0.1557,
+          "mg_max": 0.48,
+          "batches": 10
+        },
+        "cbd": {
+          "mg_min": 0.02046,
+          "mg_max": 0.217,
+          "batches": 6
+        },
+        "cbn": {
+          "mg_min": 0.0448,
+          "mg_max": 0.317,
+          "batches": 10
+        },
+        "cbc": {
+          "mg_min": 0.0343,
+          "mg_max": 0.2273,
+          "batches": 7
+        }
+      },
+      "terpenes_tested": 10,
+      "terpenes_detected": [
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0038,
+          "batches": 3,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-kw-b100",
+          "batch": "AZ KW B100",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/05/AZ-KW-B100.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-kw-b101",
+          "batch": "AZ KW B101",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/10/AZ-KW-B101.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-kw-b102",
+          "batch": "AZ KW B102",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/11/AZ-KW-B102.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-kw-b103",
+          "batch": "AZ KW B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/11/AZ-KW-B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-kw-b104",
+          "batch": "AZ KW B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2026/01/AZ-KW-B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-kw-b105",
+          "batch": "AZ KW B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2026/02/AZ-KW-B105.pdf",
+          "date": null
+        }
+      ]
+    },
+    "marionberry": {
+      "description": "Lab-measured across 10 batch certificates: THC 9.14–10.86mg per gummy across 10 batches (pack says 10mg). Terpenes barely register: 2 of 10 tested batches quantify anything at all — cis-Nerolidol at up to 0.01% (1 of 10 batches), Geranyl acetate at up to 0.0062% (1 of 10 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 12 additional batches are on file as page scans without text layers.",
+      "batches_total": 62,
+      "batches_parsed": 10,
+      "batches_scanned": 12,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.139,
+          "mg_max": 10.86,
+          "batches": 10
+        },
+        "thcv": {
+          "mg_min": 0.02228,
+          "mg_max": 0.3233,
+          "batches": 10
+        },
+        "cbg": {
+          "mg_min": 0.1561,
+          "mg_max": 0.4203,
+          "batches": 10
+        },
+        "cbn": {
+          "mg_min": 0.04302,
+          "mg_max": 0.2277,
+          "batches": 10
+        },
+        "cbc": {
+          "mg_min": 0.0534,
+          "mg_max": 0.1695,
+          "batches": 6
+        },
+        "cbd": {
+          "mg_min": 0.02083,
+          "mg_max": 0.06226,
+          "batches": 4
+        }
+      },
+      "terpenes_tested": 10,
+      "terpenes_detected": [
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0136,
+          "batches": 1,
+          "loq_percent": 0.00068
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0062,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-mb-b103",
+          "batch": "AZ MB B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MB_B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-mb-b104",
+          "batch": "AZ MB B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MB_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-mb-b105",
+          "batch": "AZ MB B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MB_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-mb-b106",
+          "batch": "AZ MB B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MB_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-mb-b107",
+          "batch": "AZ MB B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MB_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-mb-b108",
+          "batch": "AZ MB B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MB_B108.pdf",
+          "date": null
+        }
+      ]
+    },
+    "peach": {
+      "description": "Lab-measured across 10 batch certificates: CBD 8.95–11.02mg per gummy across 10 batches (pack says 10mg); THC 4.55–5.41mg per gummy across 10 batches (pack says 5mg). Terpenes barely register: 2 of 10 tested batches quantify anything at all — Cedrol at up to 0.02% (1 of 10 batches), cis-Nerolidol at up to 0.0087% (1 of 10 batches), Geranyl acetate at up to 0.0029% (1 of 10 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 15 additional batches are on file as page scans without text layers.",
+      "batches_total": 53,
+      "batches_parsed": 10,
+      "batches_scanned": 15,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 4.553,
+          "mg_max": 5.405,
+          "batches": 10
+        },
+        "cbd": {
+          "mg_min": 8.952,
+          "mg_max": 11.02,
+          "batches": 10
+        },
+        "thcv": {
+          "mg_min": 0.02276,
+          "mg_max": 0.2006,
+          "batches": 4
+        },
+        "cbg": {
+          "mg_min": 0.072,
+          "mg_max": 0.2451,
+          "batches": 10
+        },
+        "cbn": {
+          "mg_min": 0.03661,
+          "mg_max": 0.121,
+          "batches": 9
+        },
+        "cbc": {
+          "mg_min": 0.0206,
+          "mg_max": 0.09604,
+          "batches": 4
+        }
+      },
+      "terpenes_tested": 10,
+      "terpenes_detected": [
+        {
+          "name": "Cedrol",
+          "max_percent": 0.0185,
+          "batches": 1,
+          "loq_percent": 0.00056
+        },
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0087,
+          "batches": 1,
+          "loq_percent": 0.00068
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0029,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-med-pch-b100",
+          "batch": "AZ MED PCH B100",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/12/AZ-MED-PCH-B100.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pch-b101",
+          "batch": "AZ MED PCH B101",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/05/AZ-MED-PCH-B101.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pch-b102",
+          "batch": "AZ MED PCH B102",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/06/AZ-MED-PCH-B102.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pch-b103",
+          "batch": "AZ MED PCH B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/08/AZ-MED-PCH-B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pch-b104",
+          "batch": "AZ MED PCH B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2025/10/AZ-MED-PCH-B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pch-b105",
+          "batch": "AZ MED PCH B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2026/01/AZ-MED-PCH-B105.pdf",
+          "date": null
+        }
+      ]
+    },
+    "pear": {
+      "description": "Lab-measured across 10 batch certificates: THC 9.09–10.65mg per gummy across 9 batches (pack says 10mg); CBG 9.35–10.92mg per gummy across 9 batches (pack says 10mg). Terpenes barely register: 3 of 10 tested batches quantify anything at all — Caryophyllene oxide at up to 0.04% (1 of 10 batches), cis-Nerolidol at up to 0.0069% (1 of 10 batches), Geranyl acetate at up to 0.0031% (2 of 10 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 18 additional batches are on file as page scans without text layers.",
+      "batches_total": 70,
+      "batches_parsed": 10,
+      "batches_scanned": 18,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.091,
+          "mg_max": 10.65,
+          "batches": 9
+        },
+        "thcv": {
+          "mg_min": 0.02164,
+          "mg_max": 0.3379,
+          "batches": 7
+        },
+        "cbg": {
+          "mg_min": 9.35,
+          "mg_max": 10.92,
+          "batches": 9
+        },
+        "cbn": {
+          "mg_min": 0.06693,
+          "mg_max": 0.2202,
+          "batches": 9
+        },
+        "cbc": {
+          "mg_min": 0.0472,
+          "mg_max": 0.1806,
+          "batches": 5
+        },
+        "cbd": {
+          "mg_min": 0.03333,
+          "mg_max": 0.03333,
+          "batches": 1
+        }
+      },
+      "terpenes_tested": 10,
+      "terpenes_detected": [
+        {
+          "name": "Caryophyllene oxide",
+          "max_percent": 0.0394,
+          "batches": 1,
+          "loq_percent": 0.00058
+        },
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0069,
+          "batches": 1,
+          "loq_percent": 0.00068
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0031,
+          "batches": 2,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-med-pr-b103",
+          "batch": "AZ MED PR B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_PR_B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pr-b104",
+          "batch": "AZ MED PR B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_PR_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pr-b105",
+          "batch": "AZ MED PR B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_PR_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pr-b106",
+          "batch": "AZ MED PR B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_PR_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pr-b107",
+          "batch": "AZ MED PR B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_PR_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-pr-b108",
+          "batch": "AZ MED PR B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/12/AZ-MED-PR-B108.pdf",
+          "date": null
+        }
+      ]
+    },
+    "pomegranate": {
+      "description": "Lab-measured across 12 batch certificates: THC 8.75–11.32mg per gummy across 12 batches (pack says 10mg); CBD 9.30–11.16mg per gummy across 12 batches (pack says 10mg). All 12 tested batches came back with every one of the lab's 39 listed terpenes below quantification. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 15 additional batches are on file as page scans without text layers.",
+      "batches_total": 48,
+      "batches_parsed": 12,
+      "batches_scanned": 15,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 8.752,
+          "mg_max": 11.32,
+          "batches": 12
+        },
+        "cbd": {
+          "mg_min": 9.296,
+          "mg_max": 11.16,
+          "batches": 12
+        },
+        "thcv": {
+          "mg_min": 0.02151,
+          "mg_max": 0.3461,
+          "batches": 9
+        },
+        "cbg": {
+          "mg_min": 0.1483,
+          "mg_max": 0.462,
+          "batches": 12
+        },
+        "cbn": {
+          "mg_min": 0.04452,
+          "mg_max": 0.2234,
+          "batches": 12
+        },
+        "cbc": {
+          "mg_min": 0.0672,
+          "mg_max": 0.25,
+          "batches": 7
+        }
+      },
+      "terpenes_tested": 12,
+      "terpenes_detected": [],
+      "samples": [
+        {
+          "handle": "az-pom-b104",
+          "batch": "AZ POM B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_POM_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-pom-b105",
+          "batch": "AZ POM B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_POM_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-pom-b106",
+          "batch": "AZ POM B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_POM_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-pom-b107",
+          "batch": "AZ POM B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_POM_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-pom-b108",
+          "batch": "AZ POM B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_POM_B108.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-pom-b109",
+          "batch": "AZ POM B109",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_POM_B109.pdf",
+          "date": null
+        }
+      ]
+    },
+    "prickly-pear": {
+      "description": "1 further scanned batch certificates (Arizona) show their terpene panel as Not Tested. The pack declares a botanical terpene blend (limonene, alpha pinene, beta pinene, valencene, beta caryophyllene), but the lab panels never quantify it — the COA record can neither confirm nor deny it. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes.",
+      "batches_total": 1,
+      "batches_parsed": 0,
+      "batches_scanned": 0,
+      "years": null,
+      "cannabinoids_measured": {},
+      "terpenes_tested": 0,
+      "terpenes_detected": [],
+      "samples": [
+        {
+          "handle": "az-ppr-b100",
+          "batch": "AZ PPR B100",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2026/05/AZ-PPR-B100.pdf",
+          "date": null
+        }
+      ]
+    },
+    "raspberry": {
+      "description": "Lab-measured across 11 batch certificates: THC 9.13–11.14mg per gummy across 11 batches (pack says 10mg). Terpenes barely register: 2 of 11 tested batches quantify anything at all — Geranyl acetate at up to 0.0030% (1 of 11 batches), Geraniol at up to 0.0030% (1 of 11 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 18 additional batches are on file as page scans without text layers.",
+      "batches_total": 73,
+      "batches_parsed": 11,
+      "batches_scanned": 18,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.125,
+          "mg_max": 11.14,
+          "batches": 11
+        },
+        "cbd": {
+          "mg_min": 0.01998,
+          "mg_max": 0.456,
+          "batches": 8
+        },
+        "cbn": {
+          "mg_min": 0.0476,
+          "mg_max": 0.25,
+          "batches": 11
+        },
+        "cbc": {
+          "mg_min": 0.0517,
+          "mg_max": 0.2404,
+          "batches": 7
+        },
+        "thcv": {
+          "mg_min": 0.022,
+          "mg_max": 0.3557,
+          "batches": 9
+        },
+        "cbg": {
+          "mg_min": 0.1378,
+          "mg_max": 0.4756,
+          "batches": 10
+        }
+      },
+      "terpenes_tested": 11,
+      "terpenes_detected": [
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.003,
+          "batches": 1,
+          "loq_percent": 0.00062
+        },
+        {
+          "name": "Geraniol",
+          "max_percent": 0.003,
+          "batches": 1,
+          "loq_percent": 0.00048
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-med-rb-b109",
+          "batch": "AZ MED RB B109",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_RB_B109.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-rb-b110",
+          "batch": "AZ MED RB B110",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_RB_B110.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-rb-b111",
+          "batch": "AZ MED RB B111",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_RB_B111.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-rb-b112",
+          "batch": "AZ MED RB B112",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_RB_B112.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-rb-b113",
+          "batch": "AZ MED RB B113",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_RB_B113.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-med-rb-b114",
+          "batch": "AZ MED RB B114",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_MED_RB_B114.pdf",
+          "date": null
+        }
+      ]
+    },
+    "sour-apple": {
+      "description": "Lab-measured across 12 batch certificates: THC 9.56–10.92mg per gummy across 12 batches (pack says 10mg). Terpenes barely register: 2 of 12 tested batches quantify anything at all — Geranyl acetate at up to 0.0080% (2 of 12 batches), cis-Nerolidol at up to 0.0062% (1 of 12 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 17 additional batches are on file as page scans without text layers.",
+      "batches_total": 56,
+      "batches_parsed": 12,
+      "batches_scanned": 17,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.559,
+          "mg_max": 10.92,
+          "batches": 12
+        },
+        "thcv": {
+          "mg_min": 0.02525,
+          "mg_max": 0.357,
+          "batches": 12
+        },
+        "cbg": {
+          "mg_min": 0.1471,
+          "mg_max": 0.479,
+          "batches": 12
+        },
+        "cbn": {
+          "mg_min": 0.04736,
+          "mg_max": 0.277,
+          "batches": 12
+        },
+        "cbc": {
+          "mg_min": 0.0476,
+          "mg_max": 0.171,
+          "batches": 7
+        },
+        "cbd": {
+          "mg_min": 0.01988,
+          "mg_max": 0.0719,
+          "batches": 6
+        }
+      },
+      "terpenes_tested": 12,
+      "terpenes_detected": [
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.008,
+          "batches": 2,
+          "loq_percent": 0.00062
+        },
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0062,
+          "batches": 1,
+          "loq_percent": 0.00068
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-apl-b105",
+          "batch": "AZ APL B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_APL_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-apl-b106",
+          "batch": "AZ APL B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_APL_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-apl-b107",
+          "batch": "AZ APL B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_APL_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-apl-b108",
+          "batch": "AZ APL B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_APL_B108.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-apl-b109",
+          "batch": "AZ APL B109",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_APL_B109.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-apl-b110",
+          "batch": "AZ APL B110",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_APL_B110.pdf",
+          "date": null
+        }
+      ]
+    },
+    "sour-cherry": {
+      "description": "Lab-measured across 9 batch certificates: THC 9.75–10.99mg per gummy across 9 batches (pack says 10mg). Terpenes barely register: 1 of 9 tested batches quantify anything at all — Geraniol at up to 0.0047% (1 of 9 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 15 additional batches are on file as page scans without text layers.",
+      "batches_total": 49,
+      "batches_parsed": 9,
+      "batches_scanned": 15,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 9.754,
+          "mg_max": 10.99,
+          "batches": 9
+        },
+        "cbd": {
+          "mg_min": 0.02369,
+          "mg_max": 0.07107,
+          "batches": 7
+        },
+        "thcv": {
+          "mg_min": 0.02748,
+          "mg_max": 0.4901,
+          "batches": 9
+        },
+        "cbg": {
+          "mg_min": 0.1541,
+          "mg_max": 0.4448,
+          "batches": 9
+        },
+        "cbn": {
+          "mg_min": 0.04436,
+          "mg_max": 0.265,
+          "batches": 9
+        },
+        "cbc": {
+          "mg_min": 0.0427,
+          "mg_max": 0.2398,
+          "batches": 5
+        }
+      },
+      "terpenes_tested": 9,
+      "terpenes_detected": [
+        {
+          "name": "Geraniol",
+          "max_percent": 0.0047,
+          "batches": 1,
+          "loq_percent": 0.00048
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-chry-b102",
+          "batch": "AZ CHRY B102",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_CHRY_B102.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-chry-b103",
+          "batch": "AZ CHRY B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_CHRY_B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-chry-b104",
+          "batch": "AZ CHRY B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_CHRY_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-chry-b105",
+          "batch": "AZ CHRY B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_CHRY_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-chry-b106",
+          "batch": "AZ CHRY B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_CHRY_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-chry-b107",
+          "batch": "AZ CHRY B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_CHRY_B107.pdf",
+          "date": null
+        }
+      ]
+    },
+    "sour-tangerine": {
+      "description": "Lab-measured across 9 batch certificates: THC 8.94–10.67mg per gummy across 9 batches (pack says 10mg). Terpenes barely register: 4 of 9 tested batches quantify anything at all — Limonene at up to 0.02% (3 of 9 batches), cis-Nerolidol at up to 0.0095% (2 of 9 batches), alpha-Bisabolol at up to 0.0059% (1 of 9 batches), Geranyl acetate at up to 0.0031% (1 of 9 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 13 additional batches are on file as page scans without text layers.",
+      "batches_total": 43,
+      "batches_parsed": 9,
+      "batches_scanned": 13,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 8.936,
+          "mg_max": 10.67,
+          "batches": 9
+        },
+        "cbd": {
+          "mg_min": 0.01976,
+          "mg_max": 0.07634,
+          "batches": 9
+        },
+        "thcv": {
+          "mg_min": 0.0238,
+          "mg_max": 0.4127,
+          "batches": 9
+        },
+        "cbg": {
+          "mg_min": 0.1526,
+          "mg_max": 0.4584,
+          "batches": 9
+        },
+        "cbn": {
+          "mg_min": 0.04808,
+          "mg_max": 0.267,
+          "batches": 9
+        },
+        "cbc": {
+          "mg_min": 0.0447,
+          "mg_max": 0.1808,
+          "batches": 5
+        }
+      },
+      "terpenes_tested": 9,
+      "terpenes_detected": [
+        {
+          "name": "Limonene",
+          "max_percent": 0.0165,
+          "batches": 3,
+          "loq_percent": 0.00074
+        },
+        {
+          "name": "cis-Nerolidol",
+          "max_percent": 0.0095,
+          "batches": 2,
+          "loq_percent": 0.00068
+        },
+        {
+          "name": "alpha-Bisabolol",
+          "max_percent": 0.0059,
+          "batches": 1,
+          "loq_percent": 0.0005
+        },
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0031,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-tan-b103",
+          "batch": "AZ TAN B103",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_TAN_B103.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-tan-b104",
+          "batch": "AZ TAN B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_TAN_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-tan-b105",
+          "batch": "AZ TAN B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_TAN_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-tan-b106",
+          "batch": "AZ TAN B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_TAN_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-tan-b107",
+          "batch": "AZ TAN B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_TAN_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-tan-b108",
+          "batch": "AZ TAN B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_TAN_B108.pdf",
+          "date": null
+        }
+      ]
+    },
+    "strawberry": {
+      "description": "Lab-measured across 13 batch certificates: CBD 19.29–22.00mg per gummy across 13 batches (pack says 20mg); THC 0.84–1.83mg per gummy across 13 batches (pack says 1mg). Terpenes barely register: 1 of 13 tested batches quantify anything at all — Geranyl acetate at up to 0.0027% (1 of 13 batches), all two-to-four hundredths of a percent or less of the gummy's weight. This is the signature of refined distillate: the extract carries the cannabinoids and almost none of the plant's aroma. The fruit here is candy flavoring, not cannabis terpenes. 18 additional batches are on file as page scans without text layers.",
+      "batches_total": 56,
+      "batches_parsed": 13,
+      "batches_scanned": 18,
+      "years": null,
+      "cannabinoids_measured": {
+        "thc": {
+          "mg_min": 0.8439,
+          "mg_max": 1.83,
+          "batches": 13
+        },
+        "cbd": {
+          "mg_min": 19.29,
+          "mg_max": 22,
+          "batches": 13
+        },
+        "cbg": {
+          "mg_min": 0.0624,
+          "mg_max": 0.0624,
+          "batches": 1
+        }
+      },
+      "terpenes_tested": 13,
+      "terpenes_detected": [
+        {
+          "name": "Geranyl acetate",
+          "max_percent": 0.0027,
+          "batches": 1,
+          "loq_percent": 0.00062
+        }
+      ],
+      "samples": [
+        {
+          "handle": "az-sb-b104",
+          "batch": "AZ SB B104",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_SB_B104.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-sb-b105",
+          "batch": "AZ SB B105",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_SB_B105.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-sb-b106",
+          "batch": "AZ SB B106",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_SB_B106.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-sb-b107",
+          "batch": "AZ SB B107",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_SB_B107.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-sb-b108",
+          "batch": "AZ SB B108",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_SB_B108.pdf",
+          "date": null
+        },
+        {
+          "handle": "az-sb-b109",
+          "batch": "AZ SB B109",
+          "state": "AZ",
+          "pdf": "https://www.wyldcanna.com/wp-content/uploads/2024/10/AZ_SB_B109.pdf",
+          "date": null
+        }
+      ]
+    }
+  }
+}

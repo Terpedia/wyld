@@ -137,7 +137,7 @@ for (const m of cannabinoids) {
   const carriers = catalog.products.filter((p) => p.molecules.includes(m.id));
   const doses = [...new Set(carriers.map((p) => p.cannabinoids.find((c) => c.id === m.id)?.mg_per_gummy).filter(Boolean))].sort((a, b) => a - b);
   m.evidence = `Declared on ${carriers.length} of ${catalog.products.length} WYLD flavors`
-    + `${doses.length ? ` at ${doses.join("–")}mg per gummy` : ""}.`;
+    + `${doses.length ? ` at ${doses.length > 2 ? `${doses.slice(0, -1).join(", ")} and ${doses.at(-1)}` : doses.join(" and ")}mg per gummy` : ""}.`;
   m.summary ||= IDENTITY[m.id] || null;
   await fs.writeFile(path.join(root, `data/molecules/${m.id}.json`), `${JSON.stringify(m, null, 2)}\n`);
 }

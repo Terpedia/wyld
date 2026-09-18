@@ -12,6 +12,7 @@ const back = '<a class="back" href="./">← Back to WYLD catalog</a>';
 
 const LEVEL_LABEL = {human_trials: 'human trials', human_observational: 'human observational', animal: 'animal studies', in_vitro: 'lab studies', review_only: 'reviews', none_found: 'no research yet'};
 const evidenceBadge = (level, oxford) => `<span class="ev-badge ev-${esc(level)}">${esc(LEVEL_LABEL[level] || level)}${oxford?.level ? ` · Oxford ${esc(oxford.level)}` : ''}</span>`;
+const pct = (v) => Number(v).toFixed(v < 0.01 ? 4 : 2);
 
 const moodBadge = (product, hero) => product.mood
   ? `<span class="mood-badge ${hero ? 'claim-tile--hero' : ''}" style="background:${esc(product.mood_color || 'var(--green)')}">${esc(product.mood)}</span>`
@@ -84,6 +85,35 @@ async function renderProduct(handle) {
       </table></div>
       ${product.molecules.some((m) => !product.cannabinoids.some((c) => c.id === m)) ? `
       <p class="fine">Botanical terpene blend declared in the ingredients: ${product.molecules.filter((m) => !product.cannabinoids.some((c) => c.id === m)).map((m) => `<a href="${moleculeUrl(m)}">${esc(m.replaceAll('-', ' '))}</a>`).join(', ')}.</p>` : ''}
+
+      <h2 class="section-h">Terpenes, measured</h2>
+      ${product.terpenes_measured ? `
+      <p class="hero-copy">${esc(product.terpenes_measured.description)}</p>
+      ${Object.keys(product.terpenes_measured.cannabinoids_measured || {}).length ? `
+      <div class="ctable-wrap"><table class="ctable">
+        <thead><tr><th>Compound</th><th class="num">Declared</th><th class="num">Measured per gummy</th><th class="num">Batches</th></tr></thead>
+        <tbody>${product.cannabinoids.map((c) => {
+          const m = product.terpenes_measured.cannabinoids_measured[c.id];
+          if (!m) return '';
+          return `<tr><td>${esc(c.name)}</td><td class="num">${c.mg_per_gummy}mg</td><td class="num">${m.mg_min === m.mg_max ? m.mg_max.toFixed(2) : `${m.mg_min.toFixed(2)}–${m.mg_max.toFixed(2)}`}mg</td><td class="num">${m.batches}</td></tr>`;
+        }).join('')}</tbody></table></div>` : ''}
+      ${product.terpenes_measured.terpenes_detected?.length ? `
+      <p class="fine">Terpenes detected above quantification, and the most any batch showed: ${product.terpenes_measured.terpenes_detected.map((t) => {
+        const slug = t.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        return `<a href="${moleculeUrl(slug)}">${esc(t.name)}</a> ${pct(t.max_percent)}%`;
+      }).join(' · ')}</p>` : ''}
+      <p class="fine">${product.terpenes_measured.batches_total} batches on file · ${product.terpenes_measured.batches_parsed} parsed, ${product.terpenes_measured.batches_scanned} scanned${product.terpenes_measured.years ? ` · ${esc(product.terpenes_measured.years)}` : ''}</p>
+      ${product.terpenes_measured.samples?.length ? `
+      <div class="ctable-wrap"><table class="ctable">
+        <thead><tr><th>Batch</th><th>State</th><th>Date</th><th>Certificate</th></tr></thead>
+        <tbody>${product.terpenes_measured.samples.map((b) => `
+          <tr>
+            <td>${esc(b.batch)}</td>
+            <td>${esc(b.state)}</td>
+            <td class="num">${esc(b.date || '—')}</td>
+            <td><a href="${esc(b.pdf)}" target="_blank" rel="noreferrer">${b.parse_status === 'parsed' ? 'COA, parsed' : 'COA, scan'} ↗</a></td>
+          </tr>`).join('')}</tbody></table></div>` : ''}` : `
+      <p class="fine">No published batch certificate is connected to this flavor yet. Every Wyld batch links its lab report from the <a href="https://www.wyldcanna.com/us/coa-lookup/" target="_blank" rel="noreferrer">COA lookup</a>; the flavor's page fills in as those certificates are parsed.</p>`}
 
       <h2 class="section-h">Traceability</h2>
       <div class="molecule-panel">
@@ -271,7 +301,7 @@ route.then((isEntity) => { if (isEntity) return null; return Promise.all([getJSO
   document.querySelector('#product-count').textContent = `${products.length} flavors · ${data.snapshot_date} snapshot`;
   if (stats) {
     const put = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = Number(v).toLocaleString(); };
-    put('stat-products', stats.products); put('stat-compounds', stats.compounds); put('stat-organisms', stats.organisms); put('stat-papers', stats.papers); put('stat-trials', stats.trials);
+    put('stat-products', stats.products); put('stat-compounds', stats.compounds); put('stat-batches', stats.batches); put('stat-organisms', stats.organisms); put('stat-papers', stats.papers); put('stat-trials', stats.trials);
   }
   render();
 });
