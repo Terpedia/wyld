@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Every WYLD gummy flavor, mapped: each cannabinoid the pack declares connected to the plants it comes from, the research behind it, and the trials testing it." />
+    <title>WYLD × Terpedia</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232e4b3c'/%3E%3Ctext x='50' y='68' font-family='sans-serif' font-size='52' font-weight='900' fill='%23f6f3ea' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./"><span>WYLD</span><small>× TERPEDIA</small></a>
+      <a class="source-link" href="https://www.wyldcanna.com/" target="_blank" rel="noreferrer">wyldcanna.com ↗</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">WYLD × Terpedia</p>
+        <h1>Cannabis gummies,<br /><em>mapped to cannabinoids.</em></h1>
+        <p class="hero-copy">Every WYLD flavor prints its cannabinoid dose on the pack — THC, CBD, CBN, CBG, CBC, THCv. Terpedia takes each of those compounds and connects it to the plants it comes from, the research behind it, and the trials testing it — so the effect on the box has receipts.</p>
+        <div class="graph-strip" id="graph-strip" aria-label="What this catalog connects">
+          <a class="graph-node" href="#catalog"><b id="stat-products">—</b><span>flavors</span></a>
+          <span class="graph-arrow">→</span>
+          <a class="graph-node" href="#catalog"><b id="stat-compounds">—</b><span>declared compounds</span></a>
+          <span class="graph-arrow">→</span>
+          <a class="graph-node" href="https://kb.terpedia.com/category/organism/" target="_blank" rel="noreferrer"><b id="stat-organisms">—</b><span>plants &amp; organisms</span></a>
+          <span class="graph-arrow">→</span>
+          <a class="graph-node" href="https://kb.terpedia.com/" target="_blank" rel="noreferrer"><b id="stat-papers">—</b><span>papers indexed</span></a>
+          <span class="graph-arrow">→</span>
+          <a class="graph-node" href="https://kb.terpedia.com/trials/" target="_blank" rel="noreferrer"><b id="stat-trials">—</b><span>clinical trials</span></a>
+        </div>
+        <div class="hero-meta"><span id="product-count">Loading catalog…</span><span>Evidence graded on Oxford CEBM · ECO · MeSH</span></div>
+        <div class="assurances" role="list" aria-label="What these products are">
+          <span role="listitem"><b>Declared doses</b>each pack states cannabinoids per gummy and per container</span>
+          <span role="listitem"><b>Cannabis gummies, 21+</b>sold through licensed dispensaries, not online</span>
+          <span role="listitem"><b>Real fruit</b>juice concentrate, plus botanical terpene blends on some flavors</span>
+        </div>
+      </section>
+
+      <section class="how" aria-label="How to read this catalog">
+        <div><b>Declared</b><span>Each pack names its cannabinoids and the milligrams per gummy and per container. This catalog carries those pack statements — Wyld publishes no per-batch analytical profile on its pages.</span></div>
+        <div><b>Mapped</b><span>Each cannabinoid links to the plants it occurs in, from published occurrence records, and to what the literature has studied — down to protein targets and registered trials.</span></div>
+        <div><b>Backed</b><span>Every effect tag on the pack is defined and shown with the research behind it, graded on a published evidence standard — and the trial that would settle it.</span></div>
+      </section>
+
+      <section class="toolbar" aria-label="Catalog filters">
+        <div class="filters" role="group" aria-label="Filter by effect category">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="Uplifting">Uplifting</button>
+          <button class="filter" data-filter="Balanced">Balanced</button>
+          <button class="filter" data-filter="Relaxing">Relaxing</button>
+        </div>
+        <label class="search"><span>Search</span><input id="search" type="search" placeholder="Try “elderberry” or “sleep”" /></label>
+      </section>
+
+      <section id="catalog" class="catalog" aria-live="polite"></section>
+      <p id="empty" class="empty" hidden>No products match that search.</p>
+    </main>
+
+    <div class="tq" id="tq">
+      <button class="tq-toggle" type="button" aria-expanded="false" aria-controls="tq-panel"><span class="tq-crown" aria-hidden="true">👑</span> Ask the TerpeneQueen</button>
+      <section class="tq-panel" id="tq-panel" hidden aria-label="Ask the TerpeneQueen">
+        <header class="tq-head"><div><strong>The TerpeneQueen</strong><small>Knows every cannabinoid in every gummy. Not medical advice.</small></div><button class="tq-close" type="button" aria-label="Close">×</button></header>
+        <div class="tq-log" role="log" aria-live="polite"><div class="tq-msg tq-msg--assistant">Ask me about any cannabinoid, any flavor, or what the research behind a pack tag says.</div></div>
+        <form class="tq-form"><input class="tq-input" type="text" placeholder="e.g. why does elderberry pair THC with CBN?" autocomplete="off" required /><button class="tq-send" type="submit">Ask</button></form>
+      </section>
+    </div>
+    <footer>
+      <span>WYLD catalog · source snapshot · not medical advice</span>
+      <a href="https://terpedia.com/intelligence-portals/cannabis" target="_blank" rel="noreferrer">Explore Terpedia Cannabis Intelligence ↗</a>
+    </footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>

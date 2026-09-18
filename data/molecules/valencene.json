@@ -1,0 +1,1715 @@
+{
+  "name": "Valencene",
+  "id": "valencene",
+  "formula": "C15H24",
+  "pubchem": {
+    "cid": 9855795,
+    "title": "Valencene",
+    "formula": "C15H24",
+    "molecular_weight": 204.35,
+    "smiles": "CC1CCC=C2C1(CC(CC2)C(=C)C)C",
+    "inchikey": "QEBNYNLSCGVZOH-NFAWXSAZSA-N",
+    "iupac_name": "(3R,4aS,5R)-4a,5-dimethyl-3-prop-1-en-2-yl-2,3,4,5,6,7-hexahydro-1H-naphthalene",
+    "image": "data/molecules/images/valencene.png",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9855795",
+    "description": "(+)-valencene is a carbobicyclic compound and sesquiterpene that is 1,2,3,4,4a,5,6,7-octahydronaphthalene which is substituted a prop-1-en-2-yl group at position 3 and by methyl groups at positions 4a and 5 (the 3R,4aS,5R- diastereoisomer). It is a sesquiterpene, a polycyclic olefin and a carbobicyclic compound.",
+    "description_source": {
+      "name": "ChEBI",
+      "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:61700"
+    },
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9855795/PNG"
+  },
+  "targets": [
+    {
+      "accession": "EAW77416",
+      "activity": null,
+      "value_um": 0,
+      "assay": "qHTS assay to identify aromatase inhibitors: Summary",
+      "aid": "743139",
+      "pmid": null,
+      "protein": "cytochrome P450, family 19, subfamily A, polypeptide 1, isoform CRA_a",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/EAW77416",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "AAV41877",
+      "activity": "Potency",
+      "value_um": 11.2496,
+      "assay": "Cytochrome P450 Family 2 Subfamily C Member 19 (CYP2C19) small molecule antagonists: luciferase reporter qHTS assay",
+      "aid": "1671197",
+      "pmid": null,
+      "protein": "cytochrome P450, family 2, subfamily C, polypeptide 19",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/AAV41877",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "AAI32976",
+      "activity": "Potency",
+      "value_um": 24.3365,
+      "assay": "qHTS assay to identify small molecule antagonists of the androgen receptor (AR) signaling pathway using the MDA cell line in the presence of 0.5 nM R1881: Summary",
+      "aid": "1259247",
+      "pmid": null,
+      "protein": "AR protein",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/AAI32976",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "AAI13617",
+      "activity": "Potency",
+      "value_um": 24.3365,
+      "assay": "qHTS assay to identify small molecule antagonists of the sonic hedgehog signaling (Shh) pathway",
+      "aid": "1259369",
+      "pmid": null,
+      "protein": "GLI family zinc finger 3",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/AAI13617",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "ADZ17384",
+      "activity": "Potency",
+      "value_um": 38.5708,
+      "assay": "Human pregnane X receptor (PXR) small molecule agonists, qHTS assay",
+      "aid": "1346982",
+      "pmid": null,
+      "protein": "pregnane X nuclear receptor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/ADZ17384",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "EAW81333",
+      "activity": "Potency",
+      "value_um": 48.5577,
+      "assay": "qHTS assay to identify small molecule agonists of the thyroid stimulating hormone receptor (TSHR) signaling pathway: Summary",
+      "aid": "1224895",
+      "pmid": null,
+      "protein": "thyroid stimulating hormone receptor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/EAW81333",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_006155",
+      "activity": "Potency",
+      "value_um": 58.829,
+      "assay": "qHTS assay for small molecule agonists of the antioxidant response element (ARE) signaling pathway: Summary",
+      "aid": "743219",
+      "pmid": null,
+      "protein": "nuclear factor erythroid 2-related factor 2 isoform 1",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_006155",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "AGS09764",
+      "activity": "Potency",
+      "value_um": 63.2609,
+      "assay": "Cytochrome P450 Family 2 Subfamily C Member 9 (CYP2C9) small molecule antagonists: luciferase reporter qHTS assay",
+      "aid": "1671198",
+      "pmid": null,
+      "protein": "cytochrome P450 family 2 subfamily C polypeptide 9",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/AGS09764",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "ABI96208",
+      "activity": "Potency",
+      "value_um": 70.9799,
+      "assay": "Cytochrome P450 Family 3 Subfamily A Member 4 (CYP3A4) small molecule antagonists: luciferase reporter qHTS assay",
+      "aid": "1671201",
+      "pmid": null,
+      "protein": "cytochrome P450 family 3 subfamily A polypeptide 4",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/ABI96208",
+      "source": "NCBI Protein"
+    }
+  ],
+  "literature": {
+    "total": 217,
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Valencene%5BAll%20Fields%5D",
+    "papers": [
+      {
+        "pmid": "25326849",
+        "title": "Nootkatone",
+        "journal": "Adv Biochem Eng Biotechnol",
+        "year": "2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25326849/"
+      },
+      {
+        "pmid": "39171255",
+        "title": "Application of valencene and prospects for its production in engineered microorganisms",
+        "journal": "Front Microbiol",
+        "year": "2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39171255/"
+      },
+      {
+        "pmid": "19333595",
+        "title": "Nootkatone--a biotechnological challenge",
+        "journal": "Appl Microbiol Biotechnol",
+        "year": "2009",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19333595/"
+      },
+      {
+        "pmid": "36541855",
+        "title": "Production, Function, and Applications of the Sesquiterpenes Valencene and Nootkatone: a Comprehensive Review",
+        "journal": "J Agric Food Chem",
+        "year": "2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36541855/"
+      },
+      {
+        "pmid": "29935246",
+        "title": "RIFM fragrance ingredient safety assessment, Valencene, CAS Registry Number 4630-07-3",
+        "journal": "Food Chem Toxicol",
+        "year": "2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29935246/"
+      },
+      {
+        "pmid": "39817828",
+        "title": "Triune Engineering Approach for (+)-valencene Overproduction in Yarrowia lipolytica",
+        "journal": "Biotechnol J",
+        "year": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39817828/"
+      }
+    ]
+  },
+  "retrieved": "2026-09-11",
+  "summary": null,
+  "evidence": "Declared in the botanical terpene blend of the WYLD flavors that list terpenes on the pack (Kiwi and Prickly Pear).",
+  "diseases": [],
+  "occurrence": {
+    "organisms": [
+      {
+        "name": "Citrus aurantium",
+        "id": "citrus-aurantium",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 3,
+        "references": [
+          "10.1271/BBB1961.55.2571",
+          "10.1007/BF00232613"
+        ]
+      },
+      {
+        "name": "Citrus sinensis",
+        "id": "citrus-sinensis",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 3,
+        "references": [
+          "10.1021/JF00112A015",
+          "10.1021/JF60196A027"
+        ]
+      },
+      {
+        "name": "Citrus taitensis",
+        "id": "citrus-taitensis",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 3,
+        "references": [
+          "10.1021/JF00112A015",
+          "10.1021/JF60196A027"
+        ]
+      },
+      {
+        "name": "Citrus limonia",
+        "id": "citrus-limonia",
+        "kingdom": "Plantae",
+        "phylum": null,
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "ITIS",
+        "reference_count": 2,
+        "references": [
+          "10.1021/JF60196A027",
+          "10.3390/MOLECULES13061333"
+        ]
+      },
+      {
+        "name": "Citrus paradisi",
+        "id": "citrus-paradisi",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 2,
+        "references": [
+          "10.1271/BBB1961.55.2571",
+          "10.1007/BF00232613"
+        ]
+      },
+      {
+        "name": "Cyperus rotundus",
+        "id": "cyperus-rotundus",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Cyperaceae",
+        "genus": "Cyperus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 2,
+        "references": [
+          "10.1016/J.JEP.2011.02.025",
+          "10.1016/S0031-9422(01)00301-6"
+        ]
+      },
+      {
+        "name": "Alpinia chinensis",
+        "id": "alpinia-chinensis",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Zingiberaceae",
+        "genus": "Alpinia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1994.9698407"
+        ]
+      },
+      {
+        "name": "Artemisia",
+        "id": "artemisia",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Artemisia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/J.FITOTE.2007.11.004"
+        ]
+      },
+      {
+        "name": "Baccharis articulata",
+        "id": "baccharis-articulata",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Baccharis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(00)83061-7"
+        ]
+      },
+      {
+        "name": "Baccharis linearifolia",
+        "id": "baccharis-linearifolia",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Baccharis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(00)83061-7"
+        ]
+      },
+      {
+        "name": "Baccharis myrtilloides",
+        "id": "baccharis-myrtilloides",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Baccharis",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(00)83061-7"
+        ]
+      },
+      {
+        "name": "Baccharis rufescens",
+        "id": "baccharis-rufescens",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Baccharis",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(00)83061-7"
+        ]
+      },
+      {
+        "name": "Baccharis tucumanensis",
+        "id": "baccharis-tucumanensis",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Baccharis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(00)83061-7"
+        ]
+      },
+      {
+        "name": "Bupleurum gibraltaricum",
+        "id": "bupleurum-gibraltaricum",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Apiaceae",
+        "genus": "Bupleurum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/NP960732Y"
+        ]
+      },
+      {
+        "name": "Callicarpa americana",
+        "id": "callicarpa-americana",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Lamiaceae",
+        "genus": "Callicarpa",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(02)00207-8"
+        ]
+      },
+      {
+        "name": "Cinnamomum parthenoxylon",
+        "id": "cinnamomum-parthenoxylon",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Lauraceae",
+        "genus": "Cinnamomum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1995.9698462"
+        ]
+      },
+      {
+        "name": "Citrus",
+        "id": "citrus",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1993.9698179"
+        ]
+      },
+      {
+        "name": "Citrus grandis",
+        "id": "citrus-grandis",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1271/BBB1961.55.2571"
+        ]
+      },
+      {
+        "name": "Citrus limon",
+        "id": "citrus-limon",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1007/BF00232613"
+        ]
+      },
+      {
+        "name": "Citrus maxima",
+        "id": "citrus-maxima",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1271/BBB1961.55.2571"
+        ]
+      },
+      {
+        "name": "Croton eluteria",
+        "id": "croton-eluteria",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Euphorbiaceae",
+        "genus": "Croton",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1002/FFJ.2730060307"
+        ]
+      },
+      {
+        "name": "Cryptocarya agathophylla",
+        "id": "cryptocarya-agathophylla",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Lauraceae",
+        "genus": "Cryptocarya",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1055/S-2006-959548"
+        ]
+      },
+      {
+        "name": "Cynara cardunculus",
+        "id": "cynara-cardunculus",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Cynara",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(82)85033-4"
+        ]
+      },
+      {
+        "name": "Cynara scolymus",
+        "id": "cynara-scolymus",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Cynara",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(82)85033-4"
+        ]
+      },
+      {
+        "name": "Daniellia oliveri",
+        "id": "daniellia-oliveri",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Fabaceae",
+        "genus": "Daniellia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1994.9699362"
+        ]
+      },
+      {
+        "name": "Dumortiera hirsuta",
+        "id": "dumortiera-hirsuta",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Dumortieraceae",
+        "genus": "Dumortiera",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(97)00484-6"
+        ]
+      },
+      {
+        "name": "Frullania pycnantha",
+        "id": "frullania-pycnantha",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Frullaniaceae",
+        "genus": "Frullania",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(02)00542-3"
+        ]
+      },
+      {
+        "name": "Garcinia mangostana",
+        "id": "garcinia-mangostana",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Clusiaceae",
+        "genus": "Garcinia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/0031-9422(82)80025-3"
+        ]
+      },
+      {
+        "name": "Grindelia hirsutula",
+        "id": "grindelia-hirsutula",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Grindelia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1055/S-2006-957488"
+        ]
+      },
+      {
+        "name": "Grindelia pulchella",
+        "id": "grindelia-pulchella",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Grindelia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1055/S-2006-957488"
+        ]
+      },
+      {
+        "name": "Helichrysum bracteiferum",
+        "id": "helichrysum-bracteiferum",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Helichrysum",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1992.9698125"
+        ]
+      },
+      {
+        "name": "Helichrysum odoratissimum",
+        "id": "helichrysum-odoratissimum",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Helichrysum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1993.9698235"
+        ]
+      },
+      {
+        "name": "Hypericum hyssopifolium",
+        "id": "hypericum-hyssopifolium",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Hypericaceae",
+        "genus": "Hypericum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/J.FITOTE.2005.08.019"
+        ]
+      },
+      {
+        "name": "Hyptis suaveolens",
+        "id": "hyptis-suaveolens",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Lamiaceae",
+        "genus": "Hyptis",
+        "taxonomy_source": "ITIS",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1994.9699348"
+        ]
+      },
+      {
+        "name": "Juniperus comitana",
+        "id": "juniperus-comitana",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Cupressaceae",
+        "genus": "Juniperus",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/NP50040A040"
+        ]
+      },
+      {
+        "name": "Lepechinia floribunda",
+        "id": "lepechinia-floribunda",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Lamiaceae",
+        "genus": "Lepechinia",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1994.9698446"
+        ]
+      },
+      {
+        "name": "Lippia multiflora",
+        "id": "lippia-multiflora",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Verbenaceae",
+        "genus": "Lippia",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1995.9698531"
+        ]
+      },
+      {
+        "name": "Marsupella emarginata",
+        "id": "marsupella-emarginata",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Gymnomitriaceae",
+        "genus": "Marsupella",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(02)00214-5"
+        ]
+      },
+      {
+        "name": "Mesosphaerum suaveolens",
+        "id": "mesosphaerum-suaveolens",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Lamiaceae",
+        "genus": "Mesosphaerum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1994.9699348"
+        ]
+      },
+      {
+        "name": "Microcitrus",
+        "id": "microcitrus",
+        "kingdom": "Plantae",
+        "phylum": null,
+        "family": "Rutaceae",
+        "genus": "Microcitrus",
+        "taxonomy_source": "ITIS",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1993.9698179"
+        ]
+      },
+      {
+        "name": "Oenanthe aquatica",
+        "id": "oenanthe-aquatica",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Apiaceae",
+        "genus": "Oenanthe",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1055/S-0028-1097637"
+        ]
+      },
+      {
+        "name": "Origanum vulgare",
+        "id": "origanum-vulgare",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Lamiaceae",
+        "genus": "Origanum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1996.9700567"
+        ]
+      },
+      {
+        "name": "Parthenium argentatum",
+        "id": "parthenium-argentatum",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Parthenium confertum",
+        "id": "parthenium-confertum",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Parthenium fruticosum",
+        "id": "parthenium-fruticosum",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Parthenium hysterophorus",
+        "id": "parthenium-hysterophorus",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Parthenium incanum",
+        "id": "parthenium-incanum",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Parthenium schottii",
+        "id": "parthenium-schottii",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Parthenium tomentosum",
+        "id": "parthenium-tomentosum",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Parthenium",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00064A020"
+        ]
+      },
+      {
+        "name": "Persea americana",
+        "id": "persea-americana",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Lauraceae",
+        "genus": "Persea",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00035A029"
+        ]
+      },
+      {
+        "name": "Persea tolimanensis",
+        "id": "persea-tolimanensis",
+        "kingdom": "Archaeplastida",
+        "phylum": "Streptophyta",
+        "family": "Lauraceae",
+        "genus": "Persea",
+        "taxonomy_source": "Open Tree of Life",
+        "reference_count": 1,
+        "references": [
+          "10.1021/JF00035A029"
+        ]
+      },
+      {
+        "name": "Persicaria minor",
+        "id": "persicaria-minor",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Polygonaceae",
+        "genus": "Persicaria",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.3390/MOLECULES191119220"
+        ]
+      },
+      {
+        "name": "Polygonum minus",
+        "id": "polygonum-minus",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Polygonaceae",
+        "genus": "Polygonum",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.3390/MOLECULES191119220"
+        ]
+      },
+      {
+        "name": "Porella acutifolia",
+        "id": "porella-acutifolia",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Porellaceae",
+        "genus": "Porella",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(99)00451-3"
+        ]
+      },
+      {
+        "name": "Porella acutifolia subsp. tosana",
+        "id": "porella-acutifolia-subsp-tosana",
+        "kingdom": "Plantae",
+        "phylum": "Marchantiophyta",
+        "family": "Porellaceae",
+        "genus": "Porella",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(99)00451-3"
+        ]
+      },
+      {
+        "name": "Tanacetum annuum",
+        "id": "tanacetum-annuum",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Asteraceae",
+        "genus": "Tanacetum",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.2000.9712058"
+        ]
+      },
+      {
+        "name": "Thymus nummularius",
+        "id": "thymus-nummularius",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Lamiaceae",
+        "genus": "Thymus",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1999.9701080"
+        ]
+      },
+      {
+        "name": "Virola surinamensis",
+        "id": "virola-surinamensis",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Myristicaceae",
+        "genus": "Virola",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/S0031-9422(97)00324-5"
+        ]
+      },
+      {
+        "name": "Xylopia sericea",
+        "id": "xylopia-sericea",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Annonaceae",
+        "genus": "Xylopia",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1080/10412905.1996.9700559"
+        ]
+      }
+    ],
+    "organism_count": 59,
+    "reference_count": 41,
+    "source": "LOTUS · lotus.naturalproducts.net",
+    "lotus_id": "LTS0110395"
+  },
+  "research": {
+    "total": 217,
+    "sampled": 200,
+    "designs": {
+      "review": 10,
+      "other": 141,
+      "animal": 25,
+      "human_observational": 20,
+      "in_vitro": 4
+    },
+    "topics": [
+      {
+        "term": "Metabolic Engineering",
+        "papers": 25
+      },
+      {
+        "term": "Saccharomyces cerevisiae",
+        "papers": 19
+      },
+      {
+        "term": "Citrus",
+        "papers": 19
+      },
+      {
+        "term": "Cytochrome P-450 Enzyme System",
+        "papers": 18
+      },
+      {
+        "term": "Plant Proteins",
+        "papers": 17
+      },
+      {
+        "term": "Alkyl and Aryl Transferases",
+        "papers": 16
+      },
+      {
+        "term": "Fruit",
+        "papers": 15
+      },
+      {
+        "term": "Volatile Organic Compounds",
+        "papers": 15
+      },
+      {
+        "term": "Biotransformation",
+        "papers": 13
+      },
+      {
+        "term": "Oxidation-Reduction",
+        "papers": 12
+      },
+      {
+        "term": "Odorants",
+        "papers": 10
+      },
+      {
+        "term": "Antioxidants",
+        "papers": 10
+      },
+      {
+        "term": "Molecular Sequence Data",
+        "papers": 9
+      },
+      {
+        "term": "Molecular Docking Simulation",
+        "papers": 9
+      }
+    ],
+    "claims": [
+      {
+        "id": "antioxidant",
+        "label": "Antioxidant",
+        "papers": 12,
+        "designs": {
+          "animal": 5,
+          "human_observational": 3,
+          "other": 3,
+          "in_vitro": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 3,
+            "pmids": [
+              "23106968",
+              "38930796",
+              "29675712"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 5,
+            "pmids": [
+              "40736625",
+              "35469837",
+              "37536183",
+              "24176316",
+              "32230815"
+            ]
+          },
+          {
+            "design": "in_vitro",
+            "eco": {
+              "id": "ECO:0000181",
+              "label": "in vitro assay evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "42492862"
+            ]
+          }
+        ],
+        "pmids": [
+          "40736625",
+          "35469837",
+          "23106968",
+          "37536183",
+          "36650708",
+          "38930796",
+          "37973884",
+          "24176316",
+          "42492862",
+          "40935167",
+          "29675712",
+          "32230815"
+        ]
+      },
+      {
+        "id": "antimicrobial",
+        "label": "Antimicrobial",
+        "papers": 9,
+        "designs": {
+          "human_observational": 1,
+          "other": 2,
+          "animal": 2,
+          "in_vitro": 4
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "23106968"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "42554883",
+              "27259704"
+            ]
+          },
+          {
+            "design": "in_vitro",
+            "eco": {
+              "id": "ECO:0000181",
+              "label": "in vitro assay evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 4,
+            "pmids": [
+              "40038128",
+              "42492862",
+              "33909754",
+              "41922732"
+            ]
+          }
+        ],
+        "pmids": [
+          "23106968",
+          "37973884",
+          "42554883",
+          "40038128",
+          "42492862",
+          "17929093",
+          "27259704",
+          "33909754",
+          "41922732"
+        ]
+      },
+      {
+        "id": "cancer",
+        "label": "Cancer",
+        "papers": 8,
+        "designs": {
+          "human_observational": 8
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 8,
+            "pmids": [
+              "39425858",
+              "38930796",
+              "26307963",
+              "31259712",
+              "28632185",
+              "29675712",
+              "32730868",
+              "42511873"
+            ]
+          }
+        ],
+        "pmids": [
+          "39425858",
+          "38930796",
+          "26307963",
+          "31259712",
+          "28632185",
+          "29675712",
+          "32730868",
+          "42511873"
+        ]
+      },
+      {
+        "id": "insect",
+        "label": "Insect repellent",
+        "papers": 7,
+        "designs": {
+          "review": 1,
+          "other": 1,
+          "animal": 4,
+          "human_observational": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "15962787"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 4,
+            "pmids": [
+              "29029183",
+              "32352210",
+              "30597779",
+              "14969356"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "25326849"
+            ]
+          }
+        ],
+        "pmids": [
+          "25326849",
+          "37991146",
+          "29029183",
+          "32352210",
+          "30597779",
+          "15962787",
+          "14969356"
+        ]
+      },
+      {
+        "id": "anti-inflammatory",
+        "label": "Anti-inflammatory",
+        "papers": 5,
+        "designs": {
+          "animal": 4,
+          "human_observational": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "29675712"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 4,
+            "pmids": [
+              "35469837",
+              "36076580",
+              "37536183",
+              "21843620"
+            ]
+          }
+        ],
+        "pmids": [
+          "35469837",
+          "36076580",
+          "37536183",
+          "21843620",
+          "29675712"
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Focus and memory",
+        "papers": 1,
+        "designs": {
+          "animal": 1
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "32230815"
+            ]
+          }
+        ],
+        "pmids": [
+          "32230815"
+        ]
+      },
+      {
+        "id": "digestive",
+        "label": "Digestive",
+        "papers": 1,
+        "designs": {
+          "animal": 1
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "25282048"
+            ]
+          }
+        ],
+        "pmids": [
+          "25282048"
+        ]
+      }
+    ],
+    "years": {
+      "from": 1984,
+      "to": 2026
+    },
+    "basis": "MeSH indexing and publication types of the most relevant PubMed records; counts are of papers in the sample, not findings.",
+    "vocabulary": {
+      "evidence_type": "ECO (Evidence & Conclusion Ontology)",
+      "study_design": "MeSH Publication Types",
+      "strength": "Oxford CEBM 2009 levels",
+      "structure": "SEPIO assertion / evidence line / evidence item"
+    },
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Valencene%5BAll%20Fields%5D"
+  },
+  "trials": {
+    "total": 0,
+    "matched_loosely": 0,
+    "studies": [],
+    "source": "ClinicalTrials.gov",
+    "search_url": "https://clinicaltrials.gov/search?intr=Valencene"
+  },
+  "is_terpenoid": true,
+  "consumer_summary": {
+    "model": "gemini-3.1-pro-preview",
+    "generated": "2026-09-11",
+    "what_it_is": "(+)-Valencene is a sesquiterpene, a type of aromatic molecule responsible for the bright, sweet, and woody aromas of certain citrus fruits. It is widely used as a fragrance and flavor ingredient, giving a characteristic citrusy lift to everyday foods, drinks, and perfumes.",
+    "found_in": "It is famously abundant in citrus fruits, particularly sweet oranges (Citrus sinensis), bitter oranges (Citrus aurantium), and grapefruits (Citrus paradisi). It can also be found in aromatic herbs like Artemisia and the American beautyberry (Callicarpa americana).",
+    "why_researchers_care": "Researchers are fascinated by valencene not just for its own bright scent, but because it is a crucial stepping stone to producing nootkatone, one of the most sought-after and expensive grapefruit aromatic compounds. Because extracting it from citrus is costly, scientists are heavily focused on metabolic engineering, using yeasts like Saccharomyces cerevisiae to brew valencene sustainably. Beyond its industrial appeal, researchers are exploring its biological potential, with the strongest evidence currently resting on human observational studies (Oxford level 2b) looking at its antioxidant and insect-repelling properties.",
+    "structure_function": [
+      {
+        "claim_id": "antioxidant",
+        "statement": "Observational data suggests valencene may support the body's natural antioxidant defenses.",
+        "evidence_level": "human_observational",
+        "basis": "This is based on 12 papers, including human observational and animal research.",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": "ECO:0000180",
+            "papers": 3
+          },
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 5
+          },
+          {
+            "design": "in_vitro",
+            "eco": "ECO:0000181",
+            "papers": 1
+          }
+        ],
+        "paper_count": 12
+      },
+      {
+        "claim_id": "insect",
+        "statement": "Early work points toward valencene acting as an effective botanical insect repellent.",
+        "evidence_level": "human_observational",
+        "basis": "This rests on 7 papers, including human observational and animal studies.",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": "ECO:0000180",
+            "papers": 1
+          },
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 4
+          },
+          {
+            "design": "review",
+            "eco": "ECO:0000033",
+            "papers": 1
+          }
+        ],
+        "paper_count": 7
+      },
+      {
+        "claim_id": "anti-inflammatory",
+        "statement": "Valencene is being studied for its potential to support healthy inflammatory responses.",
+        "evidence_level": "human_observational",
+        "basis": "This is supported by 5 papers, primarily animal models and one human observational study.",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": "ECO:0000180",
+            "papers": 1
+          },
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 4
+          }
+        ],
+        "paper_count": 5
+      },
+      {
+        "claim_id": "cognition",
+        "statement": "Early animal work points toward a potential role in supporting focus and memory.",
+        "evidence_level": "animal",
+        "basis": "This is based on a single animal study.",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 1
+          }
+        ],
+        "paper_count": 1
+      },
+      {
+        "claim_id": "digestive",
+        "statement": "Valencene is being explored for its potential to support digestive health.",
+        "evidence_level": "animal",
+        "basis": "This rests on one animal study.",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 1
+          }
+        ],
+        "paper_count": 1
+      }
+    ],
+    "hypothesized_benefits": [
+      {
+        "claim_id": "cancer",
+        "area": "Cellular Health",
+        "hypothesis": "Researchers are exploring whether valencene interacts with cellular pathways, including cytochrome P450 enzymes, to influence cell health and proliferation.",
+        "evidence_level": "human_observational",
+        "paper_count": 8,
+        "study_to_test_it": "A randomized, placebo-controlled human trial (Oxford 1b) supplementing valencene in a high-risk cohort, measuring specific biomarkers of cellular proliferation and oxidative stress over six months.",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": "ECO:0000180",
+            "papers": 8
+          }
+        ]
+      },
+      {
+        "claim_id": "antimicrobial",
+        "area": "Microbial Defense",
+        "hypothesis": "Early observational and lab work points toward valencene having protective properties against certain microbes, raising questions about its role in food preservation or skin defense.",
+        "evidence_level": "human_observational",
+        "paper_count": 9,
+        "study_to_test_it": "A randomized, double-blind human topical trial (Oxford 1b) applying a valencene-based formulation versus placebo to measure changes in skin microbiome composition and bacterial load over four weeks.",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": "ECO:0000180",
+            "papers": 1
+          },
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 2
+          },
+          {
+            "design": "in_vitro",
+            "eco": "ECO:0000181",
+            "papers": 4
+          }
+        ]
+      },
+      {
+        "claim_id": "cognition",
+        "area": "Cognitive Function",
+        "hypothesis": "If early animal findings bear out, valencene might interact with neurological pathways to support cognitive clarity and memory retention.",
+        "evidence_level": "animal",
+        "paper_count": 1,
+        "study_to_test_it": "A first-in-human randomized controlled trial (Oxford 1b) giving a standardized valencene dose to healthy adults and measuring cognitive performance and memory recall using standardized computer tasks over a 12-week period.",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 1
+          }
+        ]
+      },
+      {
+        "claim_id": "anti-inflammatory",
+        "area": "Inflammatory Response",
+        "hypothesis": "Scientists are investigating whether valencene can modulate inflammatory pathways, potentially offering a natural way to support tissue recovery and comfort.",
+        "evidence_level": "human_observational",
+        "paper_count": 5,
+        "study_to_test_it": "A randomized, placebo-controlled human trial (Oxford 1b) measuring systemic inflammatory markers (like CRP and cytokines) in healthy adults given a daily valencene supplement for eight weeks.",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": "ECO:0000180",
+            "papers": 1
+          },
+          {
+            "design": "animal",
+            "eco": "ECO:0007120",
+            "papers": 4
+          }
+        ]
+      }
+    ],
+    "associated_conditions": [],
+    "cautions": null,
+    "evidence_at_a_glance": "Best evidence so far is human observational work (Oxford 2b) for its antioxidant and insect-repelling properties, while much of the remaining research consists of animal studies and metabolic engineering research."
+  }
+}

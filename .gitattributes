@@ -1,0 +1,2 @@
+# Fix Windows line endings that break shebangs if the repo is checked out there.
+* text=auto

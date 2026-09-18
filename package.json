@@ -1,0 +1,14 @@
+{
+  "name": "wyld-terpedia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "products": "node scripts/fetch-products.mjs",
+    "molecules": "node scripts/fetch-molecule-data.mjs",
+    "claims": "node scripts/build-claims.mjs",
+    "stats": "node scripts/build-stats.mjs"
+  },
+  "dependencies": {
+    "zod": "^4.6.2"
+  }
+}

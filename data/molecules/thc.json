@@ -1,0 +1,1296 @@
+{
+  "name": "Δ9-Tetrahydrocannabinol",
+  "id": "thc",
+  "formula": "C21H30O2",
+  "pubchem": {
+    "cid": 16078,
+    "title": "Tetrahydrocannabinol",
+    "formula": "C21H30O2",
+    "molecular_weight": 314.5,
+    "smiles": "CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O",
+    "inchikey": "CYQFCXCEBYINGO-IAGOWNOFSA-N",
+    "iupac_name": "(6aR,10aR)-6,6,9-trimethyl-3-pentyl-6a,7,8,10a-tetrahydrobenzo[c]chromen-1-ol",
+    "image": "data/molecules/images/thc.png",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16078",
+    "description": "Delta(9)-tetrahydrocannabinol is a diterpenoid that is 6a,7,8,10a-tetrahydro-6H-benzo[c]chromene substituted at position 1 by a hydroxy group, positions 6, 6 and 9 by methyl groups and at position 3 by a pentyl group. The principal psychoactive constituent of the cannabis plant, it is used for treatment of anorexia associated with AIDS as well as nausea and vomiting associated with cancer chemotherapy. It has a role as a metabolite, a non-narcotic analgesic, a hallucinogen, an epitope and a cannabinoid receptor agonist. It is a diterpenoid, a polyketide, a benzochromene and a phytocannabinoid.",
+    "description_source": {
+      "name": "ChEBI",
+      "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:66964"
+    },
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16078/PNG"
+  },
+  "targets": [
+    {
+      "accession": "EAW77416",
+      "activity": null,
+      "value_um": 0,
+      "assay": "qHTS assay to identify aromatase inhibitors: Summary",
+      "aid": "743139",
+      "pmid": null,
+      "protein": "cytochrome P450, family 19, subfamily A, polypeptide 1, isoform CRA_a",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/EAW77416",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_005674",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human GPR55 (GPR18, GPR55 and GPR119)",
+      "aid": "1345070",
+      "pmid": "17876302",
+      "protein": "G protein-coupled receptor 55",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_005674",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_001139512",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human glycine receptor alpha1 subunit (Glycine receptors)",
+      "aid": "1346490",
+      "pmid": null,
+      "protein": "glycine receptor subunit alpha-1 isoform 1 precursor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001139512",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_001165413",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human glycine receptor alpha2 subunit (Glycine receptors)",
+      "aid": "1346518",
+      "pmid": null,
+      "protein": "glycine receptor subunit alpha-2 isoform C",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001165413",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_006520",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human glycine receptor alpha3 subunit (Glycine receptors)",
+      "aid": "1346534",
+      "pmid": null,
+      "protein": "glycine receptor subunit alpha-3 isoform a precursor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_006520",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_015628",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human TRPA1 (Transient Receptor Potential channels)",
+      "aid": "1346556",
+      "pmid": "14712238",
+      "protein": "transient receptor potential cation channel subfamily A member 1",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_015628",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_058903",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Rat TRPV2 (Transient Receptor Potential channels)",
+      "aid": "1346564",
+      "pmid": "18550765",
+      "protein": "transient receptor potential cation channel subfamily V member 2",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_058903",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_001153731",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human CB1 receptor (Cannabinoid receptors)",
+      "aid": "1346701",
+      "pmid": "7565624",
+      "protein": "cannabinoid receptor 1 isoform a",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001153731",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_001832",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human CB2 receptor (Cannabinoid receptors)",
+      "aid": "1346728",
+      "pmid": "7565624",
+      "protein": "cannabinoid receptor 2",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001832",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "NP_001091670",
+      "activity": null,
+      "value_um": 0,
+      "assay": "Human GPR18 (GPR18, GPR55 and GPR119)",
+      "aid": "1346814",
+      "pmid": "21595653",
+      "protein": "N-arachidonyl glycine receptor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001091670",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "P34972",
+      "activity": "EC50",
+      "value_um": 0.00142,
+      "assay": "Agonist activity at human CB2 receptor expressed in CHO-K1 cells assessed as activation by measuring beta-arrestin recruitment",
+      "aid": "2065429",
+      "pmid": "38885438",
+      "protein": "Cannabinoid receptor 2",
+      "gene": "CNR2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P34972",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P21554",
+      "activity": "Log Ki",
+      "value_um": 0.0016,
+      "assay": "Binding affinity towards cloned human Cannabinoid receptor 1",
+      "aid": "49325",
+      "pmid": "10882356",
+      "protein": "Cannabinoid receptor 1",
+      "gene": "CNR1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P21554",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P20272",
+      "activity": "IC50",
+      "value_um": 0.0058,
+      "assay": "Compound was evaluated for the inhibition of [3H]WIN-55212-2 binding in rat cerebellum membranes",
+      "aid": "48997",
+      "pmid": null,
+      "protein": "Cannabinoid receptor 1",
+      "gene": "Cnr1",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/P20272",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q9QZN9",
+      "activity": "IC50",
+      "value_um": 0.0058,
+      "assay": "Compound was evaluated for the inhibition of [3H]WIN-55212-2 binding in rat cerebellum membranes",
+      "aid": "48997",
+      "pmid": null,
+      "protein": "Cannabinoid receptor 2",
+      "gene": "Cnr2",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/Q9QZN9",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P47936",
+      "activity": "EC50",
+      "value_um": 0.0073,
+      "assay": "Inverse agonist activity at mouse CB2 receptor expressed in HEK293 cells assessed as inhibition of forskolin-mediated cAMP accumulation after 5 mins by fluorescence assay",
+      "aid": "1573480",
+      "pmid": "29939744",
+      "protein": "Cannabinoid receptor 2",
+      "gene": "Cnr2",
+      "organism": "Mus musculus",
+      "url": "https://www.uniprot.org/uniprotkb/P47936",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P35462",
+      "activity": "EC50",
+      "value_um": 0.0102,
+      "assay": "Agonist activity at recombinant human CB1 receptor expressed in CHO-K1 cells assessed as increase in cAMP accumulation after 20 mins by HTRF assay",
+      "aid": "1441146",
+      "pmid": "28182408",
+      "protein": "Dopamine receptor D3",
+      "gene": "DRD3",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P35462",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P47746",
+      "activity": "Ki",
+      "value_um": 0.0153,
+      "assay": "Displacement of [3H]CP-55,940 from CB1 receptor in B6SJL mouse brain membrane after 90 mins by liquid scintillation spectrophotometric analysis",
+      "aid": "1211513",
+      "pmid": "22904561",
+      "protein": "Cannabinoid receptor 1",
+      "gene": "Cnr1",
+      "organism": "Mus musculus",
+      "url": "https://www.uniprot.org/uniprotkb/P47746",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P32249",
+      "activity": "EC50",
+      "value_um": 0.038,
+      "assay": "Agonist activity at human GPR183 expressed in PathHunter CHO-K1 cells assessed as activation by measuring beta-arrestin2 recruitment",
+      "aid": "2065420",
+      "pmid": "38885438",
+      "protein": "G protein-coupled receptor 183",
+      "gene": "GPR183",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P32249",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q7Z2W7",
+      "activity": "IC50",
+      "value_um": 0.16,
+      "assay": "Antagonist activity at TRPM8 (unknown origin)",
+      "aid": "1949593",
+      "pmid": "27437828",
+      "protein": "Transient receptor potential cation channel subfamily M member 8",
+      "gene": "TRPM8",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q7Z2W7",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q6RI86",
+      "activity": "EC50",
+      "value_um": 0.23,
+      "assay": "Agonist activity at rat TRPA1 channel expressed in HEK293 cells assessed as increase in intracellular calcium influx",
+      "aid": "482146",
+      "pmid": "20356305",
+      "protein": "Transient receptor potential cation channel subfamily A member 1",
+      "gene": "Trpa1",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/Q6RI86",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q13822",
+      "activity": "EC50",
+      "value_um": 0.46,
+      "assay": "Inhibition of recombinant human ATXbeta using LPC18:1 as substrate measured every 60 sec for 50 mins by choline release assay",
+      "aid": "2092140",
+      "pmid": "37976710",
+      "protein": "Autotaxin",
+      "gene": "ENPP2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q13822",
+      "source": "UniProt"
+    },
+    {
+      "accession": "3LS4_H",
+      "activity": "IC50",
+      "value_um": 0.5,
+      "assay": "Experimentally measured binding affinity data (IC50) for protein-ligand complexes derived from PDB",
+      "aid": "977608",
+      "pmid": null,
+      "protein": "Chain H, Heavy chain of antibody Fab fragment",
+      "organism": "Mus musculus",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/3LS4_H",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "3LS4_L",
+      "activity": "IC50",
+      "value_um": 0.5,
+      "assay": "Experimentally measured binding affinity data (IC50) for protein-ligand complexes derived from PDB",
+      "aid": "977608",
+      "pmid": null,
+      "protein": "Chain L, Light chain of antibody Fab fragment",
+      "organism": "Mus musculus",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/3LS4_L",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "Q14330",
+      "activity": "EC50",
+      "value_um": 0.96,
+      "assay": "Agonist activity at human GPR18 expressed in HEK203 cells by MAP kinase assay",
+      "aid": "1122509",
+      "pmid": null,
+      "protein": "N-arachidonyl glycine receptor",
+      "gene": "GPR18",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q14330",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P12710",
+      "activity": "Ki",
+      "value_um": 1,
+      "assay": "FABP1 Fluorescent Ligand Displacement Assay from Article 10.1021/acs.biochem.6b00446: \"FABP1: A Novel Hepatic Endocannabinoid and Cannabinoid Binding Protein.\"",
+      "aid": "1802031",
+      "pmid": "27552286",
+      "protein": "Fatty acid-binding protein, liver",
+      "gene": "Fabp1",
+      "organism": "Mus musculus",
+      "url": "https://www.uniprot.org/uniprotkb/P12710",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P23415",
+      "activity": "EC50",
+      "value_um": 1.3,
+      "assay": "Potentiation of human GlyR-alpha1 expressed in Xenopus laevis oocytes assessed as induction of glycine-activated currents after 1 to 4 days by two-electrode voltage clamp assay",
+      "aid": "1203550",
+      "pmid": "25790278",
+      "protein": "Glycine receptor subunit alpha-1",
+      "gene": "GLRA1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P23415",
+      "source": "UniProt"
+    },
+    {
+      "accession": "EAL24281",
+      "activity": "Potency",
+      "value_um": 7.94208,
+      "assay": "qHTS assay to identify small molecule that activate the aryl hydrocarbon receptor (AhR) signaling pathway: Summary",
+      "aid": "743122",
+      "pmid": null,
+      "protein": "aryl hydrocarbon receptor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/EAL24281",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "ADZ17384",
+      "activity": "Potency",
+      "value_um": 7.9433,
+      "assay": "Human pregnane X receptor (PXR) activation by small molecules, qHTS assay",
+      "aid": "1346985",
+      "pmid": null,
+      "protein": "pregnane X nuclear receptor",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/ADZ17384",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "O75762",
+      "activity": "Activity",
+      "value_um": 10,
+      "assay": "Agonist activity at TRPA1",
+      "aid": "500219",
+      "pmid": "16408004",
+      "protein": "Transient receptor potential cation channel subfamily A member 1",
+      "gene": "TRPA1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/O75762",
+      "source": "UniProt"
+    },
+    {
+      "accession": "NP_001257783",
+      "activity": "Potency",
+      "value_um": 16.7855,
+      "assay": "qHTS assay to identify small molecule antagonists of the thyroid receptor (TR) signaling pathway",
+      "aid": "743065",
+      "pmid": null,
+      "protein": "thyroid hormone receptor beta isoform 2",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001257783",
+      "source": "NCBI Protein"
+    },
+    {
+      "accession": "AAI07878",
+      "activity": "Potency",
+      "value_um": 21.136,
+      "assay": "qHTS for Inhibitors of human tyrosyl-DNA phosphodiesterase 1 (TDP1): qHTS in cells in presence of CPT",
+      "aid": "686979",
+      "pmid": null,
+      "protein": "TDP1 protein",
+      "organism": "Homo sapiens",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/AAI07878",
+      "source": "NCBI Protein"
+    }
+  ],
+  "diseases": [],
+  "occurrence": {
+    "organisms": [
+      {
+        "name": "Cannabis sativa",
+        "id": "cannabis-sativa",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Cannabaceae",
+        "genus": "Cannabis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 17,
+        "references": [
+          "10.1016/B978-0-12-013320-8.50007-1",
+          "10.1248/YAKUSHI1947.118.9_408"
+        ]
+      },
+      {
+        "name": "Cannabis sativa sativa",
+        "id": "cannabis-sativa-sativa",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Cannabaceae",
+        "genus": "Cannabis",
+        "taxonomy_source": "iNaturalist",
+        "reference_count": 1,
+        "references": [
+          "10.1007/BF02907934"
+        ]
+      },
+      {
+        "name": "Cannabis sativa subsp. sativa",
+        "id": "cannabis-sativa-subsp-sativa",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Cannabaceae",
+        "genus": "Cannabis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1007/BF02907934"
+        ]
+      },
+      {
+        "name": "Cannabis sativa var. ruderalis",
+        "id": "cannabis-sativa-var-ruderalis",
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "family": "Cannabaceae",
+        "genus": "Cannabis",
+        "taxonomy_source": "GBIF Backbone Taxonomy",
+        "reference_count": 1,
+        "references": [
+          "10.1007/BF02907934"
+        ]
+      }
+    ],
+    "organism_count": 4,
+    "reference_count": 17,
+    "source": "LOTUS · lotus.naturalproducts.net",
+    "lotus_id": "LTS0171230"
+  },
+  "literature": {
+    "total": 11585,
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=delta-9-tetrahydrocannabinol%5BAll%20Fields%5D",
+    "papers": [
+      {
+        "pmid": "18847571",
+        "title": "[Delta-9-tetrahydrocannabinol pharmacokinetics]",
+        "journal": "Ann Pharm Fr",
+        "year": "2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18847571/"
+      },
+      {
+        "pmid": "32335286",
+        "title": "Cannabis sativa: Much more beyond Δ(9)-tetrahydrocannabinol",
+        "journal": "Pharmacol Res",
+        "year": "2020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32335286/"
+      },
+      {
+        "pmid": "6307330",
+        "title": "Delta-9-tetrahydrocannabinol and gastric emptying",
+        "journal": "Br J Clin Pharmacol",
+        "year": "1983",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6307330/"
+      },
+      {
+        "pmid": "841319",
+        "title": "Is delta-9-tetrahydrocannabinol estrogenic",
+        "journal": "Science",
+        "year": "1977",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/841319/"
+      },
+      {
+        "pmid": "4682965",
+        "title": "Delta-9-tetrahydrocannabinol: localization in body fat",
+        "journal": "Science",
+        "year": "1973",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4682965/"
+      },
+      {
+        "pmid": "1091664",
+        "title": "Analgesic effect of delta-9-tetrahydrocannabinol",
+        "journal": "J Clin Pharmacol",
+        "year": "1975",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1091664/"
+      }
+    ]
+  },
+  "research": {
+    "total": 11585,
+    "sampled": 200,
+    "designs": {
+      "review": 13,
+      "clinical_trial": 20,
+      "animal": 62,
+      "other": 10,
+      "human_observational": 83,
+      "rct": 9,
+      "systematic_review": 2,
+      "in_vitro": 1
+    },
+    "topics": [
+      {
+        "term": "Dronabinol",
+        "papers": 200
+      },
+      {
+        "term": "Cannabis",
+        "papers": 61
+      },
+      {
+        "term": "Time Factors",
+        "papers": 37
+      },
+      {
+        "term": "Cannabinoids",
+        "papers": 19
+      },
+      {
+        "term": "Brain",
+        "papers": 17
+      },
+      {
+        "term": "Administration, Oral",
+        "papers": 17
+      },
+      {
+        "term": "Clinical Trials as Topic",
+        "papers": 17
+      },
+      {
+        "term": "Cannabidiol",
+        "papers": 16
+      },
+      {
+        "term": "Drug Interactions",
+        "papers": 14
+      },
+      {
+        "term": "Injections, Intravenous",
+        "papers": 14
+      },
+      {
+        "term": "Pregnancy",
+        "papers": 14
+      },
+      {
+        "term": "Rats, Inbred Strains",
+        "papers": 12
+      },
+      {
+        "term": "Double-Blind Method",
+        "papers": 11
+      },
+      {
+        "term": "Body Temperature",
+        "papers": 11
+      }
+    ],
+    "claims": [
+      {
+        "id": "cancer",
+        "label": "Cancer",
+        "papers": 16,
+        "designs": {
+          "review": 4,
+          "clinical_trial": 5,
+          "rct": 2,
+          "human_observational": 5
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "1b",
+          "label": "individual randomised trial"
+        },
+        "evidence_lines": [
+          {
+            "design": "rct",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Randomized Controlled Trial"
+            ],
+            "papers": 2,
+            "pmids": [
+              "1099449",
+              "6271846"
+            ]
+          },
+          {
+            "design": "clinical_trial",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Clinical Trial"
+            ],
+            "papers": 5,
+            "pmids": [
+              "1091664",
+              "6262541",
+              "6263762",
+              "50159",
+              "231736"
+            ]
+          },
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 5,
+            "pmids": [
+              "6269423",
+              "6244418",
+              "6298477",
+              "32516121",
+              "6271845"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 4,
+            "pmids": [
+              "32335286",
+              "9148653",
+              "25669486",
+              "6271519"
+            ]
+          }
+        ],
+        "pmids": [
+          "32335286",
+          "1091664",
+          "9148653",
+          "1099449",
+          "25669486",
+          "6262541",
+          "6263762",
+          "6269423",
+          "50159",
+          "6271519",
+          "6244418",
+          "6298477"
+        ]
+      },
+      {
+        "id": "nausea",
+        "label": "Nausea and appetite",
+        "papers": 16,
+        "designs": {
+          "review": 2,
+          "rct": 3,
+          "clinical_trial": 6,
+          "human_observational": 4,
+          "animal": 1
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "1b",
+          "label": "individual randomised trial"
+        },
+        "evidence_lines": [
+          {
+            "design": "rct",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Randomized Controlled Trial"
+            ],
+            "papers": 3,
+            "pmids": [
+              "1099449",
+              "6261926",
+              "6271846"
+            ]
+          },
+          {
+            "design": "clinical_trial",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Clinical Trial"
+            ],
+            "papers": 6,
+            "pmids": [
+              "6262541",
+              "6246424",
+              "6263762",
+              "6246422",
+              "6246423",
+              "231736"
+            ]
+          },
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 4,
+            "pmids": [
+              "6269423",
+              "6244418",
+              "6298477",
+              "6271845"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "5111999"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 2,
+            "pmids": [
+              "9148653",
+              "6271519"
+            ]
+          }
+        ],
+        "pmids": [
+          "9148653",
+          "1099449",
+          "6262541",
+          "6246424",
+          "6263762",
+          "6269423",
+          "5111999",
+          "6261926",
+          "6271519",
+          "6246422",
+          "6246423",
+          "6244418"
+        ]
+      },
+      {
+        "id": "pain",
+        "label": "Pain relief",
+        "papers": 7,
+        "designs": {
+          "clinical_trial": 2,
+          "other": 1,
+          "review": 2,
+          "animal": 2
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual controlled study"
+        },
+        "evidence_lines": [
+          {
+            "design": "clinical_trial",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Clinical Trial"
+            ],
+            "papers": 2,
+            "pmids": [
+              "1091664",
+              "50159"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "1324767",
+              "6244965"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 2,
+            "pmids": [
+              "40877567",
+              "24819592"
+            ]
+          }
+        ],
+        "pmids": [
+          "1091664",
+          "32197091",
+          "40877567",
+          "50159",
+          "1324767",
+          "24819592",
+          "6244965"
+        ]
+      },
+      {
+        "id": "sleep",
+        "label": "Sleep and sedation",
+        "papers": 7,
+        "designs": {
+          "human_observational": 1,
+          "clinical_trial": 3,
+          "animal": 3
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual controlled study"
+        },
+        "evidence_lines": [
+          {
+            "design": "clinical_trial",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Clinical Trial"
+            ],
+            "papers": 3,
+            "pmids": [
+              "4337346",
+              "6299682",
+              "4698562"
+            ]
+          },
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "6315913"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 3,
+            "pmids": [
+              "4355439",
+              "6243536",
+              "6269951"
+            ]
+          }
+        ],
+        "pmids": [
+          "6315913",
+          "4337346",
+          "4355439",
+          "6243536",
+          "6299682",
+          "4698562",
+          "6269951"
+        ]
+      },
+      {
+        "id": "epilepsy",
+        "label": "Seizure disorders",
+        "papers": 4,
+        "designs": {
+          "review": 1,
+          "human_observational": 2,
+          "animal": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 2,
+            "pmids": [
+              "6278353",
+              "6315913"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "108700"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "32335286"
+            ]
+          }
+        ],
+        "pmids": [
+          "32335286",
+          "6278353",
+          "108700",
+          "6315913"
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Focus and memory",
+        "papers": 2,
+        "designs": {
+          "human_observational": 1,
+          "review": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "40694686"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "24819592"
+            ]
+          }
+        ],
+        "pmids": [
+          "40694686",
+          "24819592"
+        ]
+      },
+      {
+        "id": "anti-inflammatory",
+        "label": "Anti-inflammatory",
+        "papers": 1,
+        "designs": {
+          "review": 1
+        },
+        "evidence_level": "review_only",
+        "eco": {
+          "id": "ECO:0000033",
+          "label": "author statement supported by traceable reference"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "expert review without primary human data"
+        },
+        "evidence_lines": [
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "32335286"
+            ]
+          }
+        ],
+        "pmids": [
+          "32335286"
+        ]
+      },
+      {
+        "id": "anxiety",
+        "label": "Anxiety and calm",
+        "papers": 1,
+        "designs": {
+          "clinical_trial": 1
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual controlled study"
+        },
+        "evidence_lines": [
+          {
+            "design": "clinical_trial",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Clinical Trial"
+            ],
+            "papers": 1,
+            "pmids": [
+              "329423"
+            ]
+          }
+        ],
+        "pmids": [
+          "329423"
+        ]
+      },
+      {
+        "id": "antioxidant",
+        "label": "Antioxidant",
+        "papers": 1,
+        "designs": {
+          "human_observational": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "39956317"
+            ]
+          }
+        ],
+        "pmids": [
+          "39956317"
+        ]
+      },
+      {
+        "id": "neuroprotection",
+        "label": "Neuroprotection",
+        "papers": 1,
+        "designs": {
+          "review": 1
+        },
+        "evidence_level": "review_only",
+        "eco": {
+          "id": "ECO:0000033",
+          "label": "author statement supported by traceable reference"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "expert review without primary human data"
+        },
+        "evidence_lines": [
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "32335286"
+            ]
+          }
+        ],
+        "pmids": [
+          "32335286"
+        ]
+      }
+    ],
+    "years": {
+      "from": 1971,
+      "to": 2026
+    },
+    "basis": "MeSH indexing and publication types of the most relevant PubMed records; counts are of papers in the sample, not findings.",
+    "vocabulary": {
+      "evidence_type": "ECO (Evidence & Conclusion Ontology)",
+      "study_design": "MeSH Publication Types",
+      "strength": "Oxford CEBM 2009 levels",
+      "structure": "SEPIO assertion / evidence line / evidence item"
+    },
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=delta-9-tetrahydrocannabinol%5BAll%20Fields%5D"
+  },
+  "trials": {
+    "total": 2,
+    "matched_loosely": 234,
+    "studies": [
+      {
+        "nct_id": "NCT02576912",
+        "title": "Testing the Interactive Effects of Delta-9-Tetrahydrocannabinol and Pregnenolone",
+        "status": "COMPLETED",
+        "phases": [
+          "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Healthy"
+        ],
+        "interventions": [
+          "Active Delta-9-THC",
+          "Active Pregnenolone",
+          "Placebo",
+          "Placebo"
+        ],
+        "sponsor": "Yale University",
+        "enrollment": 38,
+        "start_date": "2015-02",
+        "completion_date": "2019-06-24",
+        "summary": "The overall purpose of this study is to examine the effect of pregnenolone (PREG) on the acute psychosis-like and cognitive effects of Delta-9-tetrahydrocannabinol (THC). This will be tested by pretreating healthy individuals with PREG and then assessing their responses to THC.",
+        "url": "https://clinicaltrials.gov/study/NCT02576912"
+      },
+      {
+        "nct_id": "NCT01502046",
+        "title": "Neuroprotection by Cannabinoids in Huntington's Disease",
+        "status": "COMPLETED",
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Huntington's Disease"
+        ],
+        "interventions": [
+          "delta-9-tetrahydrocannabinol (THC) and cannabidiol (CBD)",
+          "Placebo"
+        ],
+        "sponsor": "Fundacion para la Investigacion Biomedica del Hospital Universitario Ramon y Cajal",
+        "enrollment": 25,
+        "start_date": "2011-09",
+        "completion_date": "2012-06",
+        "summary": "Huntington's disease (HD) is a progressive neurodegenerative disorder, related to an abnormal expansion of CAG triplets in the huntingtin gene, characterized by motor, cognitive and behavioral abnormalities, without known effective symptomatic treatment and without known disease slowing strategy. The most severe neuropathological lesions observed in HD take place in the striatum, one brain area important in motor control and rich in cannabinoid receptors (CBR). CBR are subdivided in two classes: CB1R are located in neurons and play a role in neuronal function; CB2R in brain are located mostly ",
+        "url": "https://clinicaltrials.gov/study/NCT01502046"
+      }
+    ],
+    "source": "ClinicalTrials.gov",
+    "search_url": "https://clinicaltrials.gov/search?intr=delta-9-tetrahydrocannabinol"
+  },
+  "retrieved": "2026-09-18",
+  "evidence": "Declared on 16 of 16 WYLD flavors at 1–5–10mg per gummy.",
+  "summary": "The primary intoxicating cannabinoid in cannabis, and the common denominator of every WYLD gummy."
+}

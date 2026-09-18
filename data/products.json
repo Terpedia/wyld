@@ -1,0 +1,934 @@
+{
+  "source": "https://www.wyldcanna.com/",
+  "snapshot_date": "2026-09-18",
+  "note": "One record per flavor on the public wyldcanna.com catalog. Cannabinoid amounts are the doses printed on the pack (per gummy and per container); Wyld publishes no per-product analytical profile on these pages, so molecule lists are declared pack facts, not laboratory measurements. Molecule ids resolve to records in data/molecules/. Kiwi and Prickly Pear declare a botanical terpene blend on the pack; the effect tag is the brand's own.",
+  "products": [
+    {
+      "name": "Blood Orange",
+      "handle": "blood-orange",
+      "mood": "Bliss",
+      "mood_color": "#e65626",
+      "category": "Uplifting",
+      "strain": "Sativa Enhanced",
+      "ratio": "1:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Blood Orange 1:1 CBC + Sativa Enhanced Gummies",
+      "description": "Our Blood Orange CBC gummies are made with real fruit and a Sativa enhanced botanical terpene blend, making them a great addition to a day out and about. Whether eaten for a creative boost, or prepping for a dance party, you’ll be ready to go in no time. Inspired + Energetic",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBC",
+          "id": "cbc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC:10mg CBC per gummy",
+      "per_container": "100mg THC:100mg CBC per container",
+      "gummies_per_container": 10,
+      "great_for": "Carefree adventures",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Blood Orange Juice Concentrate, Gelatin, Natural Flavoring, Coconut Oil, Citric Acid, Malic Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Hemp Extract, Sunflower Lecithin.",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "cbc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Blood_Orange-Gummies-Shadow-1.png",
+        "src": "data/product-images/blood-orange.png",
+        "alt": "Blood Orange 1:1 CBC + Sativa Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/blood-orange/"
+    },
+    {
+      "name": "Boysenberry",
+      "handle": "boysenberry",
+      "mood": "Dream",
+      "mood_color": "#5a2469",
+      "category": "Relaxing",
+      "strain": "Indica Enhanced",
+      "ratio": "1:1:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Boysenberry 1:1:1 CBD:CBN + Indica Enhanced Gummies",
+      "description": "Perfect for deep sleep! Wyld Boysenberry’s 1:1:1 combination of THC, CBD, and CBN work together to soothe body and mind, making it the ideal blend for those seeking a deeper rest.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBD",
+          "id": "cbd",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBN",
+          "id": "cbn",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC:10mg CBD:10mg CBN per gummy",
+      "per_container": "100mg THC:100mg CBD:100mg CBN per package",
+      "gummies_per_container": 10,
+      "great_for": "Hitting the snooze button",
+      "serving_size": "1 piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Boysenberry Juice Blend (Blackberry Juice Concentrate, Raspberry Juice Concentrate, Boysenberry Juice Concentrate), Gelatin, Natural Flavoring, Malic Acid, Coconut Oil, Citric Acid, Pectin (Pectin, Sodium Citrate), Hemp Extract, Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "cbd",
+        "cbn"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Boysenberry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/boysenberry.png",
+        "alt": "Boysenberry 1:1:1 CBD:CBN + Indica Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/boysenberry/"
+    },
+    {
+      "name": "Elderberry",
+      "handle": "elderberry",
+      "mood": "Sleep",
+      "mood_color": "#002855",
+      "category": "Relaxing",
+      "strain": "Indica Enhanced",
+      "ratio": "2:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Elderberry 2:1 CBN + Indica Enhanced Gummies",
+      "description": "The best-selling infused gummy in the U.S., Wyld Elderberry gummies are enhanced with CBN, making them perfect for those looking to unwind and get a good night’s rest.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBN",
+          "id": "cbn",
+          "mg_per_gummy": 5,
+          "mg_per_container": 50
+        }
+      ],
+      "per_gummy": "10mg THC:5mg CBN per gummy",
+      "per_container": "100mg THC:50mg CBN per container",
+      "gummies_per_container": 10,
+      "great_for": "Preparing for sleep",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Elderberry Juice Concentrate, Gelatin, Natural Flavoring, Coconut Oil, Citric Acid, Malic Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Hemp Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "cbn"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Elderberry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/elderberry.png",
+        "alt": "Elderberry 2:1 CBN + Indica Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/elderberry/"
+    },
+    {
+      "name": "Grapefruit",
+      "handle": "grapefruit",
+      "mood": "Revive",
+      "mood_color": "#f6827e",
+      "category": "Balanced",
+      "strain": "Sativa Enhanced",
+      "ratio": "1:1:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Grapefruit 1:1:1 CBG:CBC + Sativa Enhanced Gummies",
+      "description": "Heighten every experience with Wyld Grapefruit gummies. Tailor-made with THC, CBG, and CBC, these real fruit gummies provide a clear-headed, energizing high.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBG",
+          "id": "cbg",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBC",
+          "id": "cbc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC:10mg CBG:10mg CBC per gummy",
+      "per_container": "100mg THC:100mg CBG:100mg CBC per container",
+      "gummies_per_container": 10,
+      "great_for": "Balancing body & mind",
+      "serving_size": "1 piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Gelatin, Grapefruit Juice Concentrate, Citric Acid, Coconut Oil, Natural Flavoring, Pectin (Pectin, Sodium Citrate), Malic Acid, Hemp Extract, Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "cbg",
+        "cbc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Grapefruit-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/grapefruit.png",
+        "alt": "Grapefruit 1:1:1 CBG:CBC + Sativa Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/grapefruit/"
+    },
+    {
+      "name": "Huckleberry",
+      "handle": "huckleberry",
+      "mood": "Playful",
+      "mood_color": "#074174",
+      "category": "Uplifting",
+      "strain": "Hybrid Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Huckleberry Hybrid Enhanced Gummies",
+      "description": "Also known as ‘chuckleberry,’ Wyld Huckleberry gummies are perfect for laughing the day away!",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Laughing with friends!",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Huckleberry Juice Concentrate, Gelatin, Natural Flavoring, Coconut Oil, Pectin (Pectin, Sodium Citrate), Citric Acid, Malic Acid, Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Huckleberry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/huckleberry.png",
+        "alt": "Huckleberry Hybrid Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/huckleberry/"
+    },
+    {
+      "name": "Kiwi",
+      "handle": "kiwi",
+      "mood": "Energy",
+      "mood_color": "#89c835",
+      "category": "Uplifting",
+      "strain": "Sativa Enhanced",
+      "ratio": "1:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Kiwi 1:1 THCv + Sativa Enhanced Gummies",
+      "description": "Our Kiwi gummies are tailor-made with real fruit and THCv to unlock your next level. With a 1 to 1 blend of THC and THCv, these uplifting gummies open up a Sativa experience that brings a boost of energy and focus to the typical THC high. Feeling Fuzzy? Time for Wyld’s Kiwi gummies.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "THCv",
+          "id": "thcv",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC:10mg THCv per gummy",
+      "per_container": "100mg THC:100mg THCv per container",
+      "gummies_per_container": 10,
+      "great_for": "A level up.",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Kiwi Juice Concentrate, Gelatin, Natural Flavoring, Coconut Oil, Malic Acid, Pectin (Pectin, Sodium Citrate), Citric Acid, Cannabis Extract, Sunflower Lecithin, Blue Spirulina, Beta Carotene, Terpenes (Limonene, Valencene, Alpha Pinene, Beta Caryophyllene, Beta Pinene)",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "thcv",
+        "limonene",
+        "valencene",
+        "alpha-pinene",
+        "beta-caryophyllene",
+        "beta-pinene"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/04/Wyld-10ct_Box-US_Fruit-Kiwi-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/kiwi.png",
+        "alt": "Kiwi 1:1 THCv + Sativa Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/kiwi/"
+    },
+    {
+      "name": "Marionberry",
+      "handle": "marionberry",
+      "mood": "Mellow",
+      "mood_color": "#5a2981",
+      "category": "Relaxing",
+      "strain": "Indica Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Marionberry Indica Enhanced Gummies",
+      "description": "Perfect for those looking to relax, Wyld’s Indica-enhanced Marionberry gummies combine delicious real-fruit flavor and THC for an easygoing, mellow experience.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Reducing the noise",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Marionberry Juice Concentrate, Gelatin, Natural Flavoring, Citric Acid, Malic Acid, Coconut Oil, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Marionberry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/marionberry.png",
+        "alt": "Marionberry Indica Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/marionberry/"
+    },
+    {
+      "name": "Peach",
+      "handle": "peach",
+      "mood": "Chill",
+      "mood_color": "#fdb525",
+      "category": "Relaxing",
+      "strain": "Hybrid Enhanced",
+      "ratio": "2:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Peach 2:1 CBD + Hybrid Enhanced Gummies",
+      "description": "A double dose of CBD paired with THC in Wyld Peach gummies turns mundane tasks into your new favorite adventure!",
+      "cannabinoids": [
+        {
+          "name": "CBD",
+          "id": "cbd",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 5,
+          "mg_per_container": 50
+        }
+      ],
+      "per_gummy": "10mg CBD:5mg THC per gummy",
+      "per_container": "100mg CBD:50mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Carefree enjoyment!",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Peach Juice Concentrate, Gelatin, Coconut Oil, Citric Acid, Natural Flavoring, Pectin (Pectin, Sodium Citrate), Hemp Extract, Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "cbd",
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Peach-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/peach.png",
+        "alt": "Peach 2:1 CBD + Hybrid Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/peach/"
+    },
+    {
+      "name": "Pear",
+      "handle": "pear",
+      "mood": "Refresh",
+      "mood_color": "#b7be10",
+      "category": "Balanced",
+      "strain": "Hybrid Enhanced",
+      "ratio": "1:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Pear 1:1 CBG + Hybrid Enhanced Gummies",
+      "description": "Combining CBG, THC, and real fruit ingredients, Wyld Pear gummies are a delicious way to support whole body recovery.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBG",
+          "id": "cbg",
+          "mg_per_gummy": 10
+        }
+      ],
+      "per_gummy": "10mg THC:10mg CBG per gummy",
+      "per_container": "100mg THC:100mg per container",
+      "gummies_per_container": 10,
+      "great_for": "Elevated recovery",
+      "serving_size": "1/2 piece (2g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Pear Juice Concentrate, Gelatin, Coconut Oil, Natural Flavoring, Citric Acid, Malic Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Hemp Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "cbg"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Pear-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/pear.png",
+        "alt": "Pear 1:1 CBG + Hybrid Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/pear/"
+    },
+    {
+      "name": "Pomegranate",
+      "handle": "pomegranate",
+      "mood": "Restore",
+      "mood_color": "#B11F28",
+      "category": "Balanced",
+      "strain": "Hybrid Enhanced",
+      "ratio": "1:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Pomegranate 1:1 CBD + Hybrid Enhanced Gummies",
+      "description": "Great for enhancing your equilibrium with CBD and THC, Wyld Pomegranate gummies help restore a sense of balance.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        },
+        {
+          "name": "CBD",
+          "id": "cbd",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC:10mg CBD per gummy",
+      "per_container": "100mg THC:100mg CBD per container",
+      "gummies_per_container": 10,
+      "great_for": "Supporting a balanced body",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Pomegranate Juice Concentrate, Gelatin, Natural Flavoring, Coconut Oil, Citric Acid, Malic Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Hemp Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc",
+        "cbd"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Pomegranate-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/pomegranate.png",
+        "alt": "Pomegranate 1:1 CBD + Hybrid Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/pomegranate/"
+    },
+    {
+      "name": "Prickly Pear",
+      "handle": "prickly-pear",
+      "mood": "Active",
+      "mood_color": "#d41773",
+      "category": "Uplifting",
+      "strain": "Sativa Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Prickly Pear THC Sativa Enhanced Gummies",
+      "description": "We’re not just launching a flavor, we’re protecting public lands. In partnership with The Conservation Alliance, a portion of every Wyld Prickly Pear gummy sold helps keep public lands public. Our limited-edition Prickly Pear gummies feature a bright, refreshing flavor and a Sativa-enhanced botanical terpene blend designed to support active, uplifting experiences. Crafted for days...",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Protecting and Enjoying Public Lands",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Prickly Pear Juice Concentrate, Gelatin, Coconut Oil, Natural Flavoring, Pectin (Pectin, Sodium Citrate), Citric Acid, Malic Acid, Cannabis Extract, Sunflower Lecithin.",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "New Mexico",
+        "Nevada",
+        "Oregon"
+      ],
+      "molecules": [
+        "thc",
+        "limonene",
+        "alpha-pinene",
+        "beta-pinene",
+        "valencene",
+        "beta-caryophyllene"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2026/05/Wyld-10ct_Box-US_Fruit-Prickly_Pear-Gummies-Shadow-998x1024.png",
+        "src": "data/product-images/prickly-pear.png",
+        "alt": "Prickly Pear THC Sativa Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/prickly-pear/"
+    },
+    {
+      "name": "Raspberry",
+      "handle": "raspberry",
+      "mood": "Active",
+      "mood_color": "#ce102c",
+      "category": "Uplifting",
+      "strain": "Sativa Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Raspberry Sativa Enhanced Gummies",
+      "description": "Elevate your day with Wyld Raspberry gummies. Blending lively real fruit flavor with Sativa terpenes, these Raspberry gummies create a euphoric head high that turns the ordinary into the extraordinary.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Enhancing moments",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Ingredients : Sugar, Tapioca Syrup, Water, Raspberry Juice Concentrate, Gelatin, Natural Flavoring, Citric Acid, Malic Acid, Coconut Oil, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Sunflower Lecithin Contains : Coconut",
+      "contains": null,
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Raspberry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/raspberry.png",
+        "alt": "Raspberry Sativa Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/raspberry/"
+    },
+    {
+      "name": "Sour Apple",
+      "handle": "sour-apple",
+      "mood": "Active",
+      "mood_color": "#2fa549",
+      "category": "Uplifting",
+      "strain": "Sativa Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Sour Apple Sativa Enhanced Gummies",
+      "description": "​Wyld’s mouth-watering Sour Apple gummies are infused with THC and Sativa terpenes for a vibrant, uplifting high.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Enhancing moments.",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Apple Juice Concentrate, Gelatin, Malic Acid, Coconut Oil, Natural Flavoring, Citric Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Fruit juice (color), Turmeric (color), Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Sour_Apple-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/sour-apple.png",
+        "alt": "Sour Apple Sativa Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/sour-apple/"
+    },
+    {
+      "name": "Sour Cherry",
+      "handle": "sour-cherry",
+      "mood": "Mellow",
+      "mood_color": "#ed1c24",
+      "category": "Relaxing",
+      "strain": "Indica Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Sour Cherry Indica Enhanced Gummies",
+      "description": "Wyld’s tart Sour Cherry gummies are infused with THC to provide mellow relaxation. These are perfect for those looking to kick back and chill!",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Reducing the noise",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Cherry Juice Concentrate, Gelatin, Malic Acid, Coconut Oil, Natural Flavoring, Citric Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Sour_Cherry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/sour-cherry.png",
+        "alt": "Sour Cherry Indica Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/sour-cherry/"
+    },
+    {
+      "name": "Sour Tangerine",
+      "handle": "sour-tangerine",
+      "mood": "Playful",
+      "mood_color": "#f49e23",
+      "category": "Uplifting",
+      "strain": "Hybrid Enhanced",
+      "ratio": null,
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Sour Tangerine Hybrid Enhanced Gummies",
+      "description": "Sweet, sour, delicious! Wyld Sour Tangerine gummies are infused with THC and Hybrid terpenes to create a refreshing, playful high.",
+      "cannabinoids": [
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 10,
+          "mg_per_container": 100
+        }
+      ],
+      "per_gummy": "10mg THC per gummy",
+      "per_container": "100mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "Laughter",
+      "serving_size": "1 piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Tangerine Juice Concentrate, Gelatin, Malic Acid, Coconut Oil, Natural Flavoring, Citric Acid, Pectin (Pectin, Sodium Citrate), Cannabis Extract, Sunflower Lecithin",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Sour_Tangerine-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/sour-tangerine.png",
+        "alt": "Sour Tangerine Hybrid Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/sour-tangerine/"
+    },
+    {
+      "name": "Strawberry",
+      "handle": "strawberry",
+      "mood": "Calm",
+      "mood_color": "#ef3a4d",
+      "category": "Relaxing",
+      "strain": "Hybrid Enhanced",
+      "ratio": "20:1",
+      "format": "Real-Fruit Cannabis Infused Gummies",
+      "full_name": "Strawberry 20:1 CBD + Hybrid Enhanced Gummies",
+      "description": "Wyld Strawberry gummies offer the relaxing effects of CBD enhanced with a gentle dose of THC.",
+      "cannabinoids": [
+        {
+          "name": "CBD",
+          "id": "cbd",
+          "mg_per_gummy": 20,
+          "mg_per_container": 200
+        },
+        {
+          "name": "THC",
+          "id": "thc",
+          "mg_per_gummy": 1,
+          "mg_per_container": 10
+        }
+      ],
+      "per_gummy": "20mg CBD:1mg THC per gummy",
+      "per_container": "200mg CBD:10mg THC per container",
+      "gummies_per_container": 10,
+      "great_for": "A sense of ease.",
+      "serving_size": "1 Piece (4g)",
+      "calories": 10,
+      "ingredients": "Sugar, Tapioca Syrup, Water, Strawberry Juice Concentrate, Gelatin, Natural Flavoring, Coconut Oil, Pectin (Pectin, Sodium Citrate), Citric Acid, Malic Acid, Hemp Extract, Sunflower Lecithin, Cannabis Extract",
+      "contains": "Coconut",
+      "regions": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Illinois",
+        "Maryland",
+        "Montana",
+        "New Mexico",
+        "Nevada",
+        "New York",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Washington"
+      ],
+      "molecules": [
+        "cbd",
+        "thc"
+      ],
+      "molecules_basis": "declared",
+      "image": {
+        "source": "https://www.wyldcanna.com/wp-content/uploads/2025/01/Wyld-10ct_Box-US_Fruit-Strawberry-Gummies-Shadow-997x1024.png",
+        "src": "data/product-images/strawberry.png",
+        "alt": "Strawberry 20:1 CBD + Hybrid Enhanced Gummies pack shot"
+      },
+      "source": "https://www.wyldcanna.com/us/products/strawberry/"
+    }
+  ]
+}

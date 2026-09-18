@@ -1,0 +1,799 @@
+{
+  "tile": "Mellow",
+  "id": "mellow",
+  "definition": "An easygoing, mellow unwind — the pack calls it reducing the noise.",
+  "areas": [
+    "anxiety",
+    "sleep",
+    "mood"
+  ],
+  "sense": "relaxing",
+  "molecules": [
+    {
+      "id": "cbd",
+      "name": "Cannabidiol",
+      "papers": 13,
+      "areas": [
+        "Anxiety and calm",
+        "Sleep and sedation",
+        "Mood"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 7
+        },
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "clinical_trial",
+          "papers": 1
+        },
+        {
+          "design": "review",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "peach",
+          "name": "Peach",
+          "mg": 10,
+          "dose": "10mg CBD:5mg THC per gummy"
+        },
+        {
+          "handle": "pomegranate",
+          "name": "Pomegranate",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD per gummy"
+        },
+        {
+          "handle": "strawberry",
+          "name": "Strawberry",
+          "mg": 20,
+          "dose": "20mg CBD:1mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "36604902",
+        "33059579",
+        "37659147",
+        "36169325",
+        "31013866",
+        "29083450",
+        "37163725",
+        "18833429",
+        "28268256",
+        "41459647"
+      ],
+      "score": 16.069
+    },
+    {
+      "id": "cbn",
+      "name": "Cannabinol",
+      "papers": 8,
+      "areas": [
+        "Sleep and sedation",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "rct",
+          "papers": 2
+        },
+        {
+          "design": "clinical_trial",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "elderberry",
+          "name": "Elderberry",
+          "mg": 5,
+          "dose": "10mg THC:5mg CBN per gummy"
+        }
+      ],
+      "pmids": [
+        "34468204",
+        "41698831",
+        "37162192",
+        "37612115",
+        "39528623",
+        "6499952",
+        "168604",
+        "40643195"
+      ],
+      "score": 10.537
+    },
+    {
+      "id": "thc",
+      "name": "Δ9-Tetrahydrocannabinol",
+      "papers": 8,
+      "areas": [
+        "Sleep and sedation",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "clinical_trial",
+          "papers": 3
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 3
+        },
+        {
+          "design": "clinical_trial",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "blood-orange",
+          "name": "Blood Orange",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBC per gummy"
+        },
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "elderberry",
+          "name": "Elderberry",
+          "mg": 10,
+          "dose": "10mg THC:5mg CBN per gummy"
+        },
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        },
+        {
+          "handle": "huckleberry",
+          "name": "Huckleberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": 10,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "marionberry",
+          "name": "Marionberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "peach",
+          "name": "Peach",
+          "mg": 5,
+          "dose": "10mg CBD:5mg THC per gummy"
+        },
+        {
+          "handle": "pear",
+          "name": "Pear",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG per gummy"
+        },
+        {
+          "handle": "pomegranate",
+          "name": "Pomegranate",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "raspberry",
+          "name": "Raspberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-apple",
+          "name": "Sour Apple",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-cherry",
+          "name": "Sour Cherry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-tangerine",
+          "name": "Sour Tangerine",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "strawberry",
+          "name": "Strawberry",
+          "mg": 1,
+          "dose": "20mg CBD:1mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "6315913",
+        "4337346",
+        "4355439",
+        "6243536",
+        "6299682",
+        "4698562",
+        "6269951",
+        "329423"
+      ],
+      "score": 10.537
+    },
+    {
+      "id": "cbc",
+      "name": "Cannabichromene",
+      "papers": 6,
+      "areas": [
+        "Mood",
+        "Sleep and sedation",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0007120",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "blood-orange",
+          "name": "Blood Orange",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBC per gummy"
+        },
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        }
+      ],
+      "pmids": [
+        "40358684",
+        "37414155",
+        "41934896",
+        "37162192",
+        "6323206",
+        "33230154"
+      ],
+      "score": 9.332
+    },
+    {
+      "id": "cbg",
+      "name": "Cannabigerol",
+      "papers": 4,
+      "areas": [
+        "Anxiety and calm",
+        "Mood"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        },
+        {
+          "handle": "pear",
+          "name": "Pear",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG per gummy"
+        }
+      ],
+      "pmids": [
+        "39003387",
+        "39322049",
+        "34182770",
+        "41934896"
+      ],
+      "score": 7.719
+    },
+    {
+      "id": "thcv",
+      "name": "Tetrahydrocannabivarin",
+      "papers": 3,
+      "areas": [
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": 10,
+          "dose": "10mg THC:10mg THCv per gummy"
+        }
+      ],
+      "pmids": [
+        "37721993",
+        "33230154",
+        "23103902"
+      ],
+      "score": 4.986
+    },
+    {
+      "id": "alpha-pinene",
+      "name": "α-Pinene",
+      "papers": 6,
+      "areas": [
+        "Anxiety and calm",
+        "Sleep and sedation"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "36241680",
+        "25340185",
+        "42025586",
+        "25230317",
+        "36241680",
+        "27573669"
+      ],
+      "score": 0
+    },
+    {
+      "id": "beta-caryophyllene",
+      "name": "β-Caryophyllene",
+      "papers": 9,
+      "areas": [
+        "Mood",
+        "Anxiety and calm",
+        "Sleep and sedation"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "41120021",
+        "29676236",
+        "31862467",
+        "24930711",
+        "30864870",
+        "36241680",
+        "24930711",
+        "30864870",
+        "36241680"
+      ],
+      "score": 0
+    },
+    {
+      "id": "beta-pinene",
+      "name": "β-Pinene",
+      "papers": 5,
+      "areas": [
+        "Mood",
+        "Anxiety and calm",
+        "Sleep and sedation"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "25771248",
+        "38012973",
+        "22867633",
+        "38012973",
+        "22867633"
+      ],
+      "score": 0
+    },
+    {
+      "id": "limonene",
+      "name": "Limonene",
+      "papers": 2,
+      "areas": [
+        "Anxiety and calm",
+        "Mood"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "39352146",
+        "38932560"
+      ],
+      "score": 0
+    }
+  ],
+  "molecules_with_research": 10,
+  "papers": 64,
+  "best_evidence": "human_trials",
+  "best_oxford": "1b",
+  "trials": [
+    {
+      "nct_id": "NCT05097651",
+      "title": "CBD for Sleep in People With HIV",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Sleep Disturbance"
+      ],
+      "interventions": [
+        "Cannabidiol oral solution",
+        "Inert sesame seed oil"
+      ],
+      "sponsor": "Mariana Cherner, PhD",
+      "enrollment": 0,
+      "start_date": "2021-04-01",
+      "completion_date": "2023-08-31",
+      "summary": "This study will obtain preliminary information about whether, and at what dose, cannabidiol (CBD) may help with insomnia in people living with human immunodeficiency virus (HIV). The study will be a 5-week randomized, double-blind placebo-controlled phase II trial using daily oral CBD doses between 50mg and 600mg. Sleep problems will be measured using a wrist-worn device and by self-report. Performance on tests of thinking skills will be compared before and after CBD/placebo treatment. Positive study results will provide support for the use of CBD as a potential treatment for insomnia.",
+      "url": "https://clinicaltrials.gov/study/NCT05097651",
+      "molecule": "Cannabidiol",
+      "molecule_id": "cbd"
+    },
+    {
+      "nct_id": "NCT03310593",
+      "title": "Cannabidiol as an Adjunctive Treatment for Bipolar Depression",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Bipolar Disorder",
+        "Bipolar Depression",
+        "Bipolar Affective Disorder"
+      ],
+      "interventions": [
+        "Cannabidiol",
+        "Placebo"
+      ],
+      "sponsor": "Hospital de Clinicas de Porto Alegre",
+      "enrollment": 36,
+      "start_date": "2017-11-01",
+      "completion_date": "2020-02-24",
+      "summary": "Depressive symptoms are associated with significant psychosocial impairment. However, current treatments of bipolar depression are only partially effective.\n\nCannabidiol is a natural component of cannabis without psychotomimetic or addictive properties. Cannabidiol has been shown to produce therapeutic effects including anticonvulsive, anxiolytic, antipsychotic and neuroprotective effects. The investigators hypothesize that treatment with cannabidiol will result in improvement of depressive and anxiety symptoms, as well as, improvement in functioning and inflammatory biomarkers. During the cli",
+      "url": "https://clinicaltrials.gov/study/NCT03310593",
+      "molecule": "Cannabidiol",
+      "molecule_id": "cbd"
+    },
+    {
+      "nct_id": "NCT07821840",
+      "title": "CannaRiver CBD Calm for Anxiety, Sleep, and Well-Being in Adults With Generalized Anxiety Disorder",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "NA"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Generalized Anxiety Disorder"
+      ],
+      "interventions": [
+        "Cannabidiol (CBD) With Cannabinol (CBN) and Cannabigerol (CBG) Oral Tincture (CannaRiver CBD Calm)"
+      ],
+      "sponsor": "Associação Pan-Americana Multidisciplinar de Endocanabinologia",
+      "enrollment": 60,
+      "start_date": "2026-11-01",
+      "completion_date": "2027-03-01",
+      "summary": "This open-label, single-group, non-randomized interventional study will evaluate longitudinal changes in anxiety symptoms, sleep quality, psychological well-being, treatment adherence, tolerability, and safety in adults with clinician-confirmed generalized anxiety disorder. Participants will receive CannaRiver CBD Calm, an oral/sublingual broad-spectrum cannabinoid tincture containing cannabidiol (CBD), cannabinol (CBN), and cannabigerol (CBG), at a protocol dose of 0.5 mL approximately every 12 hours for 8 weeks. Follow-up will continue through Week 12. The study has no placebo or concurrent ",
+      "url": "https://clinicaltrials.gov/study/NCT07821840",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT05257044",
+      "title": "Acute Effects of Cannabigerol",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Focus: To Examine Acute Effects of CBG on Anxiety, Stress, and Cognition"
+      ],
+      "interventions": [
+        "Cannabigerol",
+        "Placebo"
+      ],
+      "sponsor": "Washington State University",
+      "enrollment": 38,
+      "start_date": "2022-03-24",
+      "completion_date": "2023-11-28",
+      "summary": "The purpose of this study is to examine the effects of hemp-derived cannabigerol (CBG) on anxiety, stress, mood, and cognition. Further, the severity of various side effects of CBG (sleepiness, dry mouth, dry eyes, increased appetite) will be assessed. As such, the study is focused on better understanding some of the potentially beneficial and detrimental effects of CBG on humans.",
+      "url": "https://clinicaltrials.gov/study/NCT05257044",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT05088018",
+      "title": "Swallowable Cannabigerol Tablets for Sleep Quality In Veterans (Veterans Exploring Cannabigerol for Sleep)",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Sleep"
+      ],
+      "interventions": [
+        "Cannabigerol",
+        "Placebo"
+      ],
+      "sponsor": "Chris Emerson",
+      "enrollment": 68,
+      "start_date": "2021-10-11",
+      "completion_date": "2022-05-09",
+      "summary": "New methods for the treatment and support of Veterans experiencing sleep issues is critically needed. LEVEL's unique, targeted effects-based cannabis products provide a unique opportunity to study the therapeutic safety and efficacy of cannabigerol (a non-psychoactive cannabinoid) with a controlled dosage. Study participants will participate in an interventional, placebo-controlled, triple-blind pre-post study design. Participants will have a four-week run-in phase followed by an eight-week treatment phase with a CBG ProtabTM or placebo ProtabTM in a swallowable tablet form. During the study, ",
+      "url": "https://clinicaltrials.gov/study/NCT05088018",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT05344170",
+      "title": "Cannabinol Use in Patients With Insomnia Disorder",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Insomnia Disorder"
+      ],
+      "interventions": [
+        "30 mg Cannabinol (CBN)",
+        "300 mg Cannabinol (CBN)",
+        "Placebo"
+      ],
+      "sponsor": "Woolcock Institute of Medical Research",
+      "enrollment": 20,
+      "start_date": "2022-08-24",
+      "completion_date": "2023-08-29",
+      "summary": "This study aims to investigate the acute effects of cannabinol (CBN) 30 mg and 300 mg, versus placebo, on sleep architecture and next-day functioning in adults aged 25-65 years with chronic insomnia disorder.",
+      "url": "https://clinicaltrials.gov/study/NCT05344170",
+      "molecule": "Cannabinol",
+      "molecule_id": "cbn"
+    }
+  ],
+  "products": [
+    {
+      "handle": "marionberry",
+      "name": "Marionberry",
+      "strain": "Indica Enhanced",
+      "dose": "10mg THC per gummy",
+      "great_for": "Reducing the noise"
+    },
+    {
+      "handle": "sour-cherry",
+      "name": "Sour Cherry",
+      "strain": "Indica Enhanced",
+      "dose": "10mg THC per gummy",
+      "great_for": "Reducing the noise"
+    }
+  ]
+}

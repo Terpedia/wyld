@@ -1,0 +1,509 @@
+{
+  "generated": "2026-09-18",
+  "basis": "Pack-declared cannabinoid doses and terpene blends; mg is milligrams per gummy.",
+  "molecules": {
+    "thc": [
+      {
+        "handle": "blood-orange",
+        "product": "Blood Orange",
+        "strain": "Sativa Enhanced",
+        "mood": "Bliss",
+        "claims": [
+          "Bliss"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBC per gummy",
+        "of": 2,
+        "rank": 1
+      },
+      {
+        "handle": "boysenberry",
+        "product": "Boysenberry",
+        "strain": "Indica Enhanced",
+        "mood": "Dream",
+        "claims": [
+          "Dream"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBD:10mg CBN per gummy",
+        "of": 3,
+        "rank": 1
+      },
+      {
+        "handle": "elderberry",
+        "product": "Elderberry",
+        "strain": "Indica Enhanced",
+        "mood": "Sleep",
+        "claims": [
+          "Sleep"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:5mg CBN per gummy",
+        "of": 2,
+        "rank": 1
+      },
+      {
+        "handle": "grapefruit",
+        "product": "Grapefruit",
+        "strain": "Sativa Enhanced",
+        "mood": "Revive",
+        "claims": [
+          "Revive"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBG:10mg CBC per gummy",
+        "of": 3,
+        "rank": 1
+      },
+      {
+        "handle": "huckleberry",
+        "product": "Huckleberry",
+        "strain": "Hybrid Enhanced",
+        "mood": "Playful",
+        "claims": [
+          "Playful"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 1,
+        "rank": 1
+      },
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 1
+      },
+      {
+        "handle": "marionberry",
+        "product": "Marionberry",
+        "strain": "Indica Enhanced",
+        "mood": "Mellow",
+        "claims": [
+          "Mellow"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 1,
+        "rank": 1
+      },
+      {
+        "handle": "peach",
+        "product": "Peach",
+        "strain": "Hybrid Enhanced",
+        "mood": "Chill",
+        "claims": [
+          "Chill"
+        ],
+        "mg": 5,
+        "dose": "10mg CBD:5mg THC per gummy",
+        "of": 2,
+        "rank": 2
+      },
+      {
+        "handle": "pear",
+        "product": "Pear",
+        "strain": "Hybrid Enhanced",
+        "mood": "Refresh",
+        "claims": [
+          "Refresh"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBG per gummy",
+        "of": 2,
+        "rank": 1
+      },
+      {
+        "handle": "pomegranate",
+        "product": "Pomegranate",
+        "strain": "Hybrid Enhanced",
+        "mood": "Restore",
+        "claims": [
+          "Restore"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBD per gummy",
+        "of": 2,
+        "rank": 1
+      },
+      {
+        "handle": "prickly-pear",
+        "product": "Prickly Pear",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 6,
+        "rank": 1
+      },
+      {
+        "handle": "raspberry",
+        "product": "Raspberry",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 1,
+        "rank": 1
+      },
+      {
+        "handle": "sour-apple",
+        "product": "Sour Apple",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 1,
+        "rank": 1
+      },
+      {
+        "handle": "sour-cherry",
+        "product": "Sour Cherry",
+        "strain": "Indica Enhanced",
+        "mood": "Mellow",
+        "claims": [
+          "Mellow"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 1,
+        "rank": 1
+      },
+      {
+        "handle": "sour-tangerine",
+        "product": "Sour Tangerine",
+        "strain": "Hybrid Enhanced",
+        "mood": "Playful",
+        "claims": [
+          "Playful"
+        ],
+        "mg": 10,
+        "dose": "10mg THC per gummy",
+        "of": 1,
+        "rank": 1
+      },
+      {
+        "handle": "strawberry",
+        "product": "Strawberry",
+        "strain": "Hybrid Enhanced",
+        "mood": "Calm",
+        "claims": [
+          "Calm"
+        ],
+        "mg": 1,
+        "dose": "20mg CBD:1mg THC per gummy",
+        "of": 2,
+        "rank": 2
+      }
+    ],
+    "cbc": [
+      {
+        "handle": "blood-orange",
+        "product": "Blood Orange",
+        "strain": "Sativa Enhanced",
+        "mood": "Bliss",
+        "claims": [
+          "Bliss"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBC per gummy",
+        "of": 2,
+        "rank": 2
+      },
+      {
+        "handle": "grapefruit",
+        "product": "Grapefruit",
+        "strain": "Sativa Enhanced",
+        "mood": "Revive",
+        "claims": [
+          "Revive"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBG:10mg CBC per gummy",
+        "of": 3,
+        "rank": 3
+      }
+    ],
+    "cbd": [
+      {
+        "handle": "boysenberry",
+        "product": "Boysenberry",
+        "strain": "Indica Enhanced",
+        "mood": "Dream",
+        "claims": [
+          "Dream"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBD:10mg CBN per gummy",
+        "of": 3,
+        "rank": 2
+      },
+      {
+        "handle": "peach",
+        "product": "Peach",
+        "strain": "Hybrid Enhanced",
+        "mood": "Chill",
+        "claims": [
+          "Chill"
+        ],
+        "mg": 10,
+        "dose": "10mg CBD:5mg THC per gummy",
+        "of": 2,
+        "rank": 1
+      },
+      {
+        "handle": "pomegranate",
+        "product": "Pomegranate",
+        "strain": "Hybrid Enhanced",
+        "mood": "Restore",
+        "claims": [
+          "Restore"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBD per gummy",
+        "of": 2,
+        "rank": 2
+      },
+      {
+        "handle": "strawberry",
+        "product": "Strawberry",
+        "strain": "Hybrid Enhanced",
+        "mood": "Calm",
+        "claims": [
+          "Calm"
+        ],
+        "mg": 20,
+        "dose": "20mg CBD:1mg THC per gummy",
+        "of": 2,
+        "rank": 1
+      }
+    ],
+    "cbn": [
+      {
+        "handle": "boysenberry",
+        "product": "Boysenberry",
+        "strain": "Indica Enhanced",
+        "mood": "Dream",
+        "claims": [
+          "Dream"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBD:10mg CBN per gummy",
+        "of": 3,
+        "rank": 3
+      },
+      {
+        "handle": "elderberry",
+        "product": "Elderberry",
+        "strain": "Indica Enhanced",
+        "mood": "Sleep",
+        "claims": [
+          "Sleep"
+        ],
+        "mg": 5,
+        "dose": "10mg THC:5mg CBN per gummy",
+        "of": 2,
+        "rank": 2
+      }
+    ],
+    "cbg": [
+      {
+        "handle": "grapefruit",
+        "product": "Grapefruit",
+        "strain": "Sativa Enhanced",
+        "mood": "Revive",
+        "claims": [
+          "Revive"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBG:10mg CBC per gummy",
+        "of": 3,
+        "rank": 2
+      },
+      {
+        "handle": "pear",
+        "product": "Pear",
+        "strain": "Hybrid Enhanced",
+        "mood": "Refresh",
+        "claims": [
+          "Refresh"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg CBG per gummy",
+        "of": 2,
+        "rank": 2
+      }
+    ],
+    "thcv": [
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": 10,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 2
+      }
+    ],
+    "limonene": [
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": null,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 3
+      },
+      {
+        "handle": "prickly-pear",
+        "product": "Prickly Pear",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": null,
+        "dose": "10mg THC per gummy",
+        "of": 6,
+        "rank": 2
+      }
+    ],
+    "valencene": [
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": null,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 4
+      },
+      {
+        "handle": "prickly-pear",
+        "product": "Prickly Pear",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": null,
+        "dose": "10mg THC per gummy",
+        "of": 6,
+        "rank": 5
+      }
+    ],
+    "alpha-pinene": [
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": null,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 5
+      },
+      {
+        "handle": "prickly-pear",
+        "product": "Prickly Pear",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": null,
+        "dose": "10mg THC per gummy",
+        "of": 6,
+        "rank": 3
+      }
+    ],
+    "beta-caryophyllene": [
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": null,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 6
+      },
+      {
+        "handle": "prickly-pear",
+        "product": "Prickly Pear",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": null,
+        "dose": "10mg THC per gummy",
+        "of": 6,
+        "rank": 6
+      }
+    ],
+    "beta-pinene": [
+      {
+        "handle": "kiwi",
+        "product": "Kiwi",
+        "strain": "Sativa Enhanced",
+        "mood": "Energy",
+        "claims": [
+          "Energy"
+        ],
+        "mg": null,
+        "dose": "10mg THC:10mg THCv per gummy",
+        "of": 7,
+        "rank": 7
+      },
+      {
+        "handle": "prickly-pear",
+        "product": "Prickly Pear",
+        "strain": "Sativa Enhanced",
+        "mood": "Active",
+        "claims": [
+          "Active"
+        ],
+        "mg": null,
+        "dose": "10mg THC per gummy",
+        "of": 6,
+        "rank": 4
+      }
+    ]
+  }
+}

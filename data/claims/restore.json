@@ -1,0 +1,1251 @@
+{
+  "tile": "Restore",
+  "id": "restore",
+  "definition": "Equilibrium and a sense of balance from 1:1 THC:CBD.",
+  "areas": [
+    "pain",
+    "anti-inflammatory",
+    "anxiety"
+  ],
+  "sense": "balanced",
+  "molecules": [
+    {
+      "id": "cbd",
+      "name": "Cannabidiol",
+      "papers": 34,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 7
+        },
+        {
+          "design": "human_observational",
+          "papers": 3
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 6
+        },
+        {
+          "design": "human_observational",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 7
+        }
+      ],
+      "products": [
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "peach",
+          "name": "Peach",
+          "mg": 10,
+          "dose": "10mg CBD:5mg THC per gummy"
+        },
+        {
+          "handle": "pomegranate",
+          "name": "Pomegranate",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD per gummy"
+        },
+        {
+          "handle": "strawberry",
+          "name": "Strawberry",
+          "mg": 20,
+          "dose": "20mg CBD:1mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "32253591",
+        "36056846",
+        "35093803",
+        "28191662",
+        "34583522",
+        "35881839",
+        "38191853",
+        "38829467",
+        "25703248",
+        "18833429"
+      ],
+      "score": 16.237
+    },
+    {
+      "id": "cbg",
+      "name": "Cannabigerol",
+      "papers": 26,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 5
+        },
+        {
+          "design": "animal",
+          "papers": 6
+        },
+        {
+          "design": "review",
+          "papers": 3
+        },
+        {
+          "design": "human_observational",
+          "papers": 3
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        },
+        {
+          "handle": "pear",
+          "name": "Pear",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG per gummy"
+        }
+      ],
+      "pmids": [
+        "39598860",
+        "40725084",
+        "37057997",
+        "41423277",
+        "40818359",
+        "35910331",
+        "41548647",
+        "41934896",
+        "38889235",
+        "35456990"
+      ],
+      "score": 15.806
+    },
+    {
+      "id": "thcv",
+      "name": "Tetrahydrocannabivarin",
+      "papers": 26,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 9
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 2
+        },
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": 10,
+          "dose": "10mg THC:10mg THCv per gummy"
+        }
+      ],
+      "pmids": [
+        "34242511",
+        "37830604",
+        "37108282",
+        "20590571",
+        "22155112",
+        "37764262",
+        "42151379",
+        "36769042",
+        "29632236",
+        "21470208"
+      ],
+      "score": 15.806
+    },
+    {
+      "id": "cbn",
+      "name": "Cannabinol",
+      "papers": 14,
+      "areas": [
+        "Pain relief",
+        "Anti-inflammatory",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 5
+        },
+        {
+          "design": "rct",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "elderberry",
+          "name": "Elderberry",
+          "mg": 5,
+          "dose": "10mg THC:5mg CBN per gummy"
+        }
+      ],
+      "pmids": [
+        "32061146",
+        "35462181",
+        "31120286",
+        "36232059",
+        "32179573",
+        "27231154",
+        "42151379",
+        "35770374",
+        "37764262",
+        "29238967"
+      ],
+      "score": 12.987
+    },
+    {
+      "id": "cbc",
+      "name": "Cannabichromene",
+      "papers": 25,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 9
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 5
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "blood-orange",
+          "name": "Blood Orange",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBC per gummy"
+        },
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        }
+      ],
+      "pmids": [
+        "27435265",
+        "37057997",
+        "7401911",
+        "41205744",
+        "41934896",
+        "37332213",
+        "38889235",
+        "41213439",
+        "23373571",
+        "7298870"
+      ],
+      "score": 11.719
+    },
+    {
+      "id": "thc",
+      "name": "Δ9-Tetrahydrocannabinol",
+      "papers": 9,
+      "areas": [
+        "Pain relief",
+        "Anti-inflammatory",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "clinical_trial",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "clinical_trial",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "blood-orange",
+          "name": "Blood Orange",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBC per gummy"
+        },
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "elderberry",
+          "name": "Elderberry",
+          "mg": 10,
+          "dose": "10mg THC:5mg CBN per gummy"
+        },
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        },
+        {
+          "handle": "huckleberry",
+          "name": "Huckleberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": 10,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "marionberry",
+          "name": "Marionberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "peach",
+          "name": "Peach",
+          "mg": 5,
+          "dose": "10mg CBD:5mg THC per gummy"
+        },
+        {
+          "handle": "pear",
+          "name": "Pear",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG per gummy"
+        },
+        {
+          "handle": "pomegranate",
+          "name": "Pomegranate",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "raspberry",
+          "name": "Raspberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-apple",
+          "name": "Sour Apple",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-cherry",
+          "name": "Sour Cherry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-tangerine",
+          "name": "Sour Tangerine",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "strawberry",
+          "name": "Strawberry",
+          "mg": 1,
+          "dose": "20mg CBD:1mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "1091664",
+        "32197091",
+        "40877567",
+        "50159",
+        "1324767",
+        "24819592",
+        "6244965",
+        "32335286",
+        "329423"
+      ],
+      "score": 11.043
+    },
+    {
+      "id": "alpha-pinene",
+      "name": "α-Pinene",
+      "papers": 23,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 3
+        },
+        {
+          "design": "animal",
+          "papers": 12
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "40015205",
+        "38494527",
+        "39727379",
+        "37329479",
+        "37789204",
+        "39534602",
+        "32689608",
+        "39298016",
+        "24455984",
+        "30521868"
+      ],
+      "score": 0
+    },
+    {
+      "id": "beta-caryophyllene",
+      "name": "β-Caryophyllene",
+      "papers": 43,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 21
+        },
+        {
+          "design": "review",
+          "papers": 5
+        },
+        {
+          "design": "animal",
+          "papers": 7
+        },
+        {
+          "design": "review",
+          "papers": 2
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "41120021",
+        "31841509",
+        "33114564",
+        "38744071",
+        "37762646",
+        "32205230",
+        "38542177",
+        "35792574",
+        "36555694",
+        "37241885"
+      ],
+      "score": 0
+    },
+    {
+      "id": "beta-pinene",
+      "name": "β-Pinene",
+      "papers": 6,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "human_observational",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "28106736",
+        "36113677",
+        "34072723",
+        "17893834",
+        "36113677",
+        "38012973"
+      ],
+      "score": 0
+    },
+    {
+      "id": "limonene",
+      "name": "Limonene",
+      "papers": 17,
+      "areas": [
+        "Anti-inflammatory",
+        "Pain relief",
+        "Anxiety and calm"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000033",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "systematic_review",
+          "papers": 1
+        },
+        {
+          "design": "human_observational",
+          "papers": 3
+        },
+        {
+          "design": "animal",
+          "papers": 6
+        },
+        {
+          "design": "review",
+          "papers": 3
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "34361686",
+        "29427589",
+        "40650139",
+        "40986263",
+        "41366672",
+        "40443223",
+        "38540754",
+        "32220222",
+        "38308792",
+        "32514601"
+      ],
+      "score": 0
+    },
+    {
+      "id": "valencene",
+      "name": "Valencene",
+      "papers": 5,
+      "areas": [
+        "Anti-inflammatory"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "35469837",
+        "36076580",
+        "37536183",
+        "21843620",
+        "29675712"
+      ],
+      "score": 0
+    }
+  ],
+  "molecules_with_research": 11,
+  "papers": 228,
+  "best_evidence": "human_trials",
+  "best_oxford": "1b",
+  "trials": [
+    {
+      "nct_id": "NCT04451863",
+      "title": "Analgesic and Subjective Effects of Terpenes",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Pain",
+        "Abuse, Drug"
+      ],
+      "interventions": [
+        "Low THC",
+        "High THC",
+        "Low Myrcene",
+        "High Myrcene",
+        "Low Beta-Caryophyllene",
+        "High Beta-Caryophyllene",
+        "Placebo"
+      ],
+      "sponsor": "University of California, Los Angeles",
+      "enrollment": 45,
+      "start_date": "2021-12-15",
+      "completion_date": "2025-11-12",
+      "summary": "The purpose of this research is to assess the analgesic and subjective effects of terpenes administered alone and in combination of THC.",
+      "url": "https://clinicaltrials.gov/study/NCT04451863",
+      "molecule": "β-Caryophyllene",
+      "molecule_id": "beta-caryophyllene"
+    },
+    {
+      "nct_id": "NCT06218407",
+      "title": "Development and Evaluation of Computerized Chemosensory Based Orbitofrontal Networks Training for Treatment of Pain",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Chronic Pain",
+        "Low Back Pain"
+      ],
+      "interventions": [
+        "Computerized Chemosensory-Based Orbitofrontal Cortex Training (CBOT) short burst paradigm",
+        "Computerized Chemosensory-Based Orbitofrontal Cortex Training (CBOT) long burst paradigm",
+        "Computerized Chemosensory-Based Orbitofrontal Cortex Training plus beta caryophyllene (CBOT-Plus)",
+        "Computerized Chemosensory-Based Orbitofrontal Cortex Training (CBOT)"
+      ],
+      "sponsor": "Evon Medics LLC",
+      "enrollment": 86,
+      "start_date": "2023-04-27",
+      "completion_date": "2023-09-15",
+      "summary": "The overarching goal of this study phase, Phase I component is to configure Computerized Chemosensory-Based Orbitofrontal Networks Training (CBOT) into Computerized Chemosensory-Based Orbitofrontal Networks Training for Treatment of Pain CBOT-Pain (or CBOT-P) for rapid and sustained reduction of Pain, Negative Affect (NA) and Cognitive Impairments. The investigators aimed at first establishing if stimulation parameters targeting key olfactory regions, and their associated networks, paired with tasks that synergistically activate the orbitofrontal cortex (OFC) would have significantly different",
+      "url": "https://clinicaltrials.gov/study/NCT06218407",
+      "molecule": "β-Caryophyllene",
+      "molecule_id": "beta-caryophyllene"
+    },
+    {
+      "nct_id": "NCT03152578",
+      "title": "Topical Use of 20% Beta Caryophyllene Alone And In Combination With 0.025% Capsaicin for Pain Caused by Osteoarthritis Of The Knee",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Pain"
+      ],
+      "interventions": [
+        "BetaC + Capsaicin Topical Cream",
+        "BetaC Topical Cream",
+        "Placebo Topical Cream"
+      ],
+      "sponsor": "Panag Pharma Inc.",
+      "enrollment": 56,
+      "start_date": "2017-07-01",
+      "completion_date": "2019-06-30",
+      "summary": "This study consists of a randomized, double-blind, placebo-controlled crossover trial with open label extension evaluating a topical natural health cream containing ß-caryophyllene alone and in combination with 0.025% capsicum oleoresin against placebo. At the end of the randomized controlled phase of the trial all participants will be given open-label combination cream to be administered over the subsequent 3 weeks.\n\nPrimary Endpoint: Evaluation of improvement in pain interference as measured by the BPI in individuals who are experiencing pain due to osteoarthritis of the knee.\n\nSecondary End",
+      "url": "https://clinicaltrials.gov/study/NCT03152578",
+      "molecule": "β-Caryophyllene",
+      "molecule_id": "beta-caryophyllene"
+    },
+    {
+      "nct_id": "NCT04794205",
+      "title": "Acute Changes In Thermal Pain Response Following Single Oral Dose of Beta-Cary",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Beta-Caryophyllene"
+      ],
+      "interventions": [
+        "Low Dose Beta-Caryophyllene",
+        "Medium Dose Beta-Caryophyllene",
+        "High Dose Beta-Caryophyllene",
+        "Placebo"
+      ],
+      "sponsor": "Hartford Hospital",
+      "enrollment": 0,
+      "start_date": "2021-09",
+      "completion_date": "2022-04",
+      "summary": "Beta-Caryophyllene is an essential oil and cannabis plant derivative also found in edible herbs. It has shown promise as a potential analgesic in preclinical trials. However, there are no human studies characterizing pharmacokinetics of BCP in humans. Therefore, it is of great importance to determine the pharmacokinetics of BCP in humans so that appropriate dosing can be developed for analgesia. This pharmacokinetic work will lay the groundwork for subsequent experiments testing the neural mechanism of BCP on pain.",
+      "url": "https://clinicaltrials.gov/study/NCT04794205",
+      "molecule": "β-Caryophyllene",
+      "molecule_id": "beta-caryophyllene"
+    },
+    {
+      "nct_id": "NCT06533657",
+      "title": "Unique Treatment of Oncology Pain in Advanced Cancer",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Cancer Pain"
+      ],
+      "interventions": [
+        "Trichomylin® capsule (5 mg delta-9-tetrahydrocannabinol: 5 mg cannabidiol: 5 mg cannabichromene)"
+      ],
+      "sponsor": "ZYUS Life Sciences Inc.",
+      "enrollment": 11,
+      "start_date": "2025-06-12",
+      "completion_date": "2026-04-15",
+      "summary": "This will be a proof-of-concept, single arm study with a maximum of 20 patients to evaluate preliminary analgesic efficacy and safety of Trichomylin® in patients with advanced cancer (male and female) who suffer from moderate to severe chronic pain and who are taking a stable dose of long-acting opioid therapy for at least 1 week prior to screening.",
+      "url": "https://clinicaltrials.gov/study/NCT06533657",
+      "molecule": "Cannabichromene",
+      "molecule_id": "cbc"
+    },
+    {
+      "nct_id": "NCT07087938",
+      "title": "Cannabichromene Safety in Rheumatoid Arthritis",
+      "status": "SUSPENDED",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Arthritis, Rheumatoid"
+      ],
+      "interventions": [
+        "Cannabichromene"
+      ],
+      "sponsor": "Crystal Lederhos Smith",
+      "enrollment": 25,
+      "start_date": "2028-07-15",
+      "completion_date": "2030-05-31",
+      "summary": "For this quantitative study, the investigators will collect data on human safety and side-effects of Cannabichromene (CBC) and whether CBC reduces blood inflammatory markers and Rheumatoid Arthritis (RA) disease activity. The participants will participate in an ABAB design with 2 doses of CBC across the A phases. They will attend 5 in-person clinic visits where they will have physical evaluations, complete self-report forms, and have blood drawn for the following tests: hs-CRP, ESR, IL-6, TNF, Complete Blood Count \\[CBC\\], and CMP.",
+      "url": "https://clinicaltrials.gov/study/NCT07087938",
+      "molecule": "Cannabichromene",
+      "molecule_id": "cbc"
+    },
+    {
+      "nct_id": "NCT04587791",
+      "title": "Cannabidiol in Opioid Use Disorder and Chronic Pain",
+      "status": "RECRUITING",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Chronic Pain",
+        "Opioid Use Disorder"
+      ],
+      "interventions": [
+        "400 mg Cannabidiol",
+        "800 mg Cannabidiol",
+        "1200 mg Cannabidiol",
+        "Beta carotene oral solution without CBD"
+      ],
+      "sponsor": "Yale University",
+      "enrollment": 34,
+      "start_date": "2021-12-08",
+      "completion_date": "2026-08-31",
+      "summary": "This is a randomized, placebo-controlled, crossover human laboratory study investigating the dose-dependent safety and acute effects of Cannabidiol (CBD) on measures of pain and opioid craving in outpatients with opioid use disorder (OUD) receiving medication-assisted treatment with methadone or buprenorphine. With a duration of approximately 4 weeks, participants will come to the testing site for a total of five times: one initial screening session, and four experimental sessions where study medication, CBD, will be administered, separated by at least 72 hours to limit carryover effects.",
+      "url": "https://clinicaltrials.gov/study/NCT04587791",
+      "molecule": "Cannabidiol",
+      "molecule_id": "cbd"
+    },
+    {
+      "nct_id": "NCT04059978",
+      "title": "Pain Response to Cannabidiol in Opioid-induced Hyperalgesia, Acute Nociceptive Pain and Allodynia By Using a Model Mimicking Acute Pain in Healthy Adults",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Acute Nociceptive Pain",
+        "Hyperalgesia",
+        "Allodynia",
+        "Opioid-induced Hyperalgesia"
+      ],
+      "interventions": [
+        "CBD",
+        "Placebo",
+        "Remifentanil"
+      ],
+      "sponsor": "University Hospital, Basel, Switzerland",
+      "enrollment": 21,
+      "start_date": "2020-05-26",
+      "completion_date": "2020-10-15",
+      "summary": "Prospective, randomized, placebo-controlled, double-blinded, crossover study to investigate the effect of cannabidiol (CBD) on remifentanil-induced hyperalgesia in healthy volunteers in a well-established acute pain model. Participants are randomized according to the order of the two treatments (CBD + Remifentanil or Placebo + Remifentanil).",
+      "url": "https://clinicaltrials.gov/study/NCT04059978",
+      "molecule": "Cannabidiol",
+      "molecule_id": "cbd"
+    },
+    {
+      "nct_id": "NCT05002114",
+      "title": "Evaluation of a Specific Transdermal Cannabidiol Product for Chronic Musculoskeletal Joint Pain.",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Musculoskeletal Joint Pain"
+      ],
+      "interventions": [
+        "Cannabidiol",
+        "Placebo"
+      ],
+      "sponsor": "Louisiana State University Health Sciences Center Shreveport",
+      "enrollment": 0,
+      "start_date": "2023-01",
+      "completion_date": "2023-01",
+      "summary": "Double-blind, randomized into two arms (TC and TP): patients get either topical cannabidiol or topical placebo up to three times daily. Inclusion criteria will be chronic joint pain with intent to treat or currently treated with opioids. Exclusion criteria will include current cannabis use, severe medical illness or lacking in capacity to be involved in study. TC and TP will be prescribed for use TID in predefined dosages and quantities.",
+      "url": "https://clinicaltrials.gov/study/NCT05002114",
+      "molecule": "Cannabidiol",
+      "molecule_id": "cbd"
+    },
+    {
+      "nct_id": "NCT07821840",
+      "title": "CannaRiver CBD Calm for Anxiety, Sleep, and Well-Being in Adults With Generalized Anxiety Disorder",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "NA"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Generalized Anxiety Disorder"
+      ],
+      "interventions": [
+        "Cannabidiol (CBD) With Cannabinol (CBN) and Cannabigerol (CBG) Oral Tincture (CannaRiver CBD Calm)"
+      ],
+      "sponsor": "Associação Pan-Americana Multidisciplinar de Endocanabinologia",
+      "enrollment": 60,
+      "start_date": "2026-11-01",
+      "completion_date": "2027-03-01",
+      "summary": "This open-label, single-group, non-randomized interventional study will evaluate longitudinal changes in anxiety symptoms, sleep quality, psychological well-being, treatment adherence, tolerability, and safety in adults with clinician-confirmed generalized anxiety disorder. Participants will receive CannaRiver CBD Calm, an oral/sublingual broad-spectrum cannabinoid tincture containing cannabidiol (CBD), cannabinol (CBN), and cannabigerol (CBG), at a protocol dose of 0.5 mL approximately every 12 hours for 8 weeks. Follow-up will continue through Week 12. The study has no placebo or concurrent ",
+      "url": "https://clinicaltrials.gov/study/NCT07821840",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT06513507",
+      "title": "A Clinical Study to Assess the Efficacy of Cannabigerol in Patients with Active Rheumatoid Arthritis.",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "NA"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Rheumatoid Arthritis",
+        "Inflammatory Disease"
+      ],
+      "interventions": [
+        "Cannabigerol (CBG)"
+      ],
+      "sponsor": "Raphael Pharma",
+      "enrollment": 12,
+      "start_date": "2024-06-03",
+      "completion_date": "2024-12-31",
+      "summary": "This is a single-group exploratory longitudinal prospective study lasting 8 weeks. The study aims to measure the efficacy of purified cannabigerol (CBG) in patients with active rheumatoid arthritis using laboratory and self-reported outcome measures.",
+      "url": "https://clinicaltrials.gov/study/NCT06513507",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT04859296",
+      "title": "AnalgeSiC and appEtite-stimulating Effects of caNnabigerol and THC (ASCENT)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Pain",
+        "Appetite Loss",
+        "Abuse, Drug"
+      ],
+      "interventions": [
+        "Placebo",
+        "Low CBG",
+        "High CBG",
+        "Low THC",
+        "High THC"
+      ],
+      "sponsor": "University of California, Los Angeles",
+      "enrollment": 20,
+      "start_date": "2023-02-15",
+      "completion_date": "2025-12-04",
+      "summary": "This study will assess the analgesic, appetite-stimulating, and subjective effects of cannabigerol (CBG) alone and in combination with THC.",
+      "url": "https://clinicaltrials.gov/study/NCT04859296",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT05743985",
+      "title": "Efficacy and Safety of Hemp-derived, Full Spectrum Cannabigerol (CBG) in Adults",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Health, Subjective",
+        "Inflammatory Response",
+        "Adverse Effect",
+        "Side Effect"
+      ],
+      "interventions": [
+        "Cannabigerol"
+      ],
+      "sponsor": "Formula30A LLC",
+      "enrollment": 69,
+      "start_date": "2022-08-01",
+      "completion_date": "2023-12-31",
+      "summary": "The goal of this observational study is to provide exploratory research into the in vivo physiological and psychological effects, if any, of cannabigerol (CBG) in healthy human adults age 21 or over.\n\nThe main questions it aims to answer are:\n\n* What effect, if any, does daily oral consumption of 50mg of full spectrum CBG have on the mental, physical, and emotional wellbeing of healthy individuals, as measured by self-report Medical Symptom Questionnaire and 36-Item Short Form Health Survey scores?\n* Is CBG effective at reducing inflammation in the body, as measured by HSCRP, ESR, and PSA infl",
+      "url": "https://clinicaltrials.gov/study/NCT05743985",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT05257044",
+      "title": "Acute Effects of Cannabigerol",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Focus: To Examine Acute Effects of CBG on Anxiety, Stress, and Cognition"
+      ],
+      "interventions": [
+        "Cannabigerol",
+        "Placebo"
+      ],
+      "sponsor": "Washington State University",
+      "enrollment": 38,
+      "start_date": "2022-03-24",
+      "completion_date": "2023-11-28",
+      "summary": "The purpose of this study is to examine the effects of hemp-derived cannabigerol (CBG) on anxiety, stress, mood, and cognition. Further, the severity of various side effects of CBG (sleepiness, dry mouth, dry eyes, increased appetite) will be assessed. As such, the study is focused on better understanding some of the potentially beneficial and detrimental effects of CBG on humans.",
+      "url": "https://clinicaltrials.gov/study/NCT05257044",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT06405646",
+      "title": "Concentration of Receptors With Affinity for Cannabidiol and Cannabinol and the Effect on Chronic Orofacial Pain of Muscle Origin",
+      "status": "ENROLLING_BY_INVITATION",
+      "phases": [],
+      "study_type": "OBSERVATIONAL",
+      "conditions": [
+        "Myalgia",
+        "Muscle Pain",
+        "Orofacial Pain",
+        "Headache, Tension",
+        "Headaches Muscular"
+      ],
+      "interventions": [
+        "Blood CB1, CB2, TRPV-1 concentration measurement"
+      ],
+      "sponsor": "Wroclaw Medical University",
+      "enrollment": 102,
+      "start_date": "2025-04-01",
+      "completion_date": "2026-12",
+      "summary": "The main aim of the presented project will be to examine the concentration of selected receptors (CB1, CB2, TRPV-1) showing affinity for binding to cannabidol (CBD) and cannabinol (CBN) in blood samples collected from people with chronic pain in the masticatory muscles and from people without this pain. Moreover, study participants will be examined by a qualified doctor, according to the validated and standardized international DC/TMD protocol (Diagnostic Criteria for Temporomandibular Disorders) and the criteria included in ICOP-1 (International Classification of Orofacial Pain, 1st edition).",
+      "url": "https://clinicaltrials.gov/study/NCT06405646",
+      "molecule": "Cannabinol",
+      "molecule_id": "cbn"
+    },
+    {
+      "nct_id": "NCT03675971",
+      "title": "COPE: Cannabinoids to Obviate Pain Experiment After Knee Replacement",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Arthroplasty, Replacement, Knee"
+      ],
+      "interventions": [
+        "Cannabinol",
+        "Placebo oral capsule"
+      ],
+      "sponsor": "Unity Health Toronto",
+      "enrollment": 220,
+      "start_date": "2020-05-01",
+      "completion_date": "2021-05-15",
+      "summary": "Total knee replacement is a major and painful orthopaedic (joint and bone) surgery where the knee joint is replaced with an artificial joint. It is an effective and successful procedure to treat severe knee arthritis and reduce pain, but many patients report intense pain after the surgery.\n\nPostoperative pain control is predominated by opioids (morphine-based drugs). While opioids are effective to manage the pain, they can have acute and chronic complications, including confusion, nausea, vomiting, constipation and high risk of addiction.\n\nMedical cannabis is an effective and safe alternative ",
+      "url": "https://clinicaltrials.gov/study/NCT03675971",
+      "molecule": "Cannabinol",
+      "molecule_id": "cbn"
+    }
+  ],
+  "products": [
+    {
+      "handle": "pomegranate",
+      "name": "Pomegranate",
+      "strain": "Hybrid Enhanced",
+      "dose": "10mg THC:10mg CBD per gummy",
+      "great_for": "Supporting a balanced body"
+    }
+  ]
+}

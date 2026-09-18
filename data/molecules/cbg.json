@@ -1,0 +1,1406 @@
+{
+  "name": "Cannabigerol",
+  "id": "cbg",
+  "formula": "C21H32O2",
+  "pubchem": {
+    "cid": 5315659,
+    "title": "Cannabigerol",
+    "formula": "C21H32O2",
+    "molecular_weight": 316.5,
+    "smiles": "CCCCCC1=CC(=C(C(=C1)O)CC=C(C)CCC=C(C)C)O",
+    "inchikey": "QXACEHWTBCFNSA-SFQUDFHCSA-N",
+    "iupac_name": "2-[(2E)-3,7-dimethylocta-2,6-dienyl]-5-pentylbenzene-1,3-diol",
+    "image": "data/molecules/images/cbg.png",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5315659",
+    "description": "Cannabigerol is a member of the class of resorcinols that is resorcinol which is substituted by a (2E)-3,7-dimethylocta-2,6-dien-1-yl group at position 2 and by a pentyl group at position 5. It is a natural product found in Cannabis sativa and Helichrysum species. It has a role as an antioxidant, an antibacterial agent, an appetite enhancer, a neuroprotective agent, a cannabinoid receptor agonist, an anti-inflammatory agent and a plant metabolite. It is a member of resorcinols and a phytocannabinoid.",
+    "description_source": {
+      "name": "ChEBI",
+      "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:69477"
+    },
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5315659/PNG"
+  },
+  "targets": [
+    {
+      "accession": "P08913",
+      "activity": "EC5",
+      "value_um": 0.002,
+      "assay": "Displacement of [35S]GTPgammaS from human alpha2-adreno receptor receptor expressed in CHO cells",
+      "aid": "1845666",
+      "pmid": "33356248",
+      "protein": "Alpha-2A adrenergic receptor",
+      "gene": "ADRA2A",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P08913",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P34972",
+      "activity": "Ki",
+      "value_um": 0.1,
+      "assay": "Displacement of [3H]HU-243 from human CB2 receptor assessed as inhibition constant",
+      "aid": "2213368",
+      "pmid": "38417219",
+      "protein": "Cannabinoid receptor 2",
+      "gene": "CNR2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P34972",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q8R455",
+      "activity": "IC50",
+      "value_um": 0.16,
+      "assay": "Antagonist activity at rat recombinant TRPM8 receptor expressed in HEK293 cells assessed as inhibition of 0.25 uM icilin-induced stimulation of intracellular calcium level using Fluo4-AM dye based fluorimetric assay",
+      "aid": "618005",
+      "pmid": "21902175",
+      "protein": "Transient receptor potential cation channel subfamily M member 8",
+      "gene": "Trpm8",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/Q8R455",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q7Z2W7",
+      "activity": "IC50",
+      "value_um": 0.16,
+      "assay": "Antagonist activity at TRPM8 (unknown origin) ion channel",
+      "aid": "1845631",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily M member 8",
+      "gene": "TRPM8",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q7Z2W7",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P47746",
+      "activity": "K",
+      "value_um": 0.38,
+      "assay": "Agonist activity at CB1 receptor in albino MF1 mouse vas deferens assessed as inhibition of electrically evoked vas deferens contraction by incubated for 13 mins followed by electrical stimulation for 2 mins",
+      "aid": "1845596",
+      "pmid": "33356248",
+      "protein": "Cannabinoid receptor 1",
+      "gene": "Cnr1",
+      "organism": "Mus musculus",
+      "url": "https://www.uniprot.org/uniprotkb/P47746",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P21554",
+      "activity": "Ki",
+      "value_um": 0.4,
+      "assay": "Displacement of [3H]CP55940 from human CB1 receptor assessed as inhibition constant",
+      "aid": "2213367",
+      "pmid": "38417219",
+      "protein": "Cannabinoid receptor 1",
+      "gene": "CNR1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P21554",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P20272",
+      "activity": "Ki",
+      "value_um": 0.44,
+      "assay": "Displacement of [35S]GTPgammaS from CB1 receptor in rat brain",
+      "aid": "1845663",
+      "pmid": "33356248",
+      "protein": "Cannabinoid receptor 1",
+      "gene": "Cnr1",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/P20272",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q6RI86",
+      "activity": "EC50",
+      "value_um": 0.7,
+      "assay": "Agonist activity at rat recombinant TRPA1 receptor expressed in HEK293 cells assessed as stimulation of intracellular calcium level using Fluo4-AM dye based fluorimetric assay",
+      "aid": "618003",
+      "pmid": "21902175",
+      "protein": "Transient receptor potential cation channel subfamily A member 1",
+      "gene": "Trpa1",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/Q6RI86",
+      "source": "UniProt"
+    },
+    {
+      "accession": "O75762",
+      "activity": "EC50",
+      "value_um": 0.7,
+      "assay": "Agonist activity at TRPA1 (unknown origin) activation",
+      "aid": "1845625",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily A member 1",
+      "gene": "TRPA1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/O75762",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q01959",
+      "activity": "IC50",
+      "value_um": 0.95,
+      "assay": "Displacement of [125]RTI-55 from human recombinant DAT receptor expressed in CHO-S cells incubated for 3 hrs by radioligand binding assay",
+      "aid": "2210710",
+      "pmid": "39563095",
+      "protein": "Sodium-dependent dopamine transporter",
+      "gene": "SLC6A3",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q01959",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q8NET8",
+      "activity": "EC50",
+      "value_um": 1,
+      "assay": "Agonist activity at ionomycin-stimulated TRPV3 (unknown origin) activation",
+      "aid": "1845618",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily V member 3",
+      "gene": "TRPV3",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q8NET8",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q8NER1",
+      "activity": "EC50",
+      "value_um": 1.3,
+      "assay": "Agonist activity at human TRPv1 receptor expressed in HEK293 cells assessed as stimulation of intracellular calcium level using Fluo4-AM dye based fluorimetric assay",
+      "aid": "617997",
+      "pmid": "21902175",
+      "protein": "Transient receptor potential cation channel subfamily V member 1",
+      "gene": "TRPV1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q8NER1",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q9HBA0",
+      "activity": "IC50",
+      "value_um": 1.3,
+      "assay": "Agonist activity at ionomycin-stimulated TRPV4 (unknown origin) channel desensitization in presence of 4alphaPDD",
+      "aid": "1845623",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily V member 4",
+      "gene": "TRPV4",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q9HBA0",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P35372",
+      "activity": "IC50",
+      "value_um": 1.38,
+      "assay": "Displacement of [3H]-Diprenorphine from human recombinant MOP receptor expressed in CHO-K1 cells incubated for 60 mins by radioligand binding assay",
+      "aid": "2210713",
+      "pmid": "39563095",
+      "protein": "Mu-type opioid receptor",
+      "gene": "OPRM1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P35372",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q9WUD2",
+      "activity": "IC50",
+      "value_um": 1.5,
+      "assay": "Antagonist activity at rat recombinant TRPV2 receptor expressed in HEK293 cells assessed as inhibition of 3 uM lysophosphatidylcholine-induced stimulation of intracellular calcium level using Fluo4-AM dye based fluorimetric assay",
+      "aid": "618001",
+      "pmid": "21902175",
+      "protein": "Transient receptor potential cation channel subfamily V member 2",
+      "gene": "Trpv2",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/Q9WUD2",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q9Y5S1",
+      "activity": "IC50",
+      "value_um": 1.5,
+      "assay": "Agonist activity at ionomycin-stimulated TRPV2 (unknown origin) channel desensitization in presence of lysophosphatidylcholine",
+      "aid": "1845617",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily V member 2",
+      "gene": "TRPV2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q9Y5S1",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P31645",
+      "activity": "IC50",
+      "value_um": 1.66,
+      "assay": "Displacement of [3H]-Paroxetine from human recombinant NET receptor expressed in HEK293 cells incubated for 60 mins by radioligand binding assay",
+      "aid": "2210715",
+      "pmid": "39563095",
+      "protein": "Sodium-dependent serotonin transporter",
+      "gene": "SLC6A4",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P31645",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P28223",
+      "activity": "IC50",
+      "value_um": 1.88,
+      "assay": "Displacement of [3H]ketanserin from human recombinant 5-HT2A receptor expressed in CHO-K1 cells incubated for 60 mins by radioligand binding assay",
+      "aid": "2210709",
+      "pmid": "39563095",
+      "protein": "5-hydroxytryptamine receptor 2A",
+      "gene": "HTR2A",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P28223",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P23975",
+      "activity": "IC50",
+      "value_um": 2.45,
+      "assay": "Displacement of [125]RTI-55 from human recombinant NET receptor expressed in MDCK cells incubated for 3 hrs by radioligand binding assay",
+      "aid": "2210714",
+      "pmid": "39563095",
+      "protein": "Sodium-dependent noradrenaline transporter",
+      "gene": "SLC6A2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P23975",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q12809",
+      "activity": "IC50",
+      "value_um": 3.06,
+      "assay": "Displacement of [3H]-Dofetilide from recombinant hERG expressed in HEK293 cells incubated for 60 mins by radioligand binding assay",
+      "aid": "2210712",
+      "pmid": "39563095",
+      "protein": "Voltage-gated inwardly rectifying potassium channel KCNH2",
+      "gene": "KCNH2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q12809",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P05111",
+      "activity": "IC50",
+      "value_um": 5.2,
+      "assay": "Inhibition of Inh (unknown origin)",
+      "aid": "1845667",
+      "pmid": "33356248",
+      "protein": "Inhibin alpha chain",
+      "gene": "INHA",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P05111",
+      "source": "UniProt"
+    }
+  ],
+  "diseases": [],
+  "occurrence": {
+    "organisms": [
+      {
+        "name": "Cannabis sativa",
+        "id": "cannabis-sativa",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Cannabaceae",
+        "genus": "Cannabis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 11,
+        "references": [
+          "10.1111/J.2042-7158.1980.TB12838.X",
+          "10.1055/S-2008-1034311"
+        ]
+      },
+      {
+        "name": "Helichrysum umbraculigerum",
+        "id": "helichrysum-umbraculigerum",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Asteraceae",
+        "genus": "Helichrysum",
+        "taxonomy_source": "NCBI",
+        "reference_count": 1,
+        "references": [
+          "10.1016/0031-9422(79)83025-3"
+        ]
+      }
+    ],
+    "organism_count": 2,
+    "reference_count": 12,
+    "source": "LOTUS · lotus.naturalproducts.net",
+    "lotus_id": "LTS0069129"
+  },
+  "literature": {
+    "total": 677,
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Cannabigerol%5BAll%20Fields%5D",
+    "papers": [
+      {
+        "pmid": "39598860",
+        "title": "Cannabigerol (CBG): A Comprehensive Review of Its Molecular Mechanisms and Therapeutic Potential",
+        "journal": "Molecules",
+        "year": "2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39598860/"
+      },
+      {
+        "pmid": "21749363",
+        "title": "Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects",
+        "journal": "Br J Pharmacol",
+        "year": "2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21749363/"
+      },
+      {
+        "pmid": "39003387",
+        "title": "Acute effects of cannabigerol on anxiety, stress, and mood: a double-blind, placebo-controlled, crossover, field trial",
+        "journal": "Sci Rep",
+        "year": "2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39003387/"
+      },
+      {
+        "pmid": "38920643",
+        "title": "Cannabinerol Prevents Endoplasmic Reticulum and Mitochondria Dysfunctions in an In Vitro Model of Alzheimer's Disease: A Network-Based Transcriptomic Analysis",
+        "journal": "Cells",
+        "year": "2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38920643/"
+      },
+      {
+        "pmid": "33168643",
+        "title": "The Pharmacological Case for Cannabigerol",
+        "journal": "J Pharmacol Exp Ther",
+        "year": "2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33168643/"
+      },
+      {
+        "pmid": "22150623",
+        "title": "Cannabinoid hyperemesis syndrome",
+        "journal": "Curr Drug Abuse Rev",
+        "year": "2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22150623/"
+      }
+    ]
+  },
+  "research": {
+    "total": 677,
+    "sampled": 200,
+    "designs": {
+      "review": 41,
+      "rct": 3,
+      "human_observational": 53,
+      "other": 65,
+      "animal": 34,
+      "systematic_review": 4
+    },
+    "topics": [
+      {
+        "term": "Cannabinoids",
+        "papers": 123
+      },
+      {
+        "term": "Cannabis",
+        "papers": 54
+      },
+      {
+        "term": "Cannabidiol",
+        "papers": 50
+      },
+      {
+        "term": "Dronabinol",
+        "papers": 17
+      },
+      {
+        "term": "Cannabinol",
+        "papers": 11
+      },
+      {
+        "term": "Benzoates",
+        "papers": 11
+      },
+      {
+        "term": "Inflammation",
+        "papers": 10
+      },
+      {
+        "term": "Cell Line, Tumor",
+        "papers": 10
+      },
+      {
+        "term": "Signal Transduction",
+        "papers": 9
+      },
+      {
+        "term": "Endocannabinoids",
+        "papers": 9
+      },
+      {
+        "term": "Cell Survival",
+        "papers": 9
+      },
+      {
+        "term": "Anti-Inflammatory Agents",
+        "papers": 9
+      },
+      {
+        "term": "Saccharomyces cerevisiae",
+        "papers": 8
+      },
+      {
+        "term": "Cytokines",
+        "papers": 8
+      }
+    ],
+    "claims": [
+      {
+        "id": "anti-inflammatory",
+        "label": "Anti-inflammatory",
+        "papers": 15,
+        "designs": {
+          "review": 3,
+          "animal": 6,
+          "other": 1,
+          "human_observational": 5
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 5,
+            "pmids": [
+              "40818359",
+              "38889235",
+              "36070347",
+              "38891097",
+              "39208564"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 6,
+            "pmids": [
+              "40725084",
+              "41423277",
+              "41548647",
+              "41934896",
+              "39322049",
+              "39128189"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 3,
+            "pmids": [
+              "39598860",
+              "35910331",
+              "35456990"
+            ]
+          }
+        ],
+        "pmids": [
+          "39598860",
+          "40725084",
+          "37057997",
+          "41423277",
+          "40818359",
+          "35910331",
+          "41548647",
+          "41934896",
+          "38889235",
+          "35456990",
+          "39322049",
+          "36070347"
+        ]
+      },
+      {
+        "id": "cancer",
+        "label": "Cancer",
+        "papers": 14,
+        "designs": {
+          "review": 1,
+          "human_observational": 12,
+          "animal": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 12,
+            "pmids": [
+              "38920643",
+              "40565152",
+              "41871732",
+              "41936916",
+              "38100640",
+              "41529510",
+              "36923728",
+              "10836737",
+              "35740979",
+              "39647320",
+              "39770061",
+              "39357769"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "35899583"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "39598860"
+            ]
+          }
+        ],
+        "pmids": [
+          "39598860",
+          "38920643",
+          "40565152",
+          "41871732",
+          "41936916",
+          "38100640",
+          "41529510",
+          "35899583",
+          "36923728",
+          "10836737",
+          "35740979",
+          "39647320"
+        ]
+      },
+      {
+        "id": "pain",
+        "label": "Pain relief",
+        "papers": 8,
+        "designs": {
+          "review": 1,
+          "human_observational": 3,
+          "animal": 4
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 3,
+            "pmids": [
+              "39835903",
+              "34569849",
+              "33208685"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 4,
+            "pmids": [
+              "40523564",
+              "39322049",
+              "36916438",
+              "37597163"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "39598860"
+            ]
+          }
+        ],
+        "pmids": [
+          "39598860",
+          "39835903",
+          "40523564",
+          "39322049",
+          "36916438",
+          "34569849",
+          "33208685",
+          "37597163"
+        ]
+      },
+      {
+        "id": "neuroprotection",
+        "label": "Neuroprotection",
+        "papers": 5,
+        "designs": {
+          "human_observational": 1,
+          "review": 1,
+          "animal": 3
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "38920643"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 3,
+            "pmids": [
+              "40869376",
+              "41548647",
+              "36830745"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "37132109"
+            ]
+          }
+        ],
+        "pmids": [
+          "38920643",
+          "37132109",
+          "40869376",
+          "41548647",
+          "36830745"
+        ]
+      },
+      {
+        "id": "antioxidant",
+        "label": "Antioxidant",
+        "papers": 4,
+        "designs": {
+          "human_observational": 3,
+          "other": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 3,
+            "pmids": [
+              "41936916",
+              "39647320",
+              "38891097"
+            ]
+          }
+        ],
+        "pmids": [
+          "41936916",
+          "39647320",
+          "36112124",
+          "38891097"
+        ]
+      },
+      {
+        "id": "anxiety",
+        "label": "Anxiety and calm",
+        "papers": 3,
+        "designs": {
+          "rct": 1,
+          "animal": 2
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "1b",
+          "label": "individual randomised trial"
+        },
+        "evidence_lines": [
+          {
+            "design": "rct",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Randomized Controlled Trial"
+            ],
+            "papers": 1,
+            "pmids": [
+              "39003387"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "39322049",
+              "34182770"
+            ]
+          }
+        ],
+        "pmids": [
+          "39003387",
+          "39322049",
+          "34182770"
+        ]
+      },
+      {
+        "id": "antimicrobial",
+        "label": "Antimicrobial",
+        "papers": 3,
+        "designs": {
+          "animal": 2,
+          "human_observational": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "41983582"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "32017534",
+              "18303850"
+            ]
+          }
+        ],
+        "pmids": [
+          "32017534",
+          "18303850",
+          "41983582"
+        ]
+      },
+      {
+        "id": "digestive",
+        "label": "Digestive",
+        "papers": 3,
+        "designs": {
+          "animal": 3
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 3,
+            "pmids": [
+              "41056638",
+              "39009468",
+              "39128189"
+            ]
+          }
+        ],
+        "pmids": [
+          "41056638",
+          "39009468",
+          "39128189"
+        ]
+      },
+      {
+        "id": "nausea",
+        "label": "Nausea and appetite",
+        "papers": 3,
+        "designs": {
+          "review": 1,
+          "human_observational": 2
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 2,
+            "pmids": [
+              "33208685",
+              "28125508"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "22150623"
+            ]
+          }
+        ],
+        "pmids": [
+          "22150623",
+          "33208685",
+          "28125508"
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Focus and memory",
+        "papers": 2,
+        "designs": {
+          "animal": 2
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "41934896",
+              "40523564"
+            ]
+          }
+        ],
+        "pmids": [
+          "41934896",
+          "40523564"
+        ]
+      },
+      {
+        "id": "epilepsy",
+        "label": "Seizure disorders",
+        "papers": 2,
+        "designs": {
+          "systematic_review": 1,
+          "review": 1
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000033",
+          "label": "author statement supported by traceable reference"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "expert review without primary human data"
+        },
+        "evidence_lines": [
+          {
+            "design": "systematic_review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "32608035"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "33920188"
+            ]
+          }
+        ],
+        "pmids": [
+          "32608035",
+          "33920188"
+        ]
+      },
+      {
+        "id": "mood",
+        "label": "Mood",
+        "papers": 1,
+        "designs": {
+          "animal": 1
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "41934896"
+            ]
+          }
+        ],
+        "pmids": [
+          "41934896"
+        ]
+      }
+    ],
+    "years": {
+      "from": 1970,
+      "to": 2026
+    },
+    "basis": "MeSH indexing and publication types of the most relevant PubMed records; counts are of papers in the sample, not findings.",
+    "vocabulary": {
+      "evidence_type": "ECO (Evidence & Conclusion Ontology)",
+      "study_design": "MeSH Publication Types",
+      "strength": "Oxford CEBM 2009 levels",
+      "structure": "SEPIO assertion / evidence line / evidence item"
+    },
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Cannabigerol%5BAll%20Fields%5D"
+  },
+  "trials": {
+    "total": 11,
+    "matched_loosely": 15,
+    "studies": [
+      {
+        "nct_id": "NCT07592390",
+        "title": "Cannabigerol Oil for Adolescents With ADHD (CAN-ADHD)",
+        "status": "RECRUITING",
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Attention-Deficit/Hyperactivity Disorder (ADHD)"
+        ],
+        "interventions": [
+          "Experimental: Full-spectrum CBG oil 30 mg/mL",
+          "Placebo oil (MCT oil)"
+        ],
+        "sponsor": "Universidade do Sul de Santa Catarina",
+        "enrollment": 60,
+        "start_date": "2026-05-01",
+        "completion_date": "2026-12-18",
+        "summary": "This study aims to evaluate the potential effects of full-spectrum cannabigerol (CBG) oil on cognitive and behavioral symptoms in adolescents diagnosed with Attention-Deficit/Hyperactivity Disorder (ADHD). ADHD is a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity, often associated with impairments in academic, social, and emotional functioning.\n\nThis is a randomized, double-blind, placebo-controlled clinical trial with a parallel design. A total of 60 adolescents aged 12 to 17 years, diagnosed with ADHD and with insufficient response to previous treatme",
+        "url": "https://clinicaltrials.gov/study/NCT07592390"
+      },
+      {
+        "nct_id": "NCT06115603",
+        "title": "The Effects of Cannabigerol on Attention-Deficit/Hyperactivity Disorder",
+        "status": "RECRUITING",
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Attention-Deficit/Hyperactivity Disorder"
+        ],
+        "interventions": [
+          "Cannabigerol",
+          "Placebo"
+        ],
+        "sponsor": "University of Arkansas, Fayetteville",
+        "enrollment": 76,
+        "start_date": "2024-12-14",
+        "completion_date": "2026-07",
+        "summary": "The goal of this clinical trial is to evaluate the effects of Cannabigerol (CBG) on indicators of Attention-Deficit/Hyperactivity Disorder (ADHD) in a sample of participants indicating/reporting symptoms associated with ADHD. The main question it aims to answer is: Does CBG reduce ADHD-related indicators relative to placebo? Participants will administer an acute dose of placebo or 80mg CBG and complete outcome measures at 45 minutes and 75 minutes. Daily surveys to monitor safety will be administered for one week following administration.",
+        "url": "https://clinicaltrials.gov/study/NCT06115603"
+      },
+      {
+        "nct_id": "NCT07577999",
+        "title": "The Effects of Cannabis on Post Operative Recovery After Radical Cystectomy",
+        "status": "NOT_YET_RECRUITING",
+        "phases": [
+          "EARLY_PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Non-metastatic Bladder Cancer"
+        ],
+        "interventions": [
+          "Cannabigerol"
+        ],
+        "sponsor": "Stanford University",
+        "enrollment": 20,
+        "start_date": "2027-07",
+        "completion_date": "2028-05",
+        "summary": "This will be an open-label, single group supportive care pilot study in which patients are given cannabinoid gummies in the perioperative setting to alleviate RC/UD symptoms and improve quality of life. The primary objective will be to evaluate the safety and tolerability of a cannabigerol supplement used perioperatively (from 14 days prior to surgery to 30 days following surgery) by patients undergoing radical cystectomy with urinary diversion (RC/UD).",
+        "url": "https://clinicaltrials.gov/study/NCT07577999"
+      },
+      {
+        "nct_id": "NCT07821840",
+        "title": "CannaRiver CBD Calm for Anxiety, Sleep, and Well-Being in Adults With Generalized Anxiety Disorder",
+        "status": "NOT_YET_RECRUITING",
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Generalized Anxiety Disorder"
+        ],
+        "interventions": [
+          "Cannabidiol (CBD) With Cannabinol (CBN) and Cannabigerol (CBG) Oral Tincture (CannaRiver CBD Calm)"
+        ],
+        "sponsor": "Associação Pan-Americana Multidisciplinar de Endocanabinologia",
+        "enrollment": 60,
+        "start_date": "2026-11-01",
+        "completion_date": "2027-03-01",
+        "summary": "This open-label, single-group, non-randomized interventional study will evaluate longitudinal changes in anxiety symptoms, sleep quality, psychological well-being, treatment adherence, tolerability, and safety in adults with clinician-confirmed generalized anxiety disorder. Participants will receive CannaRiver CBD Calm, an oral/sublingual broad-spectrum cannabinoid tincture containing cannabidiol (CBD), cannabinol (CBN), and cannabigerol (CBG), at a protocol dose of 0.5 mL approximately every 12 hours for 8 weeks. Follow-up will continue through Week 12. The study has no placebo or concurrent ",
+        "url": "https://clinicaltrials.gov/study/NCT07821840"
+      },
+      {
+        "nct_id": "NCT06513507",
+        "title": "A Clinical Study to Assess the Efficacy of Cannabigerol in Patients with Active Rheumatoid Arthritis.",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Rheumatoid Arthritis",
+          "Inflammatory Disease"
+        ],
+        "interventions": [
+          "Cannabigerol (CBG)"
+        ],
+        "sponsor": "Raphael Pharma",
+        "enrollment": 12,
+        "start_date": "2024-06-03",
+        "completion_date": "2024-12-31",
+        "summary": "This is a single-group exploratory longitudinal prospective study lasting 8 weeks. The study aims to measure the efficacy of purified cannabigerol (CBG) in patients with active rheumatoid arthritis using laboratory and self-reported outcome measures.",
+        "url": "https://clinicaltrials.gov/study/NCT06513507"
+      },
+      {
+        "nct_id": "NCT04859296",
+        "title": "AnalgeSiC and appEtite-stimulating Effects of caNnabigerol and THC (ASCENT)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phases": [
+          "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Pain",
+          "Appetite Loss",
+          "Abuse, Drug"
+        ],
+        "interventions": [
+          "Placebo",
+          "Low CBG",
+          "High CBG",
+          "Low THC",
+          "High THC"
+        ],
+        "sponsor": "University of California, Los Angeles",
+        "enrollment": 20,
+        "start_date": "2023-02-15",
+        "completion_date": "2025-12-04",
+        "summary": "This study will assess the analgesic, appetite-stimulating, and subjective effects of cannabigerol (CBG) alone and in combination with THC.",
+        "url": "https://clinicaltrials.gov/study/NCT04859296"
+      },
+      {
+        "nct_id": "NCT06638996",
+        "title": "Acute Psychological and Physiological Effects of Cannabigerol",
+        "status": "COMPLETED",
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "No Disease or Condition is Being Studied"
+        ],
+        "interventions": [
+          "CBG Intervention",
+          "Placebo Intervention"
+        ],
+        "sponsor": "Washington State University",
+        "enrollment": 100,
+        "start_date": "2024-10-28",
+        "completion_date": "2026-02-27",
+        "summary": "The purpose of this study is to examine the acute effects of cannabigerol (CBG) on various psychological (e.g., anxiety, stress, mood, memory, impairment, intoxication, side effects) and physiological (blood pressure, cortisol, heart rate variability, electrodermal activity, pain tolerance, temperature) outcomes. Further, potential side effects of CBG (sleepiness/fatigue, dry mouth/eyes, increased appetite, and dizziness nausea) will be assessed. As such, the study is focused on better understanding some of the potentially beneficial and detrimental effects of CBG on humans.",
+        "url": "https://clinicaltrials.gov/study/NCT06638996"
+      },
+      {
+        "nct_id": "NCT05743985",
+        "title": "Efficacy and Safety of Hemp-derived, Full Spectrum Cannabigerol (CBG) in Adults",
+        "status": "COMPLETED",
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Health, Subjective",
+          "Inflammatory Response",
+          "Adverse Effect",
+          "Side Effect"
+        ],
+        "interventions": [
+          "Cannabigerol"
+        ],
+        "sponsor": "Formula30A LLC",
+        "enrollment": 69,
+        "start_date": "2022-08-01",
+        "completion_date": "2023-12-31",
+        "summary": "The goal of this observational study is to provide exploratory research into the in vivo physiological and psychological effects, if any, of cannabigerol (CBG) in healthy human adults age 21 or over.\n\nThe main questions it aims to answer are:\n\n* What effect, if any, does daily oral consumption of 50mg of full spectrum CBG have on the mental, physical, and emotional wellbeing of healthy individuals, as measured by self-report Medical Symptom Questionnaire and 36-Item Short Form Health Survey scores?\n* Is CBG effective at reducing inflammation in the body, as measured by HSCRP, ESR, and PSA infl",
+        "url": "https://clinicaltrials.gov/study/NCT05743985"
+      },
+      {
+        "nct_id": "NCT05257044",
+        "title": "Acute Effects of Cannabigerol",
+        "status": "COMPLETED",
+        "phases": [
+          "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Focus: To Examine Acute Effects of CBG on Anxiety, Stress, and Cognition"
+        ],
+        "interventions": [
+          "Cannabigerol",
+          "Placebo"
+        ],
+        "sponsor": "Washington State University",
+        "enrollment": 38,
+        "start_date": "2022-03-24",
+        "completion_date": "2023-11-28",
+        "summary": "The purpose of this study is to examine the effects of hemp-derived cannabigerol (CBG) on anxiety, stress, mood, and cognition. Further, the severity of various side effects of CBG (sleepiness, dry mouth, dry eyes, increased appetite) will be assessed. As such, the study is focused on better understanding some of the potentially beneficial and detrimental effects of CBG on humans.",
+        "url": "https://clinicaltrials.gov/study/NCT05257044"
+      },
+      {
+        "nct_id": "NCT05088018",
+        "title": "Swallowable Cannabigerol Tablets for Sleep Quality In Veterans (Veterans Exploring Cannabigerol for Sleep)",
+        "status": "COMPLETED",
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Sleep"
+        ],
+        "interventions": [
+          "Cannabigerol",
+          "Placebo"
+        ],
+        "sponsor": "Chris Emerson",
+        "enrollment": 68,
+        "start_date": "2021-10-11",
+        "completion_date": "2022-05-09",
+        "summary": "New methods for the treatment and support of Veterans experiencing sleep issues is critically needed. LEVEL's unique, targeted effects-based cannabis products provide a unique opportunity to study the therapeutic safety and efficacy of cannabigerol (a non-psychoactive cannabinoid) with a controlled dosage. Study participants will participate in an interventional, placebo-controlled, triple-blind pre-post study design. Participants will have a four-week run-in phase followed by an eight-week treatment phase with a CBG ProtabTM or placebo ProtabTM in a swallowable tablet form. During the study, ",
+        "url": "https://clinicaltrials.gov/study/NCT05088018"
+      },
+      {
+        "nct_id": "NCT04989413",
+        "title": "Cannabidiol 133mg + Cannabigerol 66mg + Tetrahydrocannabinol 4mg Vs Placebo As Adjuvant Treatment in Chronic Migraine -",
+        "status": "TERMINATED",
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Chronic Migraine, Headache",
+          "Overuse Headache Medication"
+        ],
+        "interventions": [
+          "Placebo oral drops",
+          "Cannabidiol + Cannabigerol + Tetrahydrocannabinol 133/66/4mg"
+        ],
+        "sponsor": "Hospital Israelita Albert Einstein",
+        "enrollment": 110,
+        "start_date": "2022-10-18",
+        "completion_date": "2025-02-20",
+        "summary": "To evaluate the effect of the cannabidiol (CBD) + cannabigerol (CBG) + tetrahydrocannabinol (THC) up to 133/66/4mg daily versus placebo as adjuvant treatment in chronic migraine (CM) patients under preventive treatment at a stable dose for at least 3 months who present at least 5 headaches day a month. CM patients of both sexes, between 25 and 65 years old, who have not had CBD and/or THC as a migraine treatment. Patients may be having migraine preventive treatment such as propranolol, atenolol, topiramate, valproic acid/sodium valproate, levetiracetam, gabapentin, lamotrigine, pre-gabaline, f",
+        "url": "https://clinicaltrials.gov/study/NCT04989413"
+      }
+    ],
+    "source": "ClinicalTrials.gov",
+    "search_url": "https://clinicaltrials.gov/search?intr=Cannabigerol"
+  },
+  "retrieved": "2026-09-18",
+  "evidence": "Declared on 2 of 16 WYLD flavors at 10mg per gummy.",
+  "summary": "The biosynthetic parent of THC and CBD, dosed as a minor partner in two flavors."
+}

@@ -1,0 +1,603 @@
+{
+  "tile": "Bliss",
+  "id": "bliss",
+  "definition": "Inspired and energetic — a creative boost, or prep for a dance party.",
+  "areas": [
+    "mood",
+    "cognition"
+  ],
+  "sense": "uplifting",
+  "molecules": [
+    {
+      "id": "cbd",
+      "name": "Cannabidiol",
+      "papers": 5,
+      "areas": [
+        "Focus and memory",
+        "Mood"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "review",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "peach",
+          "name": "Peach",
+          "mg": 10,
+          "dose": "10mg CBD:5mg THC per gummy"
+        },
+        {
+          "handle": "pomegranate",
+          "name": "Pomegranate",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD per gummy"
+        },
+        {
+          "handle": "strawberry",
+          "name": "Strawberry",
+          "mg": 20,
+          "dose": "20mg CBD:1mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "40112940",
+        "32073423",
+        "41840986",
+        "39029987",
+        "38829467"
+      ],
+      "score": 5.455
+    },
+    {
+      "id": "thc",
+      "name": "Δ9-Tetrahydrocannabinol",
+      "papers": 2,
+      "areas": [
+        "Focus and memory"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "review",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "blood-orange",
+          "name": "Blood Orange",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBC per gummy"
+        },
+        {
+          "handle": "boysenberry",
+          "name": "Boysenberry",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD:10mg CBN per gummy"
+        },
+        {
+          "handle": "elderberry",
+          "name": "Elderberry",
+          "mg": 10,
+          "dose": "10mg THC:5mg CBN per gummy"
+        },
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        },
+        {
+          "handle": "huckleberry",
+          "name": "Huckleberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": 10,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "marionberry",
+          "name": "Marionberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "peach",
+          "name": "Peach",
+          "mg": 5,
+          "dose": "10mg CBD:5mg THC per gummy"
+        },
+        {
+          "handle": "pear",
+          "name": "Pear",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG per gummy"
+        },
+        {
+          "handle": "pomegranate",
+          "name": "Pomegranate",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBD per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "raspberry",
+          "name": "Raspberry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-apple",
+          "name": "Sour Apple",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-cherry",
+          "name": "Sour Cherry",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "sour-tangerine",
+          "name": "Sour Tangerine",
+          "mg": 10,
+          "dose": "10mg THC per gummy"
+        },
+        {
+          "handle": "strawberry",
+          "name": "Strawberry",
+          "mg": 1,
+          "dose": "20mg CBD:1mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "40694686",
+        "24819592"
+      ],
+      "score": 3.952
+    },
+    {
+      "id": "cbc",
+      "name": "Cannabichromene",
+      "papers": 4,
+      "areas": [
+        "Mood",
+        "Focus and memory"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "review",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "blood-orange",
+          "name": "Blood Orange",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBC per gummy"
+        },
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        }
+      ],
+      "pmids": [
+        "40358684",
+        "37414155",
+        "41934896",
+        "41934896"
+      ],
+      "score": 3.859
+    },
+    {
+      "id": "cbg",
+      "name": "Cannabigerol",
+      "papers": 3,
+      "areas": [
+        "Focus and memory",
+        "Mood"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 2
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "grapefruit",
+          "name": "Grapefruit",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG:10mg CBC per gummy"
+        },
+        {
+          "handle": "pear",
+          "name": "Pear",
+          "mg": 10,
+          "dose": "10mg THC:10mg CBG per gummy"
+        }
+      ],
+      "pmids": [
+        "41934896",
+        "40523564",
+        "41934896"
+      ],
+      "score": 3.324
+    },
+    {
+      "id": "thcv",
+      "name": "Tetrahydrocannabivarin",
+      "papers": 1,
+      "areas": [
+        "Focus and memory"
+      ],
+      "evidence_level": "human_trials",
+      "eco": "ECO:0000180",
+      "oxford": "1b",
+      "evidence_lines": [
+        {
+          "design": "rct",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": 10,
+          "dose": "10mg THC:10mg THCv per gummy"
+        }
+      ],
+      "pmids": [
+        "26577065"
+      ],
+      "score": 3.324
+    },
+    {
+      "id": "beta-caryophyllene",
+      "name": "β-Caryophyllene",
+      "papers": 10,
+      "areas": [
+        "Mood",
+        "Focus and memory"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 4
+        },
+        {
+          "design": "animal",
+          "papers": 3
+        },
+        {
+          "design": "review",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "41120021",
+        "29676236",
+        "31862467",
+        "24930711",
+        "30864870",
+        "38542177",
+        "39653971",
+        "41167414",
+        "33530917",
+        "37558167"
+      ],
+      "score": 0
+    },
+    {
+      "id": "beta-pinene",
+      "name": "β-Pinene",
+      "papers": 3,
+      "areas": [
+        "Mood"
+      ],
+      "evidence_level": "human_observational",
+      "eco": "ECO:0000180",
+      "oxford": "2b",
+      "evidence_lines": [
+        {
+          "design": "human_observational",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 2
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "25771248",
+        "38012973",
+        "22867633"
+      ],
+      "score": 0
+    },
+    {
+      "id": "limonene",
+      "name": "Limonene",
+      "papers": 2,
+      "areas": [
+        "Mood",
+        "Focus and memory"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 1
+        },
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "38932560",
+        "38932560"
+      ],
+      "score": 0
+    },
+    {
+      "id": "valencene",
+      "name": "Valencene",
+      "papers": 1,
+      "areas": [
+        "Focus and memory"
+      ],
+      "evidence_level": "animal",
+      "eco": "ECO:0007120",
+      "oxford": "5",
+      "evidence_lines": [
+        {
+          "design": "animal",
+          "papers": 1
+        }
+      ],
+      "products": [
+        {
+          "handle": "kiwi",
+          "name": "Kiwi",
+          "mg": null,
+          "dose": "10mg THC:10mg THCv per gummy"
+        },
+        {
+          "handle": "prickly-pear",
+          "name": "Prickly Pear",
+          "mg": null,
+          "dose": "10mg THC per gummy"
+        }
+      ],
+      "pmids": [
+        "32230815"
+      ],
+      "score": 0
+    }
+  ],
+  "molecules_with_research": 9,
+  "papers": 31,
+  "best_evidence": "human_trials",
+  "best_oxford": "1b",
+  "trials": [
+    {
+      "nct_id": "NCT03310593",
+      "title": "Cannabidiol as an Adjunctive Treatment for Bipolar Depression",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Bipolar Disorder",
+        "Bipolar Depression",
+        "Bipolar Affective Disorder"
+      ],
+      "interventions": [
+        "Cannabidiol",
+        "Placebo"
+      ],
+      "sponsor": "Hospital de Clinicas de Porto Alegre",
+      "enrollment": 36,
+      "start_date": "2017-11-01",
+      "completion_date": "2020-02-24",
+      "summary": "Depressive symptoms are associated with significant psychosocial impairment. However, current treatments of bipolar depression are only partially effective.\n\nCannabidiol is a natural component of cannabis without psychotomimetic or addictive properties. Cannabidiol has been shown to produce therapeutic effects including anticonvulsive, anxiolytic, antipsychotic and neuroprotective effects. The investigators hypothesize that treatment with cannabidiol will result in improvement of depressive and anxiety symptoms, as well as, improvement in functioning and inflammatory biomarkers. During the cli",
+      "url": "https://clinicaltrials.gov/study/NCT03310593",
+      "molecule": "Cannabidiol",
+      "molecule_id": "cbd"
+    },
+    {
+      "nct_id": "NCT07592390",
+      "title": "Cannabigerol Oil for Adolescents With ADHD (CAN-ADHD)",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Attention-Deficit/Hyperactivity Disorder (ADHD)"
+      ],
+      "interventions": [
+        "Experimental: Full-spectrum CBG oil 30 mg/mL",
+        "Placebo oil (MCT oil)"
+      ],
+      "sponsor": "Universidade do Sul de Santa Catarina",
+      "enrollment": 60,
+      "start_date": "2026-05-01",
+      "completion_date": "2026-12-18",
+      "summary": "This study aims to evaluate the potential effects of full-spectrum cannabigerol (CBG) oil on cognitive and behavioral symptoms in adolescents diagnosed with Attention-Deficit/Hyperactivity Disorder (ADHD). ADHD is a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity, often associated with impairments in academic, social, and emotional functioning.\n\nThis is a randomized, double-blind, placebo-controlled clinical trial with a parallel design. A total of 60 adolescents aged 12 to 17 years, diagnosed with ADHD and with insufficient response to previous treatme",
+      "url": "https://clinicaltrials.gov/study/NCT07592390",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT06115603",
+      "title": "The Effects of Cannabigerol on Attention-Deficit/Hyperactivity Disorder",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Attention-Deficit/Hyperactivity Disorder"
+      ],
+      "interventions": [
+        "Cannabigerol",
+        "Placebo"
+      ],
+      "sponsor": "University of Arkansas, Fayetteville",
+      "enrollment": 76,
+      "start_date": "2024-12-14",
+      "completion_date": "2026-07",
+      "summary": "The goal of this clinical trial is to evaluate the effects of Cannabigerol (CBG) on indicators of Attention-Deficit/Hyperactivity Disorder (ADHD) in a sample of participants indicating/reporting symptoms associated with ADHD. The main question it aims to answer is: Does CBG reduce ADHD-related indicators relative to placebo? Participants will administer an acute dose of placebo or 80mg CBG and complete outcome measures at 45 minutes and 75 minutes. Daily surveys to monitor safety will be administered for one week following administration.",
+      "url": "https://clinicaltrials.gov/study/NCT06115603",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    },
+    {
+      "nct_id": "NCT05257044",
+      "title": "Acute Effects of Cannabigerol",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "conditions": [
+        "Focus: To Examine Acute Effects of CBG on Anxiety, Stress, and Cognition"
+      ],
+      "interventions": [
+        "Cannabigerol",
+        "Placebo"
+      ],
+      "sponsor": "Washington State University",
+      "enrollment": 38,
+      "start_date": "2022-03-24",
+      "completion_date": "2023-11-28",
+      "summary": "The purpose of this study is to examine the effects of hemp-derived cannabigerol (CBG) on anxiety, stress, mood, and cognition. Further, the severity of various side effects of CBG (sleepiness, dry mouth, dry eyes, increased appetite) will be assessed. As such, the study is focused on better understanding some of the potentially beneficial and detrimental effects of CBG on humans.",
+      "url": "https://clinicaltrials.gov/study/NCT05257044",
+      "molecule": "Cannabigerol",
+      "molecule_id": "cbg"
+    }
+  ],
+  "products": [
+    {
+      "handle": "blood-orange",
+      "name": "Blood Orange",
+      "strain": "Sativa Enhanced",
+      "dose": "10mg THC:10mg CBC per gummy",
+      "great_for": "Carefree adventures"
+    }
+  ]
+}

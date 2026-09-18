@@ -1,0 +1,1054 @@
+{
+  "name": "Cannabichromene",
+  "id": "cbc",
+  "formula": "C21H30O2",
+  "pubchem": {
+    "cid": 30219,
+    "title": "(+-)-Cannabichromene",
+    "formula": "C21H30O2",
+    "molecular_weight": 314.5,
+    "smiles": "CCCCCC1=CC(=C2C=CC(OC2=C1)(C)CCC=C(C)C)O",
+    "inchikey": "UVOLYTDXHDXWJU-UHFFFAOYSA-N",
+    "iupac_name": "2-methyl-2-(4-methylpent-3-enyl)-7-pentylchromen-5-ol",
+    "image": "data/molecules/images/cbc.png",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/30219",
+    "description": "Cannabichromene is a 1-benzopyran.",
+    "description_source": {
+      "name": "ChEBI",
+      "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3357"
+    },
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/30219/PNG"
+  },
+  "targets": [
+    {
+      "accession": "Q6RI86",
+      "activity": "EC50",
+      "value_um": 0.06,
+      "assay": "Agonist activity at rat TRPA1 channel expressed in HEK293 cells assessed as increase in intracellular calcium influx",
+      "aid": "482146",
+      "pmid": "20356305",
+      "protein": "Transient receptor potential cation channel subfamily A member 1",
+      "gene": "Trpa1",
+      "organism": "Rattus norvegicus",
+      "url": "https://www.uniprot.org/uniprotkb/Q6RI86",
+      "source": "UniProt"
+    },
+    {
+      "accession": "O75762",
+      "activity": "EC50",
+      "value_um": 0.09,
+      "assay": "Agonist activity at TRPA1 (unknown origin) activation",
+      "aid": "1845625",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily A member 1",
+      "gene": "TRPA1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/O75762",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P34972",
+      "activity": "Ki",
+      "value_um": 0.2,
+      "assay": "Binding affinity to CB2 receptor (unknown origin) assessed as inhibition constant measured after 90 mins",
+      "aid": "2213370",
+      "pmid": "38417219",
+      "protein": "Cannabinoid receptor 2",
+      "gene": "CNR2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P34972",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q9HBA0",
+      "activity": "EC50",
+      "value_um": 0.6,
+      "assay": "Agonist activity at ionomycin-stimulated TRPV4 (unknown origin) activation",
+      "aid": "1845621",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily V member 4",
+      "gene": "TRPV4",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q9HBA0",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P21554",
+      "activity": "Ki",
+      "value_um": 0.7,
+      "assay": "Displacement of [3H]CP55940 from CB1 receptor (unknown origin) assessed as inhibition constant measured after 90 mins",
+      "aid": "2213369",
+      "pmid": "38417219",
+      "protein": "Cannabinoid receptor 1",
+      "gene": "CNR1",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P21554",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q01959",
+      "activity": "IC50",
+      "value_um": 0.74,
+      "assay": "Displacement of [125]RTI-55 from human recombinant DAT receptor expressed in CHO-S cells incubated for 3 hrs by radioligand binding assay",
+      "aid": "2210710",
+      "pmid": "39563095",
+      "protein": "Sodium-dependent dopamine transporter",
+      "gene": "SLC6A3",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q01959",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q8NET8",
+      "activity": "EC50",
+      "value_um": 1.9,
+      "assay": "Agonist activity at ionomycin-stimulated TRPV3 (unknown origin) activation",
+      "aid": "1845618",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily V member 3",
+      "gene": "TRPV3",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q8NET8",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P23975",
+      "activity": "IC50",
+      "value_um": 1.95,
+      "assay": "Displacement of [125]RTI-55 from human recombinant NET receptor expressed in MDCK cells incubated for 3 hrs by radioligand binding assay",
+      "aid": "2210714",
+      "pmid": "39563095",
+      "protein": "Sodium-dependent noradrenaline transporter",
+      "gene": "SLC6A2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P23975",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P31645",
+      "activity": "IC50",
+      "value_um": 6.26,
+      "assay": "Displacement of [3H]-Paroxetine from human recombinant NET receptor expressed in HEK293 cells incubated for 60 mins by radioligand binding assay",
+      "aid": "2210715",
+      "pmid": "39563095",
+      "protein": "Sodium-dependent serotonin transporter",
+      "gene": "SLC6A4",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P31645",
+      "source": "UniProt"
+    },
+    {
+      "accession": "Q9Y5S1",
+      "activity": "IC50",
+      "value_um": 6.5,
+      "assay": "Agonist activity at ionomycin-stimulated TRPV2 (unknown origin) channel desensitization in presence of lysophosphatidylcholine",
+      "aid": "1845617",
+      "pmid": "33356248",
+      "protein": "Transient receptor potential cation channel subfamily V member 2",
+      "gene": "TRPV2",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/Q9Y5S1",
+      "source": "UniProt"
+    },
+    {
+      "accession": "P00338",
+      "activity": "Ki",
+      "value_um": 8.5,
+      "assay": "Non-competitive inhibition of human LDHA assessed as reduction in lactate production using pyruvate as substrate in presence of NADH by Lineweaver-Burk plot analysis",
+      "aid": "1782666",
+      "pmid": "33887133",
+      "protein": "L-lactate dehydrogenase A chain",
+      "gene": "LDHA",
+      "organism": "Homo sapiens",
+      "url": "https://www.uniprot.org/uniprotkb/P00338",
+      "source": "UniProt"
+    }
+  ],
+  "diseases": [],
+  "occurrence": {
+    "organisms": [
+      {
+        "name": "Cannabis sativa",
+        "id": "cannabis-sativa",
+        "kingdom": "Plantae",
+        "phylum": "Streptophyta",
+        "family": "Cannabaceae",
+        "genus": "Cannabis",
+        "taxonomy_source": "NCBI",
+        "reference_count": 9,
+        "references": [
+          "10.1248/YAKUSHI1947.118.9_408",
+          "10.1520/JFS11698J"
+        ]
+      }
+    ],
+    "organism_count": 1,
+    "reference_count": 9,
+    "source": "LOTUS · lotus.naturalproducts.net",
+    "lotus_id": "LTS0247793"
+  },
+  "literature": {
+    "total": 330,
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Cannabichromene%5BAll%20Fields%5D",
+    "papers": [
+      {
+        "pmid": "28120229",
+        "title": "Phytochemistry of Cannabis sativa L",
+        "journal": "Prog Chem Org Nat Prod",
+        "year": "2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28120229/"
+      },
+      {
+        "pmid": "21749363",
+        "title": "Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects",
+        "journal": "Br J Pharmacol",
+        "year": "2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21749363/"
+      },
+      {
+        "pmid": "36654096",
+        "title": "Cannabigerol and cannabichromene in Cannabis sativa L",
+        "journal": "Acta Pharm",
+        "year": "2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36654096/"
+      },
+      {
+        "pmid": "40006604",
+        "title": "Pharmacokinetics of Non-Psychotropic Phytocannabinoids",
+        "journal": "Pharmaceutics",
+        "year": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40006604/"
+      },
+      {
+        "pmid": "38777605",
+        "title": "The Potential of Cannabichromene (CBC) as a Therapeutic Agent",
+        "journal": "J Pharmacol Exp Ther",
+        "year": "2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38777605/"
+      },
+      {
+        "pmid": "34838836",
+        "title": "Cannabis: Chemistry, extraction and therapeutic applications",
+        "journal": "Chemosphere",
+        "year": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34838836/"
+      }
+    ]
+  },
+  "research": {
+    "total": 330,
+    "sampled": 200,
+    "designs": {
+      "review": 31,
+      "other": 78,
+      "systematic_review": 3,
+      "human_observational": 52,
+      "animal": 31,
+      "in_vitro": 2,
+      "rct": 3
+    },
+    "topics": [
+      {
+        "term": "Cannabinoids",
+        "papers": 128
+      },
+      {
+        "term": "Cannabis",
+        "papers": 77
+      },
+      {
+        "term": "Cannabidiol",
+        "papers": 53
+      },
+      {
+        "term": "Dronabinol",
+        "papers": 47
+      },
+      {
+        "term": "Cannabinol",
+        "papers": 22
+      },
+      {
+        "term": "Chromatography, High Pressure Liquid",
+        "papers": 15
+      },
+      {
+        "term": "Chromatography, Liquid",
+        "papers": 15
+      },
+      {
+        "term": "Tandem Mass Spectrometry",
+        "papers": 13
+      },
+      {
+        "term": "Cannabinoid Receptor Agonists",
+        "papers": 12
+      },
+      {
+        "term": "Anti-Inflammatory Agents",
+        "papers": 11
+      },
+      {
+        "term": "Hallucinogens",
+        "papers": 11
+      },
+      {
+        "term": "Endocannabinoids",
+        "papers": 10
+      },
+      {
+        "term": "Inflammation",
+        "papers": 9
+      },
+      {
+        "term": "Analgesics",
+        "papers": 7
+      }
+    ],
+    "claims": [
+      {
+        "id": "anti-inflammatory",
+        "label": "Anti-inflammatory",
+        "papers": 15,
+        "designs": {
+          "review": 1,
+          "other": 1,
+          "animal": 9,
+          "human_observational": 4
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 4,
+            "pmids": [
+              "38889235",
+              "37764262",
+              "36769042",
+              "29632236"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 9,
+            "pmids": [
+              "7401911",
+              "41205744",
+              "41934896",
+              "37332213",
+              "41213439",
+              "23373571",
+              "7298870",
+              "7452475",
+              "25655949"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "27435265"
+            ]
+          }
+        ],
+        "pmids": [
+          "27435265",
+          "37057997",
+          "7401911",
+          "41205744",
+          "41934896",
+          "37332213",
+          "38889235",
+          "41213439",
+          "23373571",
+          "7298870",
+          "37764262",
+          "7452475"
+        ]
+      },
+      {
+        "id": "pain",
+        "label": "Pain relief",
+        "papers": 9,
+        "designs": {
+          "review": 1,
+          "animal": 5,
+          "other": 1,
+          "human_observational": 2
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 2,
+            "pmids": [
+              "33230154",
+              "36232059"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 5,
+            "pmids": [
+              "41794091",
+              "37332213",
+              "36916438",
+              "41213439",
+              "39921943"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "38777605"
+            ]
+          }
+        ],
+        "pmids": [
+          "38777605",
+          "41794091",
+          "37332213",
+          "36916438",
+          "41213439",
+          "39921943",
+          "34990123",
+          "33230154",
+          "36232059"
+        ]
+      },
+      {
+        "id": "antimicrobial",
+        "label": "Antimicrobial",
+        "papers": 8,
+        "designs": {
+          "review": 1,
+          "human_observational": 3,
+          "in_vitro": 2,
+          "animal": 2
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 3,
+            "pmids": [
+              "40844832",
+              "41983582",
+              "40580638"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "7298870",
+              "19344127"
+            ]
+          },
+          {
+            "design": "in_vitro",
+            "eco": {
+              "id": "ECO:0000181",
+              "label": "in vitro assay evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "41202683",
+              "18681481"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "38777605"
+            ]
+          }
+        ],
+        "pmids": [
+          "38777605",
+          "40844832",
+          "41202683",
+          "7298870",
+          "19344127",
+          "41983582",
+          "40580638",
+          "18681481"
+        ]
+      },
+      {
+        "id": "antioxidant",
+        "label": "Antioxidant",
+        "papers": 6,
+        "designs": {
+          "human_observational": 4,
+          "other": 2
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 4,
+            "pmids": [
+              "39124978",
+              "39404380",
+              "39004335",
+              "33453360"
+            ]
+          }
+        ],
+        "pmids": [
+          "39124978",
+          "39404380",
+          "39004335",
+          "33453360",
+          "39902970",
+          "36738909"
+        ]
+      },
+      {
+        "id": "cancer",
+        "label": "Cancer",
+        "papers": 6,
+        "designs": {
+          "human_observational": 6
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 6,
+            "pmids": [
+              "40565152",
+              "40615070",
+              "38760945",
+              "39404380",
+              "39109709",
+              "41670942"
+            ]
+          }
+        ],
+        "pmids": [
+          "40565152",
+          "40615070",
+          "38760945",
+          "39404380",
+          "39109709",
+          "41670942"
+        ]
+      },
+      {
+        "id": "epilepsy",
+        "label": "Seizure disorders",
+        "papers": 4,
+        "designs": {
+          "review": 1,
+          "human_observational": 2,
+          "systematic_review": 1
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000033",
+          "label": "author statement supported by traceable reference"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "systematic_review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "32608035"
+            ]
+          },
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 2,
+            "pmids": [
+              "33395525",
+              "37759798"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "38777605"
+            ]
+          }
+        ],
+        "pmids": [
+          "38777605",
+          "33395525",
+          "32608035",
+          "37759798"
+        ]
+      },
+      {
+        "id": "mood",
+        "label": "Mood",
+        "papers": 3,
+        "designs": {
+          "animal": 2,
+          "review": 1
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 2,
+            "pmids": [
+              "40358684",
+              "41934896"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "37414155"
+            ]
+          }
+        ],
+        "pmids": [
+          "40358684",
+          "37414155",
+          "41934896"
+        ]
+      },
+      {
+        "id": "digestive",
+        "label": "Digestive",
+        "papers": 3,
+        "designs": {
+          "animal": 3
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 3,
+            "pmids": [
+              "39009468",
+              "23373571",
+              "39921943"
+            ]
+          }
+        ],
+        "pmids": [
+          "39009468",
+          "23373571",
+          "39921943"
+        ]
+      },
+      {
+        "id": "sleep",
+        "label": "Sleep and sedation",
+        "papers": 2,
+        "designs": {
+          "rct": 1,
+          "animal": 1
+        },
+        "evidence_level": "human_trials",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "1b",
+          "label": "individual randomised trial"
+        },
+        "evidence_lines": [
+          {
+            "design": "rct",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Randomized Controlled Trial"
+            ],
+            "papers": 1,
+            "pmids": [
+              "37162192"
+            ]
+          },
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "6323206"
+            ]
+          }
+        ],
+        "pmids": [
+          "37162192",
+          "6323206"
+        ]
+      },
+      {
+        "id": "neuroprotection",
+        "label": "Neuroprotection",
+        "papers": 2,
+        "designs": {
+          "review": 1,
+          "human_observational": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "39124978"
+            ]
+          },
+          {
+            "design": "review",
+            "eco": {
+              "id": "ECO:0000033",
+              "label": "author statement supported by traceable reference"
+            },
+            "mesh_publication_types": [
+              "Review"
+            ],
+            "papers": 1,
+            "pmids": [
+              "37132109"
+            ]
+          }
+        ],
+        "pmids": [
+          "37132109",
+          "39124978"
+        ]
+      },
+      {
+        "id": "anxiety",
+        "label": "Anxiety and calm",
+        "papers": 1,
+        "designs": {
+          "human_observational": 1
+        },
+        "evidence_level": "human_observational",
+        "eco": {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        "oxford": {
+          "level": "2b",
+          "label": "individual cohort or observational study"
+        },
+        "evidence_lines": [
+          {
+            "design": "human_observational",
+            "eco": {
+              "id": "ECO:0000180",
+              "label": "clinical study evidence"
+            },
+            "mesh_publication_types": [
+              "Observational Study"
+            ],
+            "papers": 1,
+            "pmids": [
+              "33230154"
+            ]
+          }
+        ],
+        "pmids": [
+          "33230154"
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Focus and memory",
+        "papers": 1,
+        "designs": {
+          "animal": 1
+        },
+        "evidence_level": "animal",
+        "eco": {
+          "id": "ECO:0007120",
+          "label": "animal model system study evidence"
+        },
+        "oxford": {
+          "level": "5",
+          "label": "bench or animal research"
+        },
+        "evidence_lines": [
+          {
+            "design": "animal",
+            "eco": {
+              "id": "ECO:0007120",
+              "label": "animal model system study evidence"
+            },
+            "mesh_publication_types": [],
+            "papers": 1,
+            "pmids": [
+              "41934896"
+            ]
+          }
+        ],
+        "pmids": [
+          "41934896"
+        ]
+      }
+    ],
+    "years": {
+      "from": 1968,
+      "to": 2026
+    },
+    "basis": "MeSH indexing and publication types of the most relevant PubMed records; counts are of papers in the sample, not findings.",
+    "vocabulary": {
+      "evidence_type": "ECO (Evidence & Conclusion Ontology)",
+      "study_design": "MeSH Publication Types",
+      "strength": "Oxford CEBM 2009 levels",
+      "structure": "SEPIO assertion / evidence line / evidence item"
+    },
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Cannabichromene%5BAll%20Fields%5D"
+  },
+  "trials": {
+    "total": 2,
+    "matched_loosely": 4,
+    "studies": [
+      {
+        "nct_id": "NCT06533657",
+        "title": "Unique Treatment of Oncology Pain in Advanced Cancer",
+        "status": "COMPLETED",
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Cancer Pain"
+        ],
+        "interventions": [
+          "Trichomylin® capsule (5 mg delta-9-tetrahydrocannabinol: 5 mg cannabidiol: 5 mg cannabichromene)"
+        ],
+        "sponsor": "ZYUS Life Sciences Inc.",
+        "enrollment": 11,
+        "start_date": "2025-06-12",
+        "completion_date": "2026-04-15",
+        "summary": "This will be a proof-of-concept, single arm study with a maximum of 20 patients to evaluate preliminary analgesic efficacy and safety of Trichomylin® in patients with advanced cancer (male and female) who suffer from moderate to severe chronic pain and who are taking a stable dose of long-acting opioid therapy for at least 1 week prior to screening.",
+        "url": "https://clinicaltrials.gov/study/NCT06533657"
+      },
+      {
+        "nct_id": "NCT07087938",
+        "title": "Cannabichromene Safety in Rheumatoid Arthritis",
+        "status": "SUSPENDED",
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "conditions": [
+          "Arthritis, Rheumatoid"
+        ],
+        "interventions": [
+          "Cannabichromene"
+        ],
+        "sponsor": "Crystal Lederhos Smith",
+        "enrollment": 25,
+        "start_date": "2028-07-15",
+        "completion_date": "2030-05-31",
+        "summary": "For this quantitative study, the investigators will collect data on human safety and side-effects of Cannabichromene (CBC) and whether CBC reduces blood inflammatory markers and Rheumatoid Arthritis (RA) disease activity. The participants will participate in an ABAB design with 2 doses of CBC across the A phases. They will attend 5 in-person clinic visits where they will have physical evaluations, complete self-report forms, and have blood drawn for the following tests: hs-CRP, ESR, IL-6, TNF, Complete Blood Count \\[CBC\\], and CMP.",
+        "url": "https://clinicaltrials.gov/study/NCT07087938"
+      }
+    ],
+    "source": "ClinicalTrials.gov",
+    "search_url": "https://clinicaltrials.gov/search?intr=Cannabichromene"
+  },
+  "retrieved": "2026-09-18",
+  "evidence": "Declared on 2 of 16 WYLD flavors at 10mg per gummy.",
+  "summary": "A non-intoxicating cannabinoid from the same biosynthetic branch as CBD and THC."
+}
