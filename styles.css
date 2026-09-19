@@ -12,6 +12,9 @@ main { max-width:1240px; margin:auto; padding:0 clamp(22px,5vw,72px) 80px; }
 h1 { margin:18px 0; font-size:clamp(3rem,8vw,7rem); line-height:.9; letter-spacing:-.07em; font-weight:900; }
 h1 em { color:var(--green); font-family:Georgia, serif; font-weight:400; letter-spacing:-.08em; }
 .hero-copy { max-width:560px; color:var(--muted); font-size:1.05rem; line-height:1.6; }
+.intro-video { margin:28px 0 0; max-width:380px; }
+.intro-video video { display:block; width:100%; border-radius:14px; box-shadow:0 18px 44px rgba(33,74,57,.18); }
+.intro-video figcaption { margin-top:8px; color:var(--muted); font-size:.75rem; }
 .hero-meta { display:flex; gap:24px; margin-top:35px; color:var(--green); font-size:.72rem; font-weight:800; text-transform:uppercase; letter-spacing:.1em; }
 .hero-meta span + span:before { content:'•'; margin-right:24px; color:var(--berry); }
 .toolbar { display:flex; justify-content:space-between; align-items:center; gap:24px; padding:54px 0 24px; border-bottom:1px solid var(--line); }
@@ -153,6 +156,8 @@ a.claim-tile:hover { background:var(--berry); color:white; }
 .tq-head strong { display:block; font-size:.95rem; }
 .tq-head small { opacity:.8; font-size:.68rem; }
 .tq-close { border:0; background:none; color:#fff; font-size:22px; line-height:1; cursor:pointer; }
+.tq-video { flex:none; background:#212121; }
+.tq-video video { display:block; width:100%; aspect-ratio:5/3; object-fit:cover; object-position:50% 30%; }
 .tq-log { flex:1; overflow:auto; padding:14px 16px; display:flex; flex-direction:column; gap:10px; background:var(--cream); }
 .tq-msg { max-width:88%; padding:10px 13px; border-radius:12px; font-size:.86rem; line-height:1.5; white-space:pre-wrap; }
 .tq-msg--user { align-self:flex-end; background:var(--green); color:#fff; }

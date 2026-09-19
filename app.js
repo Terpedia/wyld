@@ -316,7 +316,59 @@ route.then((isEntity) => { if (isEntity) return null; return Promise.all([getJSO
   const toggle = root.querySelector('.tq-toggle'), panel = root.querySelector('.tq-panel'), log = root.querySelector('.tq-log');
   const form = root.querySelector('.tq-form'), input = root.querySelector('.tq-input');
   const history = [];
-  const open = (show) => { panel.hidden = !show; toggle.setAttribute('aria-expanded', String(show)); if (show) input.focus(); };
+  // Susan live avatar: replaces the looping intro clip with a real-time HeyGen
+  // LiveAvatar stream and speaks each TerpeneQueen answer out loud.
+  const SUSAN = window.SUSAN_LIVE || { url: 'https://heygen-stream-proxy-715567218723.us-central1.run.app' };
+  const susan = { session: null, room: null, starting: null };
+  async function susanStart() {
+    if (susan.session || susan.starting) return susan.starting;
+    susan.starting = (async () => {
+      try {
+        const res = await fetch(`${SUSAN.url}/session`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+        const s = await res.json();
+        if (!s.session_id) throw new Error(s.message || `session ${res.status}`);
+        susan.session = s;
+        const { Room } = await import('https://esm.run/livekit-client@2');
+        const videoSlot = root.querySelector('.tq-video video');
+        const room = new Room({ adaptiveStream: true });
+        room.on('trackSubscribed', (track) => {
+          if (track.kind === 'video' && videoSlot) track.attach(videoSlot);
+          else if (track.kind === 'audio') track.attach();
+        });
+        await room.connect(s.livekit_url, s.livekit_client_token);
+        susan.room = room;
+        if (videoSlot) videoSlot.muted = true;
+      } catch (err) {
+        console.error('susan session failed', err);
+        susan.session = null;
+      } finally {
+        susan.starting = null;
+      }
+    })();
+    return susan.starting;
+  }
+  async function susanSpeak(text) {
+    if (!text || !SUSAN.url) return;
+    try {
+      await susanStart();
+      if (!susan.session) return;
+      const res = await fetch(`${SUSAN.url}/say`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: susan.session.session_id, text }) });
+      const j = await res.json();
+      if (j.error) { susan.session = null; console.error('susan say failed', j.error); }
+    } catch (err) { console.error('susan speak failed', err); }
+  }
+  async function susanStop() {
+    if (!susan.session) return;
+    const s = susan.session; susan.session = null;
+    try {
+      if (susan.room) { await susan.room.disconnect(); susan.room = null; }
+      await fetch(`${SUSAN.url}/stop`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: s.session_id }) });
+    } catch (err) { console.error('susan stop failed', err); }
+  }
+  const open = (show) => {
+    panel.hidden = !show; toggle.setAttribute('aria-expanded', String(show));
+    if (show) { input.focus(); susanStart(); } else susanStop();
+  };
   toggle.addEventListener('click', () => open(panel.hidden));
   root.querySelector('.tq-close').addEventListener('click', () => open(false));
   const bubble = (role, text) => { const el = document.createElement('div'); el.className = `tq-msg tq-msg--${role}`; el.textContent = text; log.appendChild(el); log.scrollTop = log.scrollHeight; return el; };
@@ -343,6 +395,8 @@ route.then((isEntity) => { if (isEntity) return null; return Promise.all([getJSO
       }
       const final = raw.trim() || 'I did not get an answer back — try asking another way.';
       answer.textContent = final; history.push({ role: 'assistant', content: final });
+      susanSpeak(final);
+      susanSpeak(final);
     } catch (err) { answer.textContent = 'The TerpeneQueen is away from the throne for a moment. Try again shortly.'; console.error('chat failed', err); }
   });
 })();
